@@ -15,7 +15,7 @@
                         Орган по сертификации автомототранспортных средств, спецтехники и их составных частей, предметов
                         оборудования и прицепов.
                     </p>
-                    <a href="#" class="btn btn-success btn-lg">Заказать услугу</a>
+                    <a href="#apl-form" class="btn btn-success btn-lg">Заказать услугу</a>
                 </div>
             </div>
         </div>
@@ -201,11 +201,12 @@
         </div>
     </section>
     <br><br><br>
-    <section class="back2">
+    <section class="back2" id="apl-form">
         <div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
             <div class="text-white">
                 <div class="container">
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br>
                     <div class="row">
                         <div class="col-md-6">
                             <p style="font-size: 2.2rem;">
@@ -219,27 +220,24 @@
 
                                 {{ form.name.label_tag }}
                                 {{ form.name }}
-                                <p class="error-message" id="name-error" style="display: none;">Поле "ФИО" должно быть
-                                    заполнено</p>
-
+                                <p class="error-message" id="name-error" style="display: none;color:red;">Поле "ФИО" должно быть заполнено</p>
+                                <br>
                                 {{ form.email.label_tag }}
-                                {{ form.email }}
-                                <p class="error-message" id="email-error" style="display: none;">Поле "Email" должно
-                                    быть заполнено.</p>
-
+                                {{ form.email }} 
+                                <p class="error-message" id="email-error" style="display: none;color:red;">Поле "Email" должно быть заполнено</p>
+                                <br>
                                 {{ form.phone_number.label_tag }}
-                                {{ form.phone_number }}
-                                <p class="error-message" id="phone_number-error" style="display: none;">Поле "Email"
-                                    должно быть заполнено.</p>
-
+                                {{ form.phone_number }} 
+                                <p class="error-message" id="phone_number-error" style="display: none; color:red;">Поле "Email"должно быть заполнено</p>
+                                <br>
                                 {{ form.Comment.label_tag }}
                                 {{ form.Comment }}
-
+                                <br>
                                 <button type="submit" class="btn btn-warning"
                                     style="width: 150px; height: 60px; font-weight: 500;">Отправить</button>
                             </form>
                             <div id="success-message" style="display: none;">
-                                <h1>ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА!</h1>
+                                <h1 class="text-success">ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА!</h1>
                             </div>
 
 
