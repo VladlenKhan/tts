@@ -132,3 +132,20 @@
     </footer>
 </body>
 </html>
+<!-- 
+<form action="{% url 'set_language' %}" method="POST">
+    {% csrf_token %}
+    <input name="language" class="form-control" type="hidden" value="{{ request.LANGUAGE_CODE }}">
+  
+  <select name="language" class="form-control btn btn-outline-primary" onchange="this.form.submit()">
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+        <div class="dropdown-menu">
+            <option value="{{ language.code }}" class="dropdown-item" {% if language.code == request.LANGUAGE_CODE %}selected{% endif %}>
+               {{ language.name_local }} ({{ language.code }})
+            </option>
+        </div>
+        {% endfor %}
+    </select> 
+   
+</form> -->
