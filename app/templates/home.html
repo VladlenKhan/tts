@@ -219,15 +219,18 @@
 
                                 {{ form.name.label_tag }}
                                 {{ form.name }}
-                                <p class="error-message" id="name-error"></p>
+                                <p class="error-message" id="name-error" style="display: none;">Поле "ФИО" должно быть
+                                    заполнено</p>
 
                                 {{ form.email.label_tag }}
                                 {{ form.email }}
-                                <p class="error-message" id="email-error"></p>
+                                <p class="error-message" id="email-error" style="display: none;">Поле "Email" должно
+                                    быть заполнено.</p>
 
                                 {{ form.phone_number.label_tag }}
                                 {{ form.phone_number }}
-                                <p class="error-message" id="phone_number-error"></p>
+                                <p class="error-message" id="phone_number-error" style="display: none;">Поле "Email"
+                                    должно быть заполнено.</p>
 
                                 {{ form.Comment.label_tag }}
                                 {{ form.Comment }}
@@ -267,10 +270,9 @@
         // Очищаем предыдущие сообщения об ошибках
         var errorElements = form.querySelectorAll('.error-message');
         errorElements.forEach(function (errorElement) {
-            errorElement.textContent = '';
+            errorElement.style.display = 'none';
         });
 
-        // Проверяем валидность полей формы
         // Проверяем валидность полей формы
         var nameField = form.querySelector('#id_name');
         var emailField = form.querySelector('#id_email');
@@ -283,23 +285,19 @@
         var isValid = true;
 
         if (!nameField.value) {
-            nameErrorElement.textContent = 'Поле "ФИО" должно быть заполнено.';
-            nameErrorElement.classList.add('error-message'); // Добавление класса для стилизации
+            nameErrorElement.style.display = 'block';
             isValid = false;
         }
 
         if (!emailField.value) {
-            emailErrorElement.textContent = 'Поле "Email" должно быть заполнено.';
-            emailErrorElement.classList.add('error-message'); // Добавление класса для стилизации
+            emailErrorElement.style.display = 'block';
             isValid = false;
         }
 
         if (!phoneField.value) {
-            phoneErrorElement.textContent = 'Поле "Номер телефона" должно быть заполнено.';
-            phoneErrorElement.classList.add('error-message'); // Добавление класса для стилизации
+            phoneErrorElement.style.display = 'block';
             isValid = false;
         }
-
 
         if (!isValid) {
             return; // Прерываем отправку формы, если есть ошибки
@@ -322,10 +320,9 @@
                 } else {
                     // Форма содержит ошибки валидации, отображаем ошибки
                     Object.keys(data.errors).forEach(function (field) {
-                        var errorMessage = data.errors[field];
                         var errorElement = document.getElementById(field + '-error');
                         if (errorElement) {
-                            errorElement.textContent = errorMessage;
+                            errorElement.style.display = 'block';
                         }
                     });
                 }
@@ -334,9 +331,6 @@
                 console.error('Произошла ошибка:', error);
             });
     });
-
-
 </script>
-
 
 {% endblock %}
