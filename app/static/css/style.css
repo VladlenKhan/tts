@@ -24,7 +24,18 @@
     object-fit: cover;
 }
 
- 
+@media screen and (min-width:320px) and (max-width:425px) {
+    .form1{
+        display: block;
+        width: 100%;
+    }
+}    
+@media screen and (min-width:426px) and (max-width:20000000px) {
+    .form1{
+        
+        width: 200px;
+    }
+}    
  
 
  
