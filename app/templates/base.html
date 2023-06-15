@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +8,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
     <title>TTS</title>
+    <style>
+        .back2::before {
+        object-fit: cover;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(" {% static 'images/img14.jpg' %}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(45%);
+        z-index: -1;
+    }
+    
+    .back::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("{% static 'images/img15.jpg' %} " );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        filter: brightness(45%);
+        z-index: -1;
+    }
+    </style>
+   
 </head>
 <body>
 <header class="fixed-top">
-    <nav class="nav1 " style="text-align:right;">
-        <a href="#" style="text-decoration: none; color:black;font-weight: 500;padding-right:20px ;">O`zbek</a>
+    <nav class="nav1" style="text-align: right;">
+        <form action="{% url 'set_language' %}" class="form1" method="POST" style="display: inline-block;">
+            {% csrf_token %}
+            <input name="language" class="form-control" type="hidden" value="{{ request.LANGUAGE_CODE }}">
+            <select name="language" class="form-control btn btn-outline-success text-white" onchange="this.form.submit()"  >
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                <div class="dropdown-menu">
+                    <option value="{{ language.code }}" class="dropdown-item" {% if language.code == request.LANGUAGE_CODE %}selected{% endif %}>
+                        {{ language.name_local }} ({{ language.code }})
+                    </option>
+                </div>
+                {% endfor %}
+            </select>
+        </form>
     </nav>
+    
     <nav class="navbar navbar-expand-lg bg-body-light " style="background-color: rgb(255, 255, 255);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{% url 'home' %}">
                 <img src="{% static 'images/logo.png' %}" width="150" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +77,14 @@
                         <a class="nav-link" href="#useful" style="color:black;font-weight:500;">ПРЕИМУЩЕСТВА</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{% url 'certificate' %}" style="color:black;font-weight:500;">СЕРТИФИКАЦИЯ</a>
+                    </li>
+                     
+                    <li class="nav-item">
                         <a class="nav-link" href="#about"style="color:black;font-weight:500;">О НАС</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team"style="color:black;font-weight:500;">КОМАНДА</a>
+                        <a class="nav-link" href="#team"style="color:black;font-weight:500;">{% trans 'КОМАНДА' %}</a>
                     </li>
                     <li class="nav-item  ">
                         <div class="btn" style="border-radius:15px;background-color: #fcaf3b;height: 45px; display: flex;align-items: center;">
@@ -45,38 +97,7 @@
     </nav> 
 </header>
 <br><br><br><br><br> 
-<style>
-    .back2::before {
-    object-fit: cover;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(" {% static 'images/img14.jpg' %}");
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: brightness(45%);
-    z-index: -1;
-}
-
-.back::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("{% static 'images/img15.jpg' %} " );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    filter: brightness(45%);
-    z-index: -1;
-}
-</style>
+ 
     {% block content %}
     {% endblock %}
     <footer class="back3">
@@ -132,3 +153,4 @@
     </footer>
 </body>
 </html>
+ 

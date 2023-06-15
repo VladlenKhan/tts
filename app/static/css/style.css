@@ -20,11 +20,22 @@
 .back2 {
     position: relative;
     width: 100%;
-    height: 1200px;
-    object-fit: cover;
+    height: 100%;
+    padding: 100px 0px;
 }
 
- 
+@media screen and (min-width:320px) and (max-width:425px) {
+    .form1{
+        display: block;
+        width: 100%;
+    }
+}    
+@media screen and (min-width:426px) and (max-width:20000000px) {
+    .form1{
+        
+        width: 200px;
+    }
+}    
  
 
  
