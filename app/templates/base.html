@@ -65,7 +65,7 @@
     
     <nav class="navbar navbar-expand-lg bg-body-light " style="background-color: rgb(255, 255, 255);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{% url 'home' %}">
                 <img src="{% static 'images/logo.png' %}" width="150" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,6 +76,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#useful" style="color:black;font-weight:500;">ПРЕИМУЩЕСТВА</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'certificate' %}" style="color:black;font-weight:500;">СЕРТИФИКАЦИЯ</a>
+                    </li>
+                     
                     <li class="nav-item">
                         <a class="nav-link" href="#about"style="color:black;font-weight:500;">О НАС</a>
                     </li>
