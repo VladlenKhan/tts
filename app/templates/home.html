@@ -5,18 +5,17 @@
 <main>
     <section class="back">
         <br><br><br>
-        <div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+        <div style="display: flex; justify-content: center; align-items: center;margin-top:15%;">
             <div class="text-white" style="text-align: left;">
-                <div class="container">
+                <div class="container" >
                     <p style="font-size: 1.59rem;">
-                        <strong>ОРГАН ПО СЕРТИФИКАЦИИ <br>
-                            АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ</strong>
+                        <strong>{% trans 'ОРГАН ПО СЕРТИФИКАЦИИ' %} <br>
+                            {% trans 'АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ' %}</strong>
                     </p>
                     <p style="font-size:1.3rem;">
-                        Орган по сертификации автомототранспортных средств, спецтехники и их составных частей, предметов
-                        оборудования и прицепов.
+                       {% trans 'Орган по сертификации автомототранспортных средств, спецтехники и их составных частей, предметов оборудования и прицепов' %}.
                     </p>
-                    <a href="#apl-form" class="btn btn-success btn-lg">Заказать услугу</a>
+                    <a href="#apl-form" class="btn btn-success btn-lg">{% trans 'Заказать услугу' %}</a>
                 </div>
             </div>
         </div>
@@ -26,7 +25,7 @@
         <div class="container">
             <div class="text-center">
                 <div style="font-size: 2.5rem;margin-bottom:80px;font-weight: 500;">
-                    Наши преимущества
+                    {% trans 'Наши преимущества' %}
                 </div>
             </div>
             <div class="row">
@@ -36,7 +35,7 @@
                     </div>
                     <br>
                     <div class="text-center" style="font-weight: 500;">
-                        У НАС САМЫЕ ВЫГОДНЫЕ УСЛОВИЯ ДОГОВОРА
+                      {%  trans 'У НАС САМЫЕ ВЫГОДНЫЕ УСЛОВИЯ ДОГОВОРА' %}
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg my-4">
@@ -45,7 +44,7 @@
                     </div>
                     <br>
                     <div class="text-center" style="font-weight: 500;">
-                        МЫ ПОМОЖЕМ ВАМ СЭКОНОМИТЬ ВАШЕ ВРЕМЯ
+                      {% trans ' МЫ ПОМОЖЕМ ВАМ СЭКОНОМИТЬ ВАШЕ ВРЕМЯ' %}
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg my-4">
@@ -54,7 +53,7 @@
                     </div>
                     <br>
                     <div class="text-center" style="font-weight: 500;">
-                        УДОБНАЯ ОПЛАТА
+                       {% trans 'УДОБНАЯ ОПЛАТА' %}
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg my-4">
@@ -63,7 +62,7 @@
                     </div>
                     <br>
                     <div class="text-center" style="font-weight: 500;">
-                        СОТРУДНИЧАЕМ С ПАРТНЕРАМИ
+                       {% trans 'СОТРУДНИЧАЕМ С ПАРТНЕРАМИ' %}
                     </div>
                 </div>
             </div>
@@ -75,65 +74,75 @@
             <br><br>
             <div class="text-center">
                 <div style="font-size: 3rem;margin-bottom:80px;font-weight:500;">
-                    О нас
+                   {% trans 'О нас' %}
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg my-4">
+                <div class="col-12 col-md-6 col-lg my-4 blk"  >
                     <div class="text-center">
                         <img src="{% static 'images/img19.jpg' %}" width="500" alt="" class="img-fluid">
                     </div>
-                    <div class="text-center">
-                        <img src="{% static 'images/img20.jpg' %}" width="450"
-                            style="position: relative;bottom:70px;left:10px;" alt="" class="img-fluid">
+                    <div class="text-center mt-md-4">
+                        <img src="{% static 'images/img20.jpg' %}" width="450" style="position: relative;bottom:70px;left:10px;" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg my-4">
+                <div class="col-12 col-md-6 col-lg my-4" style="display: flex;align-items: center;justify-content: center;">
                     <div style="font-size: 18px;">
-                        ООО «“Toshkent Test va Sertifikatlashtirish”» <br> аккредитованный орган по сертификации <br> и
-                        испытательная лаборатория продукции <br> легкой промышленности.
-                        <br><br>
-                        Специалисты органа по сертификации ООО <br> «“Toshkent Test va Sertifikatlashtirish”» <br>
-                        помогут определить Вашу продукцию в <br> соответствии с перечнем и необходимость <br> проведения
-                        обязательной сертификации. <br> Наши специалисты окажут Вам ощутимое <br> содействие при
-                        прохождении <br> обязательной сертификации, что позволит <br> избежать многих «подводных камней»
-                        и <br> трудностей.
-                        <br><br>
-                        Все услуги, оказываемые нашими <br> сотрудниками, будут выполняться в <br> максимально короткие
-                        сроки и за <br> приемлемые цены.
+                        {% trans 'ООО «“Toshkent Test va Sertifikatlashtirish”»   аккредитованный орган по сертификации   и испытательная лаборатория продукции   легкой промышленности.Специалисты органа по сертификации ООО   «“Toshkent Test va Sertifikatlashtirish”»   помогут определить Вашу продукцию в   соответствии с перечнем и необходимость   проведения обязательной сертификации.   Наши специалисты окажут Вам ощутимое  содействие при прохождении  обязательной сертификации, что позволит   избежать многих «подводных камней» и   трудностей.Все услуги, оказываемые нашими   сотрудниками, будут выполняться в   максимально короткие сроки и за   приемлемые цены ' %}.
                     </div>
                 </div>
-            </div>
+            </div> 
+            
+            
+            
+            
+            
             <br><br>
             <div class="text-center">
-                <div>
-                    <img src="{% static 'images/img18.jpg' %}" width="300" height="400" style="object-fit: cover;"
+                
+                <div  >
+                    <img src="{% static 'images/img18.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
                         alt="">
-                    <img src="{% static 'images/img19.jpg' %}" width="300" height="400" style="object-fit: cover;"
+                    <img src="{% static 'images/img19.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
                         alt="">
-                    <img src="{% static 'images/img20.jpg' %}" width="300" height="400" style="object-fit: cover;"
+                    <img src="{% static 'images/img20.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
                         alt="">
                 </div>
                 <br>
                 <div>
-                    <img src="{% static 'images/img21.jpg' %}" width="299" height="400" style="object-fit: cover;"
+                    <img src="{% static 'images/img21.jpg' %}" class="im" width="299" height="400" style="object-fit: cover;"
                         alt="">
-                    <img src="{% static 'images/img22.jpg' %}" width="300" height="400" style="object-fit: cover;"
+                    <img src="{% static 'images/img22.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
                         alt="">
-                    <img src="{% static 'images/img17.jpg' %}" width="300" height="400" style="object-fit: cover;"
+                    <img src="{% static 'images/img17.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
                         alt="">
                 </div>
             </div>
             <br><br>
         </div>
     </section>
+    <style>
+        @media screen and (min-width:768px) and (max-width:990px){
+            .im{
+                width:200px;
+            }
+            .blk{
+                padding-top:100px;
+            }
+            .cer{
+                padding-top:300px;
+                width: 350px;
+                height: auto;
+            }
+        }
+    </style>
     <br><br><br>
     <section>
         <div class="container">
             <br><br>
             <div class="text-center">
                 <div style="font-size: 3rem;margin-bottom:80px;font-weight:500;">
-                    Наши услуги
+                  {% trans 'Наши услуги' %}
                 </div>
             </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -141,7 +150,7 @@
               <div class="card">
             
                 <div class="card-body">
-                  <h5 class="card-title">СЕРТИФИКАЦИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ.</h5>
+                  <h5 class="card-title">{% trans 'СЕРТИФИКАЦИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.</h5>
           
                 </div>
               </div>
@@ -149,21 +158,21 @@
             <div class="col">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">СЕРТИФИКАЦИЯ УСЛУГ ПО ТЕХНИЧЕСКОМУ ОБСЛУЖИВАНИЮ, И РЕМОНТУ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ.</h5>
+                  <h5 class="card-title">{% trans 'СЕРТИФИКАЦИЯ УСЛУГ ПО ТЕХНИЧЕСКОМУ ОБСЛУЖИВАНИЮ, И РЕМОНТУ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ' %}.</h5>
                    </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">АККРЕДИТОВАННАЯ ИСПЫТАТЕЛЬНАЯ ЛАБОРАТОРИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ.</h5> 
+                  <h5 class="card-title">{% trans 'АККРЕДИТОВАННАЯ ИСПЫТАТЕЛЬНАЯ ЛАБОРАТОРИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.</h5> 
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">ПОЛНАЯ КОНСУЛЬТАЦИЯ ПО ПРОВЕДЕНИЮ СЕРТИФИКАЦИИ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ И ИХ СОСТАВНЫХ ЧАСТЕЙ.</h5>
+                  <h5 class="card-title">{% trans 'ПОЛНАЯ КОНСУЛЬТАЦИЯ ПО ПРОВЕДЕНИЮ СЕРТИФИКАЦИИ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.</h5>
                      </div>
               </div>
             </div>
@@ -176,7 +185,7 @@
             <div class="text-center">
                 <br><br>
                 <div style="font-size: 3rem;margin-bottom:80px;font-weight: 500;">
-                    Наша команда
+                   {% trans 'Наша команда' %}
                 </div>
             </div>
             <div class="row">
@@ -188,10 +197,10 @@
                     <br>
                     <div class="text-center">
                         <div style="font-weight: 700;font-size: 20px;">
-                            Ш.Б.Махамаджанов
+                           {%  trans 'Ш.Б.Махамаджанов' %}
                         </div>
                         <div style="font-style: italic;font-size: 18px;">
-                            Директор
+                           {% trans 'Директор' %}
                         </div>
                     </div>
                 </div>
@@ -203,10 +212,10 @@
                     <br>
                     <div class="text-center">
                         <div style="font-weight: 700;font-size: 20px;">
-                            А. Мустафаев
+                           {% trans 'А. Мустафаев' %}
                         </div>
                         <div style="font-style: italic;font-size: 18px;">
-                            Руководитель органа по сертификации продукции
+                            {% trans 'Руководитель органа по сертификации продукции' %}
                         </div>
                     </div>
                 </div>
@@ -218,12 +227,10 @@
                     <br>
                     <div class="text-center">
                         <div style="font-weight: 700;font-size: 20px;">
-                            Б. Махкамов
+                            {% trans 'Б. Махкамов'%}
                         </div>
                         <div style="font-style: italic;font-size: 18px;">
-                            Начальник испытательной
-
-                            лаборатории
+                            {% trans 'Начальник испытательной лаборатории' %}
                         </div>
                     </div>
                 </div>
@@ -235,10 +242,10 @@
                     <br>
                     <div class="text-center ">
                         <div style="font-weight: 700;font-size: 20px;">
-                            Б. Толибов
+                          {% trans ' Б. Толибов' %}
                         </div>
                         <div style="font-style: italic;font-size: 18px;">
-                            Главный специалист
+                           {% trans 'Главный специалист' %}
                         </div>
                     </div>
                 </div>
@@ -251,55 +258,55 @@
         <div class="container">
             <div class="text-center"  >
               <h1>
-                УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ</h1>
+                {% trans 'УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ' %}</h1>
             </div>
             <br><br><br>
             <div>
-                <h4>СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ:</h4>
-                <p>- Заявитель должен предоставить всю информацию, которую орган по сертификации сочтет необходимой для принятия решения относительно процедуры оценки соответствия, выбора схемы сертификации, выбора нормативной документации и т.д
+                <h4>{% trans 'СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ ' %}:</h4>
+                <p>- {% trans 'Заявитель должен предоставить всю информацию, которую орган по сертификации сочтет необходимой для принятия решения относительно процедуры оценки соответствия, выбора схемы сертификации, выбора нормативной документации и т.д' %}
                 </p>
                 <br>
-                <p>- Все несоответствия, выявленные в ходе проверки, устранены, и заявитель предоставил в ОС объективные доказательства их устранения;
-                    - Результаты сертификации свидетельствуют: о соответствии требованиям НД; применимым законодательным требованиям;
-                    о способности заявителя гарантировать стабильность выполнения установленных и предполагаемых требований;</p>
+                <p>- {% trans 'Все несоответствия, выявленные в ходе проверки, устранены, и заявитель предоставил в ОС объективные доказательства их устранения' %};
+                    - {% trans 'Результаты сертификации свидетельствуют: о соответствии требованиям НД; применимым законодательным требованиям' %};
+                    {% trans 'о способности заявителя гарантировать стабильность выполнения установленных и предполагаемых требований' %};</p>
                 <br>
-                <p>- Заявитель полностью выполнил свои договорные обязательства перед ОС;</p>
+                <p>- {% trans 'Заявитель полностью выполнил свои договорные обязательства перед ОС' %};</p>
                 <br>
-                <p>- Результаты работ по сертификации проверены и утверждены руководством ОС.</p>
+                <p>- {% trans 'Результаты работ по сертификации проверены и утверждены руководством ОС' %}.</p>
                 <br>
             </div>
             <hr>
             <div style="font-size:20px; font-weight: 500;">
                 <br>
-                ОС после рассмотрения протокола(ов) испытаний, обследования состояния производства и документов,  <br>
-                представленных заявителем с заявкой, выдает сертификат соответствия или отказывает в его выдаче. ОС <br>
-                 письменно информирует Заявителя о принятом по результатам сертификации решении. Наличие <br>
-                  письменного уведомления ОС является основанием для Заявителя информировать все заинтересованные  <br>
-                 стороны о результатах сертификации.
+              {% trans ' ОС после рассмотрения протокола(ов) испытаний, обследования состояния производства и документов'%} ,  <br>
+                {% trans 'представленных заявителем с заявкой, выдает сертификат соответствия или отказывает в его выдаче. ОС'%} <br>
+                {% trans 'письменно информирует Заявителя о принятом по результатам сертификации решении. Наличие' %} <br>
+                  {% trans 'письменного уведомления ОС является основанием для Заявителя информировать все заинтересованные' %}  <br>
+                 {% trans 'стороны о результатах сертификации' %}.
                  <br><br>
             </div>
             <hr>
             <div style="font-size: 20px;font-weight: 500;">
                 <br>
-                Сертификат оформляется на государственном или русском языках. Оформленный сертификат соответствия <br>
-                 регистрируется в Государственном реестре НСС Уз. Сертификат действителен только при наличии <br>
-                 регистрационного номера.
+               {% trans 'Сертификат оформляется на государственном или русском языках. Оформленный сертификат соответствия' %} <br>
+             {% trans 'регистрируется в Государственном реестре НСС Уз. Сертификат действителен только при наличии' %} <br>
+               {%  trans 'регистрационного номера' %}.
                  <br>
                  <br>
             </div>
             <hr>
             <div style="font-size: 20px;font-weight: 500;">
                 <br>
-                Сертификат соответствия выдается заявителю в течение двух рабочих дней, а при проведении ОС <br>
-                 обследования производства — в течение пяти рабочих дней с момента получения ОС результатов испытаний.
+                {% trans 'Сертификат соответствия выдается заявителю в течение двух рабочих дней, а при проведении ОС' %} <br>
+                {% trans 'обследования производства — в течение пяти рабочих дней с момента получения ОС результатов испытаний' %}.
                  <br>
                  <br>
             </div>
             <hr>
             <div style="font-size: 20px;font-weight: 500;">
                 <br>
-                Сертификат соответствия выдается на ввозимую продукцию на срок годности продукции, а для серийно <br>
-                 производимой продукции — на 3 года.
+                {% trans 'Сертификат соответствия выдается на ввозимую продукцию на срок годности продукции, а для серийно' %} <br>
+                 {% trans 'производимой продукции — на 3 года'%}.
                  <br>
             </div>
         </div>
@@ -314,40 +321,40 @@
                     <div class="row" >
                         <div class="col-md-6">
                             <p style="font-size: 2.2rem;">
-                                <strong>Нуждаетесь в услугах<br>сертификации?</strong>
+                                <strong>{% trans 'Нуждаетесь в услугах'%}<br>{% trans 'сертификации'%}?</strong>
                             </p>
                             <p style="font-size:1.3rem;">
-                                Оставьте заявку и мы с радостью вам поможем получить сертификат!
+                               {% trans 'оставьте заявку и мы с радостью вам поможем получить сертификат'%}!
                             </p>
                             <form method="post" class="form" id="application-form">
                                 {% csrf_token %}
 
                                 {{ form.name.label_tag }}
                                 {{ form.name }}
-                                <p class="error-message" id="name-error" style="display: none;color:red;">Поле "ФИО" должно быть заполнено</p>
+                                <p class="error-message" id="name-error" style="display: none;color:red;">{% trans 'Поле "ФИО" должно быть заполнено' %}</p>
                                 <br>
                                 {{ form.email.label_tag }}
                                 {{ form.email }} 
-                                <p class="error-message" id="email-error" style="display: none;color:red;">Поле "Email" должно быть заполнено</p>
+                                <p class="error-message" id="email-error" style="display: none;color:red;">{% trans 'Поле "Email" должно быть заполнено' %}</p>
                                 <br>
                                 {{ form.phone_number.label_tag }}
                                 {{ form.phone_number }} 
-                                <p class="error-message" id="phone_number-error" style="display: none; color:red;">Поле "Email"должно быть заполнено</p>
+                                <p class="error-message" id="phone_number-error" style="display: none; color:red;">{% trans 'Поле "Номер"должно быть заполнено' %}</p>
                                 <br>
                                 {{ form.Comment.label_tag }}
                                 {{ form.Comment }}
                                 <br>
                                 <button type="submit" class="btn btn-warning"
-                                    style="width: 150px; height: 60px; font-weight: 500;">Отправить</button>
+                                    style="width: 150px; height: 60px; font-weight: 500;">{% trans 'Отправить' %}</button>
                             </form>
                             <div id="success-message" style="display: none;">
-                                <h1 class="text-success">ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА!</h1>
+                                <h1 class="text-success">{% trans 'ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА' %}!</h1>
                             </div>
 
 
                         </div>
 
-                        <div class="col-md-6 text-center">
+                        <div class="col-md-6 text-center cer">
                             <br>
                             <img src="{% static 'images/img16.jpg' %}" width="70%" class="img-fluid" alt="">
                         </div>

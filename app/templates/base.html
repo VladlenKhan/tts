@@ -75,21 +75,21 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0" style="display:flex;align-items: center;">
                     <li class="nav-item">
-                        <a class="nav-link" href="#useful" style="color:black;font-weight:500;">ПРЕИМУЩЕСТВА</a>
+                        <a class="nav-link" href="{% url 'home' %}#useful" style="color:black;font-weight:500;">{% trans 'ПРЕИМУЩЕСТВА' %}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'certificate' %}" style="color:black;font-weight:500;">СЕРТИФИКАЦИЯ</a>
+                        <a class="nav-link" href="{% url 'certificate' %}" style="color:black;font-weight:500;">{% trans 'СЕРТИФИКАЦИЯ' %}</a>
                     </li>
                      
                     <li class="nav-item">
-                        <a class="nav-link" href="#about"style="color:black;font-weight:500;">О НАС</a>
+                        <a class="nav-link" href="{% url 'home' %}#about"style="color:black;font-weight:500;">{% trans 'О НАС' %}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team"style="color:black;font-weight:500;">{% trans 'КОМАНДА' %}</a>
+                        <a class="nav-link" href="{% url 'home' %}#team"style="color:black;font-weight:500;">{% trans 'КОМАНДА' %}</a>
                     </li>
                     <li class="nav-item  ">
                         <div class="btn" style="border-radius:15px;background-color: #fcaf3b;height: 45px; display: flex;align-items: center;">
-                            <a class="nav-link " href="#" style="color:black;font-weight:bold;">Связаться с нами</a>
+                            <a class="nav-link " href="{% url 'home' %}#apl-form" style="color:black;font-weight:bold;">{% trans 'Связаться с нами' %}</a>
                         </div>
                     </li>
                 </ul>
@@ -105,7 +105,7 @@
         <br><br><br>
         <div class="text-center">
             <div style="font-size: 3rem;margin-bottom:80px;font-weight: 500;">
-                Наши контакты
+             {% trans 'Наши контакты' %}
             </div>
         </div>
        
@@ -113,14 +113,14 @@
             <div class="row">
               <div class="col-md-6">
                 <div style="font-size: 20px;">
-                  <strong>Адрес:</strong> г. Ташкент, Яшнабадская район, ул. М. Ашрафий, д. 70 <br>
-                  <strong>Директор: Ш.Б.Махамаджанов</strong> <br>
-                  <strong>Тел/Telegram:</strong> +998 98 304 11 11 <br>
-                  <strong>Руководитель Удостоверяющего центра:</strong> А.П. Мустафаев <br>
-                  <strong>Тел/Telegram:</strong> +998 88 355 00 70 <br>
-                  <strong>Заведующий испытательной лабораторией:</strong> Б.Б. Махкамов <br>
-                  <strong>Тел/Telegram:</strong> +998 90 018 31 11 <br>
-                  <strong>Мы в социальных сетях:</strong>
+                  <strong>{% trans 'Адрес' %}:</strong> {% trans 'г. Ташкент, Яшнабадская район, ул. М. Ашрафий, д. 70' %} <br>
+                  <strong>{% trans 'Директор: Ш.Б.Махамаджанов' %}</strong> <br>
+                  <strong>{% trans 'Тел' %}/Telegram:</strong> +998 98 304 11 11 <br>
+                  <strong>{% trans 'Руководитель Удостоверяющего центра' %}:</strong>{% trans ' А.П. Мустафаев' %} <br>
+                  <strong>{% trans 'Тел' %}/Telegram:</strong> +998 88 355 00 70 <br>
+                  <strong>{% trans 'Заведующий испытательной лабораторией' %}:</strong> {% trans 'Б.Б. Махкамов' %} <br>
+                  <strong>{% trans 'Тел' %}/Telegram:</strong> +998 90 018 31 11 <br>
+                  <strong>{% trans 'Мы в социальных сетях' %}:</strong>
                   <div class="row">
                     <div class="col" >
                        <a href="#" style="text-decoration: none;color:black;">  
@@ -143,11 +143,13 @@
                 </div>
               </div>
           
-              <div class="col-md-6">
+              <div class="col-md-6" >
                 <div class="embed-responsive embed-responsive-16by9"> 
                   <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d3066.997064565509!2d64.43114208453696!3d39.762174310804916!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d39.766664399999996!2d64.4362019!4m0!5e0!3m2!1sru!2s!4v1686301675639!5m2!1sru!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
+              
+        
             </div>
           </div>
           <br><br><br>
