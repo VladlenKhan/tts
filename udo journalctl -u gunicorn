@@ -1,0 +1,21 @@
+[0;1;32m*[0m gunicorn.service - gunicorn daemon
+     Loaded: loaded (/etc/systemd/system/gunicorn.service; disabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Fri 2023-06-23 12:54:46 +05; 7s ago
+TriggeredBy: [0;1;32m*[0m gunicorn.socket
+   Main PID: 9053 (gunicorn)
+      Tasks: 4 (limit: 1106)
+     Memory: 92.7M
+     CGroup: /system.slice/gunicorn.service
+             |-9053 /var/www/tts/venv/bin/python /var/www/tts/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunicorn.sock project.wsgi:application
+             |-9064 /var/www/tts/venv/bin/python /var/www/tts/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunicorn.sock project.wsgi:application
+             |-9065 /var/www/tts/venv/bin/python /var/www/tts/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunicorn.sock project.wsgi:application
+             `-9066 /var/www/tts/venv/bin/python /var/www/tts/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunicorn.sock project.wsgi:application
+
+Jun 23 12:54:46 vps01412.eskiz.uz systemd[1]: Started gunicorn daemon.
+Jun 23 12:54:46 vps01412.eskiz.uz gunicorn[9053]: [2023-06-23 12:54:46 +0500] [9053] [INFO] Starting gunicorn 20.1.0
+Jun 23 12:54:46 vps01412.eskiz.uz gunicorn[9053]: [2023-06-23 12:54:46 +0500] [9053] [INFO] Listening at: unix:/run/gunicorn.sock (9053)
+Jun 23 12:54:46 vps01412.eskiz.uz gunicorn[9053]: [2023-06-23 12:54:46 +0500] [9053] [INFO] Using worker: sync
+Jun 23 12:54:46 vps01412.eskiz.uz gunicorn[9064]: [2023-06-23 12:54:46 +0500] [9064] [INFO] Booting worker with pid: 9064
+Jun 23 12:54:46 vps01412.eskiz.uz gunicorn[9065]: [2023-06-23 12:54:46 +0500] [9065] [INFO] Booting worker with pid: 9065
+Jun 23 12:54:46 vps01412.eskiz.uz gunicorn[9066]: [2023-06-23 12:54:46 +0500] [9066] [INFO] Booting worker with pid: 9066
+Jun 23 12:54:48 vps01412.eskiz.uz gunicorn[9065]:  - - [23/Jun/2023:07:54:48 +0000] "GET / HTTP/1.1" 200 34352 "-" "curl/7.68.0"
