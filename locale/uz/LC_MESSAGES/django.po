@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-25 23:52+0500\n"
+"POT-Creation-Date: 2023-06-26 01:52+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\app\forms.py:6
+msgid "ФИО"
+msgstr "FISH"
+
+#: .\app\forms.py:8
+msgid "Номер телефона"
+msgstr "Raqam"
+
+#: .\app\forms.py:9
+msgid "Ваше сообщение"
+msgstr "Sizning xabaringiz"
 
 #: .\app\templates\base.html:78
 msgid "ПРЕИМУЩЕСТВА"
@@ -79,11 +91,11 @@ msgstr "B.B. Maxkamov"
 msgid "Мы в социальных сетях"
 msgstr "Biz ijtimoiy tarmoqlarda"
 
-#: .\app\templates\certificate.html:6
+#: .\app\templates\certificate.html:7
 msgid "Условия сертификации"
 msgstr "Sertifikatlashtirish shartlari"
 
-#: .\app\templates\certificate.html:10
+#: .\app\templates\certificate.html:11
 msgid ""
 " В зависимости от схемы сертификации, заявитель соглашается "
 "взаимодействовать с ОС в рамках применимых Процедур Сертификации и "
@@ -93,19 +105,18 @@ msgstr ""
 "qoidalari doirasida OS bilan o'zaro aloqada bo'lish va OS mutaxassislariga "
 "kirish imkoniyatini taqdim etish"
 
-#: .\app\templates\certificate.html:13
+#: .\app\templates\certificate.html:14
 msgid "нормативной и технологической документации на продукцию"
 msgstr "mahsulotlarning me'yoriy-texnik hujjatlari"
 
-#: .\app\templates\certificate.html:16
+#: .\app\templates\certificate.html:17
 msgid ""
 "описанию системы менеджмента, включая руководства, процедуры и инструкции"
 msgstr ""
 "Boshqaruv tizimining tavsifi, shu jumladan qo'llanmalar, protseduralar va "
 "ko'rsatmalar"
 
-#: .\app\templates\certificate.html:19
-
+#: .\app\templates\certificate.html:20
 msgid ""
 "площадкам заявителя (предприятия), деятельность которых осуществляется в "
 "рамках сертифицируемой продукции, включая процессы производства и "
@@ -115,8 +126,7 @@ msgstr ""
 "sertifikatlangan mahsulotlar doirasida, shu jumladan ishlab chiqarish "
 "jarayonlari va Xizmat"
 
-#: .\app\templates\certificate.html:22
-
+#: .\app\templates\certificate.html:23
 msgid ""
 "оборудованию, персоналу, средствам и информации о компетентности персонала, "
 "которые должны быть рассмотрены при сертификации"
@@ -124,8 +134,7 @@ msgstr ""
 " kadrlarning kompetentligi to'g'risidagi jihozlar, personal, obyektlar va "
 "ma'lumotlar, sertifikatlashda nazarda tutilishi kerak bo'lgan"
 
-#: .\app\templates\certificate.html:25
-
+#: .\app\templates\certificate.html:26
 msgid ""
 "записям, отчетным документам и статистическим данным, в количестве и объеме, "
 "позволяющим оценить полноту и соответствие применимым требованиям"
@@ -134,7 +143,7 @@ msgstr ""
 "bo'yicha, to'liqligini va amaldagi talablarga muvofiqligini baholash "
 "imkonini beruvchi"
 
-#: .\app\templates\certificate.html:28
+#: .\app\templates\certificate.html:29
 msgid ""
 "записям по жалобам и претензиям со стороны потребителей и других "
 "заинтересованных сторон и предпринятым корректирующим действиям"
@@ -142,7 +151,7 @@ msgstr ""
 "iste'molchilar va boshqa larning shikoyatlari va da'volari to'g'risidagi "
 "ma'lumotlar hamkorlar va amalga oshirilgan tuzatish choralari"
 
-#: .\app\templates\certificate.html:30
+#: .\app\templates\certificate.html:31
 msgid ""
 "Заявитель несёт ответственность за достоверность информации, предоставленной "
 "на всех этапах сертификации"
@@ -150,11 +159,11 @@ msgstr ""
 "Murojaat etuvchi taqdim etilgan ma'lumotlarning to'g'riligi uchun javobgar "
 "sertifikatlashtirishning barcha bosqichlarida"
 
-#: .\app\templates\certificate.html:32
+#: .\app\templates\certificate.html:33
 msgid "Заявитель должен"
 msgstr "Ariza beruvchi"
 
-#: .\app\templates\certificate.html:35
+#: .\app\templates\certificate.html:36
 msgid ""
 "соблюдать требования ОС при ссылках на свой сертифицированный статус в "
 "средствах информации, таких как: интернет, брошюры и реклама или прочие "
@@ -163,7 +172,7 @@ msgstr ""
 " sertifikatlangan maqomingizga murojaat qilishda OS talablariga rioya qiling "
 "media, masalan: Internet, broshyuralar va reklamalar yoki boshqa Hujjatlar"
 
-#: .\app\templates\certificate.html:38
+#: .\app\templates\certificate.html:39
 msgid ""
 "не делать и не позволять употребление каких-либо вводящих в заблуждение "
 "утверждений относительно своей сертификации"
@@ -171,7 +180,7 @@ msgstr ""
 "qilmaslik yoki har qanday zalvorni qo'llashga yo'l qo'ymaslik "
 "Sertifikatlashtirish to'g'risidagi da'volar"
 
-#: .\app\templates\certificate.html:41
+#: .\app\templates\certificate.html:42
 msgid ""
 "не использовать и не разрешать использование Сертификата соответствия, "
 "выданный ОС, или любой его части никоим образом, вводящим в заблуждение"
@@ -180,7 +189,7 @@ msgstr ""
 "qo'ymaslik, OS tomonidan chiqarilgan, yoki uning bironta qismi har qanday "
 "yo'l bilan adashtirib"
 
-#: .\app\templates\certificate.html:44
+#: .\app\templates\certificate.html:45
 msgid ""
 "после приостановки или аннулирования Сертификата соответствия, прекратить "
 "использовать его в каких бы то ни было рекламных материалах, имеющих ссылку "
@@ -190,7 +199,7 @@ msgstr ""
 "bog'lanishga ega bo'lgan har qanday reklama materiallarida foydalaning "
 "sertifikatlashtirish uchun"
 
-#: .\app\templates\certificate.html:47
+#: .\app\templates\certificate.html:48
 msgid ""
 "откорректировать все рекламные материалы при расширении или сокращении "
 "области распространения сертификата соответствия"
@@ -198,7 +207,7 @@ msgstr ""
 " Kengaytirish yoki kichraytirishda barcha reklama materiallarini sozlash "
 "Muvofiqlik sertifikatini tarqatish doirasi"
 
-#: .\app\templates\certificate.html:50
+#: .\app\templates\certificate.html:51
 msgid ""
 "заявлять, что Сертификат соответствия был выдан применительно к "
 "сертифицированному виду продукции"
@@ -206,7 +215,7 @@ msgstr ""
 " bilan bog'liq holda muvofiqlik sertifikati berilganligini e'lon "
 "sertifikatlangan mahsulot turi"
 
-#: .\app\templates\certificate.html:53
+#: .\app\templates\certificate.html:54
 msgid ""
 "не использовать факт сертификации таким способом, который бы мог "
 "дискредитировать ОС"
@@ -214,7 +223,7 @@ msgstr ""
 " mumkin bo'lgan tarzda sertifikatlashtirish faktidan foydalanmaslik OSni "
 "obro'sizlantirish"
 
-#: .\app\templates\certificate.html:56
+#: .\app\templates\certificate.html:57
 msgid ""
 "обеспечивать условия для беспрепятственного выполнения персоналом ОС своих "
 "полномочий по сертификации продукции и контролю за сертифицированной "
@@ -224,8 +233,7 @@ msgstr ""
 "mahsulotlarni sertifikatlashtirish va sertifikatlanganlarni nazorat qilish "
 "vakolati Mahsulotlar"
 
-#: .\app\templates\certificate.html:60
-
+#: .\app\templates\certificate.html:61
 msgid ""
 "извещать ОС о планируемых внесениях изменений в конструкцию (состав) "
 "продукции или технологию ее производства, которые могут повлиять на "
@@ -238,7 +246,7 @@ msgstr ""
 "davrida sertifikatlangan mahsulot xususiyatlari tuzatish chora-tadbirlari "
 "zarurligi to'g'risidagi qarorlar"
 
-#: .\app\templates\certificate.html:63
+#: .\app\templates\certificate.html:64
 msgid ""
 "оплатить услуги ОС в соответствии с условиями договора; - регистрировать "
 "жалобы и претензии (как устные, так и письменные) со стороны потребителей и "
@@ -248,8 +256,7 @@ msgstr ""
 "o'tish iste'molchilar tomonidan shikoyat va da'volar (ham og'zaki, ham "
 "yozma) va boshqa hamkorlar va ko'rilgan tuzatish choralari"
 
-#: .\app\templates\certificate.html:67
-
+#: .\app\templates\certificate.html:68
 msgid ""
 "ОС контролирует и, при необходимости, принимает меры в случае неправильной "
 "ссылки на статус сертификации или при неправильном использовании "
@@ -265,8 +272,7 @@ msgstr ""
 "to'xtatib turish yoki muvofiqlik sertifikatini bekor qilish, bu haqdagi "
 "ma'lumotlarni nashr buzish va kerak bo'lsa, sudga"
 
-#: .\app\templates\certificate.html:70
-
+#: .\app\templates\certificate.html:71
 msgid ""
 "ОС должен сообщить обо всех изменениях, которые он намерен внести в "
 "требования, предъявляемые при сертификации. Прежде чем принять решение "
@@ -285,7 +291,7 @@ msgstr ""
 "beruvchi o'z hujjatlarida barcha kerakli aniqliklarni kiritishi uchun "
 "sertifikatlashtirish organining fikriga ko'ra, oqilona bo'lgan davr"
 
-#: .\app\templates\certificate.html:73
+#: .\app\templates\certificate.html:74
 msgid ""
 "ОС не менее одного раза в год проводит инспекционный контроль "
 "сертифицированной продукции (при схемах 3 или 4) с целью подтверждения её "
@@ -295,7 +301,7 @@ msgstr ""
 "maqsadida sertifikatlangan mahsulotlar (3 yoki 4-sxemalar bo'yicha) "
 "sertifikatlashtirish davrida qo'yilgan talablarga rioya"
 
-#: .\app\templates\certificate.html:76
+#: .\app\templates\certificate.html:77
 msgid ""
 "Заявитель имеет право подать заявку в ОС с целью повторной сертификации, не "
 "менее чем за месяц до окончания срока действия сертификата соответствия на "
@@ -308,8 +314,7 @@ msgstr ""
 "sertifikatlashtirish sxemasini o'zgartirishi mumkin, Tekshirish nazorati "
 "natijalarini hisobga olgan holda"
 
-#: .\app\templates\certificate.html:80
-
+#: .\app\templates\certificate.html:81
 msgid ""
 "Если Заявитель не выполняет указанных условий, ОС может приостановить "
 "действие Сертификата соответствия или изъять его в любое время сообщением в "
@@ -319,11 +324,11 @@ msgstr ""
 "muvofiqlik sertifikatining haqiqiyligi yoki istalgan vaqtda uni xabar orqali "
 "olib qo'yish Yozish"
 
-#: .\app\templates\certificate.html:84
+#: .\app\templates\certificate.html:85
 msgid "Условия выдачи Сертификата соответствия"
 msgstr "Muvofiqlik sertifikatini berish shartlari"
 
-#: .\app\templates\certificate.html:89
+#: .\app\templates\certificate.html:90
 msgid ""
 "Сертификат соответствия выдается Заявителю при выполнении следующих "
 "обязательных условий"
@@ -331,7 +336,7 @@ msgstr ""
 " Muvofiqlik sertifikati talabgorga quyidagilar bajarilganda beriladi: "
 "Shartlar"
 
-#: .\app\templates\certificate.html:92
+#: .\app\templates\certificate.html:93
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
@@ -343,7 +348,7 @@ msgstr ""
 "hisoblaydi muvofiqligi, sertifikatlashtirish sxemasini tanlash, normativ "
 "hujjatlarni tanlash va boshqalar "
 
-#: .\app\templates\certificate.html:95
+#: .\app\templates\certificate.html:96
 msgid ""
 "все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
@@ -351,7 +356,7 @@ msgstr ""
 " Tekshirish davomida aniqlangan barcha qarama-qarshiliklar bartaraf etilib, "
 "murojaat etuvchi CBga ularni yo'q qilishning ob'ektiv dalillarini taqdim etdi"
 
-#: .\app\templates\certificate.html:98
+#: .\app\templates\certificate.html:99
 msgid ""
 " результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям; о способности заявителя "
@@ -363,18 +368,18 @@ msgstr ""
 "imkoniyati to'g'risida o'rnatilgan va kutilayotgan amalga oshirilishining "
 "barqarorligini kafolatlash uchun Talablar"
 
-#: .\app\templates\certificate.html:101
+#: .\app\templates\certificate.html:102
 msgid " Заявитель полностью выполнил свои договорные обязательства перед ОС"
 msgstr "Ariza beruvchi CB oldidagi shartnoma majburiyatlarini to'liq bajargan"
 
-#: .\app\templates\certificate.html:104
+#: .\app\templates\certificate.html:105
 msgid ""
 " результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
 "sertifikatlashtirish ishlarining natijalari OS boshqaruvi tomonidan "
 "tekshirilgan va tasdiqlangan"
 
-#: .\app\templates\certificate.html:108
+#: .\app\templates\certificate.html:109
 msgid ""
 "ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов, представленных заявителем с заявкой, выдает "
@@ -391,7 +396,7 @@ msgstr ""
 "mavjudligi ariza beruvchining asosi hisoblanadi sertifikatlashtirish "
 "natijalari to'g'risida barcha qiziqqan tomonlarga ma'lumot berish"
 
-#: .\app\templates\certificate.html:112
+#: .\app\templates\certificate.html:113
 msgid ""
 "Сертификат оформляется на государственном или русском языках. Оформленный "
 "сертификат соответствия регистрируется в Государственном реестре НСС Уз. "
@@ -401,19 +406,19 @@ msgstr ""
 "sertifikati NSS UZ Davlat reestrida ro'yxatdan o'tkazilgan.Sertifikat faqat "
 "ro'yxatdan o'tish raqamingiz bo'lsa amal qiladi"
 
-#: .\app\templates\certificate.html:116
+#: .\app\templates\certificate.html:117
 msgid ""
-"Сертификат соответствия выдается заявителю в течение трех рабочих дней "
-"после предоставления всех необходимых документов, а при проведении ОС "
-"обследования производства — в течение пяти рабочих дней с момента получения "
-"ОС результатов испытаний"
+"Сертификат соответствия выдается заявителю в течение трех рабочих дней после "
+"предоставления всех необходимых документов, а при проведении ОС обследования "
+"производства — в течение пяти рабочих дней с момента получения ОС "
+"результатов испытаний"
 msgstr ""
 "Muvofiqlik sertifikati ariza beruvchiga uch ish kuni ichida beriladi barcha "
 "kerakli hujjatlarni taqdim etgandan so'ng, hamda OS davrida ishlab chiqarish "
 "anketalari - olingan kundan boshlab besh ish kuni ichida;Sinov "
 "natijalarining OS"
 
-#: .\app\templates\certificate.html:120
+#: .\app\templates\certificate.html:121
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно производимой продукции — на 3 года"
@@ -434,7 +439,9 @@ msgstr "MOTORLI TRANSPORT VOSITALARI"
 msgid ""
 "Орган по сертификации автомототранспортных средств, спецтехники и их "
 "составных частей, предметов оборудования и прицепов"
-msgstr "Avtomobillar, maxsus texnika va ularni sertifikatlash organi komponent qismlar, jihozlar va tirkamalar"
+msgstr ""
+"Avtomobillar, maxsus texnika va ularni sertifikatlash organi komponent "
+"qismlar, jihozlar va tirkamalar"
 
 #: .\app\templates\home.html:18
 msgid "Заказать услугу"
@@ -513,7 +520,6 @@ msgstr ""
 "MAXSUS JIHOZLAR VA ULARNING TARKIBIY QISMLARI"
 
 #: .\app\templates\home.html:175
- 
 msgid ""
 "ПОЛНАЯ КОНСУЛЬТАЦИЯ ПО ПРОВЕДЕНИЮ СЕРТИФИКАЦИИ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ "
 "И ИХ СОСТАВНЫХ ЧАСТЕЙ"
@@ -616,7 +622,6 @@ msgstr ""
 "tekshirilgan va tasdiqlangan"
 
 #: .\app\templates\home.html:281
-
 msgid ""
 " ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов"
@@ -661,7 +666,6 @@ msgstr ""
 "sertifikati"
 
 #: .\app\templates\home.html:292
-
 msgid ""
 "регистрируется в Государственном реестре НСС Уз. Сертификат действителен "
 "только при наличии"
