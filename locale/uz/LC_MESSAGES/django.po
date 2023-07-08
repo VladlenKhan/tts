@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-07 11:20+0500\n"
+"POT-Creation-Date: 2023-07-08 16:49+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -478,16 +478,14 @@ msgid "О нас"
 msgstr "Biz haqimizda"
 
 #: .\app\templates\home.html:91
+# 
 msgid ""
-"ООО «“Avto Standart Etalon”»   аккредитованный орган по сертификации   и "
-"испытательная лаборатория продукции   легкой промышленности.Специалисты "
-"органа по сертификации ООО   «“Avto Standart Etalon”»   помогут определить "
-"Вашу продукцию в   соответствии с перечнем и необходимость   проведения "
-"обязательной сертификации.   Наши специалисты окажут Вам ощутимое  "
-"содействие при прохождении  обязательной сертификации, что позволит   "
-"избежать многих «подводных камней» и   трудностей.Все услуги, оказываемые "
-"нашими   сотрудниками, будут выполняться в   максимально короткие сроки и "
-"за   приемлемые цены "
+" ООО «Avto Standart Etalon» аккредитованный орган по сертификации и "
+"испытательная лаборатория машиностроительной продукции. Специалисты ООО "
+"«Avto Standart Etalon» оценят Вашу продукцию в соответствии с действующими "
+"нормативными документами и проведут обязательную сертификации. Все услуги, "
+"оказываемые нашими специалистами, будут выполняться в максимально короткие "
+"сроки и за приемлемые цены . "
 msgstr ""
 "Avto Standart Etalon MChJ akkreditatsiyalangan organ hisoblanadi yengil "
 "sanoat mahsulotlarini sertifikatlash va sinov laboratoriyasi."
@@ -566,7 +564,9 @@ msgid "Тухтамишев Собит"
 msgstr "Tukhtamishev Sobit"
 
 #: .\app\templates\home.html:263 .\app\templates\home.html:325
-msgid "Инженер испытатель"
+#, fuzzy
+#| msgid "Инженер испытатель"
+msgid "Инженер-испытатель"
 msgstr "Sinov muhandisi"
 
 #: .\app\templates\home.html:277
@@ -582,7 +582,9 @@ msgid "Улашев Жонибек"
 msgstr "Ulashev Zhonibek"
 
 #: .\app\templates\home.html:295
-msgid "Инженер метролог"
+#, fuzzy
+#| msgid "Инженер метролог"
+msgid "Инженер-метролог"
 msgstr "Metrologiya muhandisi"
 
 #: .\app\templates\home.html:307
@@ -605,11 +607,21 @@ msgstr "A. Mustafayev"
 msgid "Технический консультат"
 msgstr "Texnik maslahatchi"
 
-#: .\app\templates\home.html:353
+#: .\app\templates\home.html:352
+msgid "Зияев Камолиддин Зухритдинович"
+msgstr "Ziyaev Kamoliddin Zuhritdinovich"
+
+#: .\app\templates\home.html:355
+#, fuzzy
+#| msgid "Заявитель должен"
+msgid "Заместитель Директора"
+msgstr "Ariza beruvchi"
+
+#: .\app\templates\home.html:368
 msgid "УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ"
 msgstr "MUVOFIQLIK SERTIFIKATINI BERISH SHARTLARI"
 
-#: .\app\templates\home.html:357
+#: .\app\templates\home.html:372
 msgid ""
 "СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ "
 "ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ "
@@ -617,7 +629,7 @@ msgstr ""
 "MUVOFIQLIK SERTIFIKATI TALABGORGA QUYIDAGILAR BAJARILGANDA BERILADI: "
 "SHARTLAR "
 
-#: .\app\templates\home.html:358
+#: .\app\templates\home.html:373
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
@@ -629,7 +641,7 @@ msgstr ""
 "hisoblaydi muvofiqlik, sertifikatlashtirish sxemasini tanlash, normativ "
 "hujjatlarni tanlash va boshqalar"
 
-#: .\app\templates\home.html:361
+#: .\app\templates\home.html:376
 msgid ""
 "Все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
@@ -637,7 +649,7 @@ msgstr ""
 " Tekshirish davomida aniqlangan barcha qarama-qarshiliklar bartaraf etilib, "
 "murojaat etuvchi CBga ularni yo'q qilishning ob'ektiv dalillarini taqdim etdi"
 
-#: .\app\templates\home.html:362
+#: .\app\templates\home.html:377
 msgid ""
 "Результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям"
@@ -645,7 +657,7 @@ msgstr ""
 " Sertifikatlash natijalari quyidagilarni ko'rsatadi: ND talablariga "
 "muvofiqligi; Amaldagi qonunchilik talablari"
 
-#: .\app\templates\home.html:363
+#: .\app\templates\home.html:378
 msgid ""
 "о способности заявителя гарантировать стабильность выполнения установленных "
 "и предполагаемых требований"
@@ -653,17 +665,17 @@ msgstr ""
 " talabnoma beruvchining o'rnatilgan amalga oshirishning barqarorligini "
 "kafolatlay olishi to'g'risida va kutilgan talablar"
 
-#: .\app\templates\home.html:365
+#: .\app\templates\home.html:380
 msgid "Заявитель полностью выполнил свои договорные обязательства перед ОС"
 msgstr "Ariza beruvchi CB oldidagi shartnoma majburiyatlarini to'liq bajargan"
 
-#: .\app\templates\home.html:367
+#: .\app\templates\home.html:382
 msgid "Результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
 "Sertifikatlashtirish ishlarining natijalari OS boshqaruvi tomonidan "
 "tekshirilgan va tasdiqlangan"
 
-#: .\app\templates\home.html:373
+#: .\app\templates\home.html:388
 msgid ""
 " ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов"
@@ -671,7 +683,7 @@ msgstr ""
 "  Sinov protokolini (larni) ko'rib chiqqandan so'ng OS, holat bo'yicha "
 "so'rov ishlab chiqarish va hujjatlar"
 
-#: .\app\templates\home.html:374
+#: .\app\templates\home.html:389
 msgid ""
 "представленных заявителем с заявкой, выдает сертификат соответствия или "
 "отказывает в его выдаче. ОС"
@@ -679,7 +691,7 @@ msgstr ""
 " ariza beruvchi tomonidan ariza bilan taqdim etilgan, muvofiqlik "
 "sertifikatini beradi yoki  ekstraditsiya qilishdan bosh tortadi. OS"
 
-#: .\app\templates\home.html:375
+#: .\app\templates\home.html:390
 msgid ""
 "письменно информирует Заявителя о принятом по результатам сертификации "
 "решении. Наличие"
@@ -687,7 +699,7 @@ msgstr ""
 " sertifikatlashtirish natijalari to'g'risida ariza beruvchiga yozma ravishda "
 "ma'lumot beradi Yechish. Mavjudligi"
 
-#: .\app\templates\home.html:376
+#: .\app\templates\home.html:391
 msgid ""
 "письменного уведомления ОС является основанием для Заявителя информировать "
 "все заинтересованные"
@@ -695,11 +707,11 @@ msgstr ""
 " CB to'g'risida yozma xabarnoma ariza beruvchiga ma'lumot berish uchun asos "
 "bo'lgan Hamma qiziqadi"
 
-#: .\app\templates\home.html:377
+#: .\app\templates\home.html:392
 msgid "стороны о результатах сертификации"
 msgstr "Sertifikatlashtirish natijalari bo'yicha tomonlar"
 
-#: .\app\templates\home.html:383
+#: .\app\templates\home.html:398
 msgid ""
 "Сертификат оформляется на государственном или русском языках. Оформленный "
 "сертификат соответствия"
@@ -707,7 +719,7 @@ msgstr ""
 " Dissertatsiya davlat yoki rus tillarida beriladi. Freymlangan Muvofiqlik "
 "sertifikati"
 
-#: .\app\templates\home.html:384
+#: .\app\templates\home.html:399
 msgid ""
 "регистрируется в Государственном реестре НСС Уз. Сертификат действителен "
 "только при наличии"
@@ -715,11 +727,11 @@ msgstr ""
 " NSS Uz Davlat reestrida ro'yxatdan o'tgan. Sertifikat haqiqiy  Faqat mavjud "
 "bo'lsa"
 
-#: .\app\templates\home.html:385
+#: .\app\templates\home.html:400
 msgid "регистрационного номера"
 msgstr "ro'yxatga olish raqami"
 
-#: .\app\templates\home.html:392
+#: .\app\templates\home.html:407
 msgid ""
 "Сертификат соответствия выдается заявителю в течение двух рабочих дней, а "
 "при проведении ОС"
@@ -727,7 +739,7 @@ msgstr ""
 " Muvofiqlik sertifikati ariza beruvchiga ikki ish kuni ichida beriladi va OS "
 "davrida"
 
-#: .\app\templates\home.html:393
+#: .\app\templates\home.html:408
 msgid ""
 "обследования производства — в течение пяти рабочих дней с момента получения "
 "ОС результатов испытаний"
@@ -735,7 +747,7 @@ msgstr ""
 " ishlab chiqarish anketalari - olingan kundan boshlab besh ish kuni ichida;"
 "Sinov natijalarining OS"
 
-#: .\app\templates\home.html:400
+#: .\app\templates\home.html:415
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно"
@@ -743,41 +755,41 @@ msgstr ""
 " Raf muddati davomida import qilinadigan mahsulotlar uchun muvofiqlik "
 "sertifikati beriladi mahsulotlar, va serial uchun"
 
-#: .\app\templates\home.html:401
+#: .\app\templates\home.html:416
 msgid "производимой продукции — на 3 года"
 msgstr "ishlab chiqarilgan mahsulotlar - 3 yil muddatga"
 
-#: .\app\templates\home.html:416
+#: .\app\templates\home.html:431
 msgid "Нуждаетесь в услугах"
 msgstr "Xizmatlarga muhtoj"
 
-#: .\app\templates\home.html:416
+#: .\app\templates\home.html:431
 msgid "сертификации"
 msgstr "Sertifikatlash"
 
-#: .\app\templates\home.html:419
+#: .\app\templates\home.html:434
 msgid "оставьте заявку и мы с радостью вам поможем получить сертификат"
 msgstr ""
 "So'rov qoldiring va biz sizga sertifikat olishda yordam berishdan xursand "
 "bo'lamiz"
 
-#: .\app\templates\home.html:426
+#: .\app\templates\home.html:441
 msgid "Поле \"ФИО\" должно быть заполнено"
 msgstr "Nom maydoni to'ldirilishi kerak"
 
-#: .\app\templates\home.html:430
+#: .\app\templates\home.html:445
 msgid "Поле \"Email\" должно быть заполнено"
 msgstr "Email maydoni to'ldirilishi kerak"
 
-#: .\app\templates\home.html:434
+#: .\app\templates\home.html:449
 msgid "Поле \"Номер\"должно быть заполнено"
 msgstr "Raqam maydoni to'ldirilishi kerak"
 
-#: .\app\templates\home.html:440
+#: .\app\templates\home.html:455
 msgid "Отправить"
 msgstr "Joʻnatish"
 
-#: .\app\templates\home.html:443
+#: .\app\templates\home.html:458
 msgid "ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА"
 msgstr "SHAKL MUVAFFAQIYATLI TOPSHIRILDI"
 
