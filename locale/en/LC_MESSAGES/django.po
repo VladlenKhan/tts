@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-25 22:45+0500\n"
+"POT-Creation-Date: 2023-07-12 12:25+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\app\forms.py:6
+msgid "ФИО"
+msgstr ""
+
+#: .\app\forms.py:8
+msgid "Номер телефона"
+msgstr ""
+
+#: .\app\forms.py:9
+msgid "Ваше сообщение"
+msgstr ""
+
 #: .\app\templates\base.html:78
 msgid "ПРЕИМУЩЕСТВА"
 msgstr ""
@@ -46,11 +59,13 @@ msgid "Адрес"
 msgstr ""
 
 #: .\app\templates\base.html:116
-msgid "г. Ташкент, Яшнабадская район, ул. М. Ашрафий, д. 70"
+msgid ""
+"Ташкентская обл., Зангиатинский район, Эркин КФЙ, автомагистрал М-39 (SN "
+"INVEST)"
 msgstr ""
 
 #: .\app\templates\base.html:117
-msgid "Директор: Ш.Б.Махамаджанов"
+msgid "Директор: У.А. Абдураззоков"
 msgstr ""
 
 #: .\app\templates\base.html:118 .\app\templates\base.html:120
@@ -58,133 +73,133 @@ msgstr ""
 msgid "Тел"
 msgstr ""
 
-#: .\app\templates\base.html:119
-msgid "Руководитель Удостоверяющего центра"
+#: .\app\templates\base.html:119 .\app\templates\home.html:254
+msgid "Руководитель органа по сертификации"
 msgstr ""
 
 #: .\app\templates\base.html:119
-msgid " А.П. Мустафаев"
+msgid "Алимжанов А.Н."
+msgstr ""
+
+#: .\app\templates\base.html:121 .\app\templates\home.html:269
+msgid "Начальник испытательной лаборатории"
 msgstr ""
 
 #: .\app\templates\base.html:121
-msgid "Заведующий испытательной лабораторией"
-msgstr ""
-
-#: .\app\templates\base.html:121
-msgid "Б.Б. Махкамов"
+msgid "З.Т. Усманов"
 msgstr ""
 
 #: .\app\templates\base.html:123
 msgid "Мы в социальных сетях"
 msgstr ""
 
-#: .\app\templates\certificate.html:6
+#: .\app\templates\certificate.html:7
 msgid "Условия сертификации"
 msgstr ""
 
-#: .\app\templates\certificate.html:10
+#: .\app\templates\certificate.html:11
 msgid ""
 " В зависимости от схемы сертификации, заявитель соглашается "
 "взаимодействовать с ОС в рамках применимых Процедур Сертификации и "
 "предоставлять специалистам ОС доступ к "
 msgstr ""
 
-#: .\app\templates\certificate.html:13
+#: .\app\templates\certificate.html:14
 msgid "нормативной и технологической документации на продукцию"
 msgstr ""
 
-#: .\app\templates\certificate.html:16
+#: .\app\templates\certificate.html:17
 msgid ""
 "описанию системы менеджмента, включая руководства, процедуры и инструкции"
 msgstr ""
 
-#: .\app\templates\certificate.html:19
+#: .\app\templates\certificate.html:20
 msgid ""
 "площадкам заявителя (предприятия), деятельность которых осуществляется в "
 "рамках сертифицируемой продукции, включая процессы производства и "
 "обслуживания"
 msgstr ""
 
-#: .\app\templates\certificate.html:22
+#: .\app\templates\certificate.html:23
 msgid ""
 "оборудованию, персоналу, средствам и информации о компетентности персонала, "
 "которые должны быть рассмотрены при сертификации"
 msgstr ""
 
-#: .\app\templates\certificate.html:25
+#: .\app\templates\certificate.html:26
 msgid ""
 "записям, отчетным документам и статистическим данным, в количестве и объеме, "
 "позволяющим оценить полноту и соответствие применимым требованиям"
 msgstr ""
 
-#: .\app\templates\certificate.html:28
+#: .\app\templates\certificate.html:29
 msgid ""
 "записям по жалобам и претензиям со стороны потребителей и других "
 "заинтересованных сторон и предпринятым корректирующим действиям"
 msgstr ""
 
-#: .\app\templates\certificate.html:30
+#: .\app\templates\certificate.html:35
 msgid ""
 "Заявитель несёт ответственность за достоверность информации, предоставленной "
 "на всех этапах сертификации"
 msgstr ""
 
-#: .\app\templates\certificate.html:32
+#: .\app\templates\certificate.html:37
 msgid "Заявитель должен"
 msgstr ""
 
-#: .\app\templates\certificate.html:35
+#: .\app\templates\certificate.html:40
 msgid ""
 "соблюдать требования ОС при ссылках на свой сертифицированный статус в "
 "средствах информации, таких как: интернет, брошюры и реклама или прочие "
 "документы"
 msgstr ""
 
-#: .\app\templates\certificate.html:38
+#: .\app\templates\certificate.html:43
 msgid ""
 "не делать и не позволять употребление каких-либо вводящих в заблуждение "
 "утверждений относительно своей сертификации"
 msgstr ""
 
-#: .\app\templates\certificate.html:41
+#: .\app\templates\certificate.html:46
 msgid ""
 "не использовать и не разрешать использование Сертификата соответствия, "
 "выданный ОС, или любой его части никоим образом, вводящим в заблуждение"
 msgstr ""
 
-#: .\app\templates\certificate.html:44
+#: .\app\templates\certificate.html:49
 msgid ""
 "после приостановки или аннулирования Сертификата соответствия, прекратить "
 "использовать его в каких бы то ни было рекламных материалах, имеющих ссылку "
 "на сертификацию"
 msgstr ""
 
-#: .\app\templates\certificate.html:47
+#: .\app\templates\certificate.html:52
 msgid ""
 "откорректировать все рекламные материалы при расширении или сокращении "
 "области распространения сертификата соответствия"
 msgstr ""
 
-#: .\app\templates\certificate.html:50
+#: .\app\templates\certificate.html:55
 msgid ""
 "заявлять, что Сертификат соответствия был выдан применительно к "
 "сертифицированному виду продукции"
 msgstr ""
 
-#: .\app\templates\certificate.html:53
+#: .\app\templates\certificate.html:58
 msgid ""
 "не использовать факт сертификации таким способом, который бы мог "
 "дискредитировать ОС"
 msgstr ""
 
-#: .\app\templates\certificate.html:56
+#: .\app\templates\certificate.html:61
 msgid ""
 "обеспечивать условия для беспрепятственного выполнения персоналом ОС своих "
 "полномочий по сертификации продукции и контролю за сертифицированной "
 "продукцией"
 msgstr ""
 
-#: .\app\templates\certificate.html:60
+#: .\app\templates\certificate.html:65
 msgid ""
 "извещать ОС о планируемых внесениях изменений в конструкцию (состав) "
 "продукции или технологию ее производства, которые могут повлиять на "
@@ -192,14 +207,14 @@ msgid ""
 "решения о необходимости проведения корректирующих мероприятий"
 msgstr ""
 
-#: .\app\templates\certificate.html:63
+#: .\app\templates\certificate.html:68
 msgid ""
 "оплатить услуги ОС в соответствии с условиями договора; - регистрировать "
 "жалобы и претензии (как устные, так и письменные) со стороны потребителей и "
 "других заинтересованных сторон и предпринятые корректирующие действия"
 msgstr ""
 
-#: .\app\templates\certificate.html:67
+#: .\app\templates\certificate.html:72
 msgid ""
 "ОС контролирует и, при необходимости, принимает меры в случае неправильной "
 "ссылки на статус сертификации или при неправильном использовании "
@@ -209,7 +224,7 @@ msgid ""
 "нарушении и, если необходимо, обращение в суд"
 msgstr ""
 
-#: .\app\templates\certificate.html:70
+#: .\app\templates\certificate.html:75
 msgid ""
 "ОС должен сообщить обо всех изменениях, которые он намерен внести в "
 "требования, предъявляемые при сертификации. Прежде чем принять решение "
@@ -220,14 +235,14 @@ msgid ""
 "срок, который, по мнению органа по сертификации является обоснованным"
 msgstr ""
 
-#: .\app\templates\certificate.html:73
+#: .\app\templates\certificate.html:78
 msgid ""
 "ОС не менее одного раза в год проводит инспекционный контроль "
 "сертифицированной продукции (при схемах 3 или 4) с целью подтверждения её "
 "соответствия требованиям, установленным при сертификации"
 msgstr ""
 
-#: .\app\templates\certificate.html:76
+#: .\app\templates\certificate.html:81
 msgid ""
 "Заявитель имеет право подать заявку в ОС с целью повторной сертификации, не "
 "менее чем за месяц до окончания срока действия сертификата соответствия на "
@@ -235,24 +250,24 @@ msgid ""
 "учитывая результаты инспекционного контроля"
 msgstr ""
 
-#: .\app\templates\certificate.html:80
+#: .\app\templates\certificate.html:85
 msgid ""
 "Если Заявитель не выполняет указанных условий, ОС может приостановить "
 "действие Сертификата соответствия или изъять его в любое время сообщением в "
 "письменном виде"
 msgstr ""
 
-#: .\app\templates\certificate.html:84
+#: .\app\templates\certificate.html:89
 msgid "Условия выдачи Сертификата соответствия"
 msgstr ""
 
-#: .\app\templates\certificate.html:89
+#: .\app\templates\certificate.html:94
 msgid ""
 "Сертификат соответствия выдается Заявителю при выполнении следующих "
 "обязательных условий"
 msgstr ""
 
-#: .\app\templates\certificate.html:92
+#: .\app\templates\certificate.html:97
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
@@ -260,13 +275,13 @@ msgid ""
 "д "
 msgstr ""
 
-#: .\app\templates\certificate.html:95
+#: .\app\templates\certificate.html:100
 msgid ""
 "все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
 msgstr ""
 
-#: .\app\templates\certificate.html:98
+#: .\app\templates\certificate.html:103
 msgid ""
 " результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям; о способности заявителя "
@@ -274,16 +289,16 @@ msgid ""
 "требований"
 msgstr ""
 
-#: .\app\templates\certificate.html:101
+#: .\app\templates\certificate.html:106
 msgid " Заявитель полностью выполнил свои договорные обязательства перед ОС"
 msgstr ""
 
-#: .\app\templates\certificate.html:104
+#: .\app\templates\certificate.html:109
 msgid ""
 " результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
 
-#: .\app\templates\certificate.html:108
+#: .\app\templates\certificate.html:113
 msgid ""
 "ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов, представленных заявителем с заявкой, выдает "
@@ -293,22 +308,22 @@ msgid ""
 "информировать все заинтересованные стороны о результатах сертификации"
 msgstr ""
 
-#: .\app\templates\certificate.html:112
+#: .\app\templates\certificate.html:117
 msgid ""
-"  Сертификат оформляется на государственном или русском языках. Оформленный "
+"Сертификат оформляется на государственном или русском языках. Оформленный "
 "сертификат соответствия регистрируется в Государственном реестре НСС Уз. "
 "Сертификат действителен только при наличии регистрационного номера"
 msgstr ""
 
-#: .\app\templates\certificate.html:116
+#: .\app\templates\certificate.html:121
 msgid ""
-"  Сертификат соответствия выдается заявителю в течение трех рабочих дней "
-"после предоставления всех необходимых документов, а при проведении ОС "
-"обследования производства — в течение пяти рабочих дней с момента получения "
-"ОС результатов испытаний"
+"Сертификат соответствия выдается заявителю в течение трех рабочих дней после "
+"предоставления всех необходимых документов, а при проведении ОС обследования "
+"производства — в течение пяти рабочих дней с момента получения ОС "
+"результатов испытаний"
 msgstr ""
 
-#: .\app\templates\certificate.html:120
+#: .\app\templates\certificate.html:125
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно производимой продукции — на 3 года"
@@ -322,71 +337,89 @@ msgstr ""
 msgid "АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ"
 msgstr ""
 
-#: .\app\templates\home.html:19
+#: .\app\templates\home.html:16
+msgid ""
+"Орган по сертификации автомототранспортных средств, спецтехники и их "
+"составных частей, предметов оборудования и прицепов"
+msgstr ""
+
+#: .\app\templates\home.html:18
 msgid "Заказать услугу"
 msgstr ""
 
-#: .\app\templates\home.html:29
+#: .\app\templates\home.html:28
 msgid "Наши преимущества"
 msgstr ""
 
-#: .\app\templates\home.html:39
+#: .\app\templates\home.html:38
 msgid "У НАС САМЫЕ ВЫГОДНЫЕ УСЛОВИЯ ДОГОВОРА"
 msgstr ""
 
-#: .\app\templates\home.html:48
+#: .\app\templates\home.html:47
 msgid " МЫ ПОМОЖЕМ ВАМ СЭКОНОМИТЬ ВАШЕ ВРЕМЯ"
 msgstr ""
 
-#: .\app\templates\home.html:57
+#: .\app\templates\home.html:56
 msgid "УДОБНАЯ ОПЛАТА"
 msgstr ""
 
-#: .\app\templates\home.html:66
+#: .\app\templates\home.html:65
 msgid "СОТРУДНИЧАЕМ С ПАРТНЕРАМИ"
 msgstr ""
 
-#: .\app\templates\home.html:78
+#: .\app\templates\home.html:77
 msgid "О нас"
 msgstr ""
 
-#: .\app\templates\home.html:150
+#: .\app\templates\home.html:91
+msgid ""
+" ООО «Avto Standart Etalon» аккредитованный орган по сертификации и "
+"испытательная лаборатория машиностроительной продукции. Специалисты ООО "
+"«Avto Standart Etalon» оценят Вашу продукцию в соответствии с действующими "
+"нормативными документами и проведут обязательную сертификацию. Все услуги, "
+"оказываемые нашими специалистами обеспечивают максимальную достоверность с "
+"применением современных инновационных и интеллектуальных технологий. "
+msgstr ""
+
+#: .\app\templates\home.html:141
 msgid "Наши услуги"
 msgstr ""
 
-#: .\app\templates\home.html:158
+#: .\app\templates\home.html:149
 msgid ""
 "СЕРТИФИКАЦИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ"
 msgstr ""
 
-#: .\app\templates\home.html:166
+#: .\app\templates\home.html:157
 msgid ""
 "СЕРТИФИКАЦИЯ УСЛУГ ПО ТЕХНИЧЕСКОМУ ОБСЛУЖИВАНИЮ, И РЕМОНТУ "
 "АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ"
 msgstr ""
 
-#: .\app\templates\home.html:173
+#: .\app\templates\home.html:164
 msgid ""
 "АККРЕДИТОВАННАЯ ИСПЫТАТЕЛЬНАЯ ЛАБОРАТОРИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, "
 "СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ"
 msgstr ""
 
-#: .\app\templates\home.html:180
-msgid ""
-"ПОЛНАЯ КОНСУЛЬТАЦИЯ ПО ПРОВЕДЕНИЮ СЕРТИФИКАЦИИ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ "
-"И ИХ СОСТАВНЫХ ЧАСТЕЙ"
-msgstr ""
-
-#: .\app\templates\home.html:193
+#: .\app\templates\home.html:178
 msgid "Наша команда"
 msgstr ""
 
+#: .\app\templates\home.html:189
+msgid "Абдураззоков Умидулла Абдураззокович"
+msgstr ""
+
+#: .\app\templates\home.html:192
+msgid "Директор"
+msgstr ""
+
 #: .\app\templates\home.html:205
-msgid "Ш.Б.Махамаджанов"
+msgid "Зияев Камолиддин Зухритдинович"
 msgstr ""
 
 #: .\app\templates\home.html:208
-msgid "Директор"
+msgid "Заместитель Директора"
 msgstr ""
 
 #: .\app\templates\home.html:220
@@ -394,32 +427,72 @@ msgid "А. Мустафаев"
 msgstr ""
 
 #: .\app\templates\home.html:223
-msgid "Руководитель органа по сертификации продукции"
+msgid "Технический консультат"
 msgstr ""
 
-#: .\app\templates\home.html:235
-msgid "Б. Махкамов"
+#: .\app\templates\home.html:236
+msgid "Рашидов Азиз"
 msgstr ""
 
-#: .\app\templates\home.html:252
-msgid " Б. Толибов"
+#: .\app\templates\home.html:239
+msgid "Менеджер по системе менеджмента качества"
 msgstr ""
 
-#: .\app\templates\home.html:255
-msgid "Главный специалист"
+#: .\app\templates\home.html:251
+msgid "Абдуллаев Алишер"
 msgstr ""
 
-#: .\app\templates\home.html:268
+#: .\app\templates\home.html:266
+msgid "Усманов Зафар Турсунович"
+msgstr ""
+
+#: .\app\templates\home.html:284
+msgid "Анваржонов Ахмаджон"
+msgstr ""
+
+#: .\app\templates\home.html:287
+msgid "Инженер по сертификации"
+msgstr ""
+
+#: .\app\templates\home.html:299
+msgid "Улашев Жонибек"
+msgstr ""
+
+#: .\app\templates\home.html:302
+msgid "Инженер-метролог"
+msgstr ""
+
+#: .\app\templates\home.html:314
+msgid "Мамасолиева Нафиса"
+msgstr ""
+
+#: .\app\templates\home.html:317
+msgid "Инженер по стандартизации"
+msgstr ""
+
+#: .\app\templates\home.html:329
+msgid "Шавкатов Хумоюн"
+msgstr ""
+
+#: .\app\templates\home.html:332 .\app\templates\home.html:347
+msgid "Инженер-испытатель"
+msgstr ""
+
+#: .\app\templates\home.html:344
+msgid "Тухтамишев Собит"
+msgstr ""
+
+#: .\app\templates\home.html:361
 msgid "УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ"
 msgstr ""
 
-#: .\app\templates\home.html:272
+#: .\app\templates\home.html:365
 msgid ""
 "СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ "
 "ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ "
 msgstr ""
 
-#: .\app\templates\home.html:273
+#: .\app\templates\home.html:366
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
@@ -427,126 +500,133 @@ msgid ""
 "д"
 msgstr ""
 
-#: .\app\templates\home.html:276
+#: .\app\templates\home.html:369
 msgid ""
 "Все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
 msgstr ""
 
-#: .\app\templates\home.html:277
+#: .\app\templates\home.html:370
 msgid ""
 "Результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям"
 msgstr ""
 
-#: .\app\templates\home.html:278
+#: .\app\templates\home.html:371
 msgid ""
 "о способности заявителя гарантировать стабильность выполнения установленных "
 "и предполагаемых требований"
 msgstr ""
 
-#: .\app\templates\home.html:280
+#: .\app\templates\home.html:373
 msgid "Заявитель полностью выполнил свои договорные обязательства перед ОС"
 msgstr ""
 
-#: .\app\templates\home.html:282
+#: .\app\templates\home.html:375
 msgid "Результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
 
-#: .\app\templates\home.html:288
+#: .\app\templates\home.html:381
 msgid ""
 " ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов"
 msgstr ""
 
-#: .\app\templates\home.html:289
+#: .\app\templates\home.html:382
 msgid ""
 "представленных заявителем с заявкой, выдает сертификат соответствия или "
 "отказывает в его выдаче. ОС"
 msgstr ""
 
-#: .\app\templates\home.html:290
+#: .\app\templates\home.html:383
 msgid ""
 "письменно информирует Заявителя о принятом по результатам сертификации "
 "решении. Наличие"
 msgstr ""
 
-#: .\app\templates\home.html:291
+#: .\app\templates\home.html:384
 msgid ""
 "письменного уведомления ОС является основанием для Заявителя информировать "
 "все заинтересованные"
 msgstr ""
 
-#: .\app\templates\home.html:292
+#: .\app\templates\home.html:385
 msgid "стороны о результатах сертификации"
 msgstr ""
 
-#: .\app\templates\home.html:298
+#: .\app\templates\home.html:391
 msgid ""
 "Сертификат оформляется на государственном или русском языках. Оформленный "
 "сертификат соответствия"
 msgstr ""
 
-#: .\app\templates\home.html:299
+#: .\app\templates\home.html:392
 msgid ""
 "регистрируется в Государственном реестре НСС Уз. Сертификат действителен "
 "только при наличии"
 msgstr ""
 
-#: .\app\templates\home.html:300
+#: .\app\templates\home.html:393
 msgid "регистрационного номера"
 msgstr ""
 
-#: .\app\templates\home.html:307
+#: .\app\templates\home.html:400
+msgid ""
+"Орган по сертификации не должен заявлять или давать понять, что проведение "
+"сертификации будет проще, легче, быстрее или дешевле при обращении за "
+"услугами к конкретным консультирующим организациям."
+msgstr ""
+
+#: .\app\templates\home.html:406
 msgid ""
 "Сертификат соответствия выдается заявителю в течение двух рабочих дней, а "
 "при проведении ОС"
 msgstr ""
 
-#: .\app\templates\home.html:308
+#: .\app\templates\home.html:407
 msgid ""
 "обследования производства — в течение пяти рабочих дней с момента получения "
 "ОС результатов испытаний"
 msgstr ""
 
-#: .\app\templates\home.html:315
+#: .\app\templates\home.html:414
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно"
 msgstr ""
 
-#: .\app\templates\home.html:316
+#: .\app\templates\home.html:415
 msgid "производимой продукции — на 3 года"
 msgstr ""
 
-#: .\app\templates\home.html:331
+#: .\app\templates\home.html:430
 msgid "Нуждаетесь в услугах"
 msgstr ""
 
-#: .\app\templates\home.html:331
+#: .\app\templates\home.html:430
 msgid "сертификации"
 msgstr ""
 
-#: .\app\templates\home.html:334
+#: .\app\templates\home.html:433
 msgid "оставьте заявку и мы с радостью вам поможем получить сертификат"
 msgstr ""
 
-#: .\app\templates\home.html:341
+#: .\app\templates\home.html:440
 msgid "Поле \"ФИО\" должно быть заполнено"
 msgstr ""
 
-#: .\app\templates\home.html:345
+#: .\app\templates\home.html:444
 msgid "Поле \"Email\" должно быть заполнено"
 msgstr ""
 
-#: .\app\templates\home.html:349
+#: .\app\templates\home.html:448
 msgid "Поле \"Номер\"должно быть заполнено"
 msgstr ""
 
-#: .\app\templates\home.html:355
+#: .\app\templates\home.html:454
 msgid "Отправить"
 msgstr ""
 
-#: .\app\templates\home.html:358
+#: .\app\templates\home.html:457
 msgid "ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА"
 msgstr ""
