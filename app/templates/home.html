@@ -3,550 +3,813 @@
 {% load i18n %}
 {% block content %}
 <main>
-    <section class="back">
-        <br><br><br>
-        <div style="display: flex; justify-content: center; align-items: center;margin-top:15%;">
-            <div class="text-white" style="text-align: left;">
-                <div class="container" >
-                    <p style="font-size: 1.59rem;">
-                        <strong>{% trans 'ОРГАН ПО СЕРТИФИКАЦИИ' %} <br>
-                            {% trans 'АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ' %}</strong>
-                    </p>
-                    <p style="font-size:1.3rem;">
-                       {% trans 'Орган по сертификации автомототранспортных средств, спецтехники и их составных частей, предметов оборудования и прицепов' %}.
-                    </p>
-                    <a href="#apl-form" class="btn btn-success btn-lg">{% trans 'Заказать услугу' %}</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br><br><br>
-    <section id="useful">
-        <div class="container">
-            <div class="text-center">
-                <div style="font-size: 2.5rem;margin-bottom:80px;font-weight: 500;">
-                    {% trans 'Наши преимущества' %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/certificate.png' %}" width="100" alt="" class="img-fluid">
-                    </div>
-                    <br>
-                    <div class="text-center" style="font-weight: 500;">
-                      {%  trans 'У НАС САМЫЕ ВЫГОДНЫЕ УСЛОВИЯ ДОГОВОРА' %}
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/clock.png' %}" width="100" alt="" class="img-fluid">
-                    </div>
-                    <br>
-                    <div class="text-center" style="font-weight: 500;">
-                      {% trans ' МЫ ПОМОЖЕМ ВАМ СЭКОНОМИТЬ ВАШЕ ВРЕМЯ' %}
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/operation-150x150.png' %}" width="100" alt="" class="img-fluid">
-                    </div>
-                    <br>
-                    <div class="text-center" style="font-weight: 500;">
-                       {% trans 'УДОБНАЯ ОПЛАТА' %}
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/deal.png' %}" width="100" alt="" class="img-fluid">
-                    </div>
-                    <br>
-                    <div class="text-center" style="font-weight: 500;">
-                       {% trans 'СОТРУДНИЧАЕМ С ПАРТНЕРАМИ' %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br><br><br>
-    <section class="section" id="about">
-        <div class="container">
-            <br><br>
-            <div class="text-center">
-                <div style="font-size: 3rem;margin-bottom:80px;font-weight:500;">
-                   {% trans 'О нас' %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg my-4 blk"  >
-                    <div class="text-center">
-                        <img src="{% static 'images/img19.jpg' %}" width="500" alt="" class="img-fluid">
-                    </div>
-                    <div class="text-center mt-md-4">
-                        <img src="{% static 'images/img20.jpg' %}" width="450" style="position: relative;bottom:70px;left:10px;" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4" style="display: flex;align-items: center;justify-content: center;">
-                    <div style="font-size: 18px;">
-                        {% trans ' ООО «Avto Standart Etalon» аккредитованный орган по сертификации и испытательная лаборатория машиностроительной продукции. Специалисты ООО «Avto Standart Etalon» оценят Вашу продукцию в соответствии с действующими нормативными документами и проведут обязательную сертификацию. Все услуги, оказываемые нашими специалистами обеспечивают максимальную достоверность с применением современных инновационных и интеллектуальных технологий. ' %}
-                    </div>
-                </div>
-            </div> 
-            
-            <br><br>
-            <div class="text-center">
-                
-                <div  >
-                    <img src="{% static 'images/img18.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
-                        alt="">
-                    <img src="{% static 'images/img19.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
-                        alt="">
-                    <img src="{% static 'images/img20.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
-                        alt="">
-                </div>
-                <br>
-                <div>
-                    <img src="{% static 'images/img21.jpg' %}" class="im" width="299" height="400" style="object-fit: cover;"
-                        alt="">
-                    <img src="{% static 'images/img22.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
-                        alt="">
-                    <img src="{% static 'images/img17.jpg' %}" class="im" width="300" height="400" style="object-fit: cover;"
-                        alt="">
-                </div>
-            </div>
-            <br><br>
-        </div>
-    </section>
-    <style>
-        @media screen and (min-width:768px) and (max-width:990px){
-            .im{
-                width:200px;
-            }
-            .blk{
-                padding-top:100px;
-            }
-            .cer{
-                padding-top:300px;
-                width: 350px;
-                height: auto;
-            }
-        }
-    </style>
-    <br><br><br>
-    <section>
-        <div class="container">
-            <br><br>
-            <div class="text-center">
-                <div style="font-size: 3rem;margin-bottom:80px;font-weight:500;">
-                  {% trans 'Наши услуги' %}
-                </div>
-            </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="card">
-            
-                <div class="card-body">
-                  <h5 class="card-title">{% trans 'СЕРТИФИКАЦИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.</h5>
-          
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">{% trans 'СЕРТИФИКАЦИЯ УСЛУГ ПО ТЕХНИЧЕСКОМУ ОБСЛУЖИВАНИЮ, И РЕМОНТУ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ' %}.</h5>
-                   </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">{% trans 'АККРЕДИТОВАННАЯ ИСПЫТАТЕЛЬНАЯ ЛАБОРАТОРИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.</h5> 
-                </div>
-              </div>
-            </div>
-      
-          </div>
-          </div>
-    </section>
-    <section id="team">
-        <div class="container">
-            <br><br><br>
-            <div class="text-center">
-                <br><br>
-                <div style="font-size: 3rem;margin-bottom:80px;font-weight: 500;">
-                    {% trans 'Наша команда' %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-12-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/direktor.jpg' %}" width="200" alt="" class="img-fluid" style="border-radius: 300px;">
-                    </div>
-                    <br>
-                    <div class="text-center" style="position: relative;top:14px;">
-                        <div style="font-weight: 700; font-size: 20px;">
-                            {% trans 'Абдураззоков Умидулла Абдураззокович' %}
-                        </div>
-                        <div style="font-style: italic; font-size: 18px;">
-                            {% trans 'Директор' %} <br>
-                            Avto Standart Etalon
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/zam.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center   ">
-                        <div style="font-weight: 700;font-size: 20px;">
-                            {% trans 'Зияев Камолиддин Зухритдинович'%}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                            {% trans 'Заместитель Директора' %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-12-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/texkon.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center  " style="position: relative;top:18px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                           {% trans 'А. Мустафаев' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                            {% trans 'Технический консультат' %}
-                        </div>
-                    </div>
-                </div>
-              
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/menejer.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center" style="position: relative;top:16px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Рашидов Азиз' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Менеджер по системе менеджмента качества' %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/ruk.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center " style="position: relative;top:18px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Алимжанов Алишер' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Руководитель органа по сертификации' %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/nach.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center" style="position: relative;top:11px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                            {% trans 'Усманов Зафар Турсунович'%}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                            {% trans 'Начальник испытательной лаборатории' %}
-                        </div>
-                    </div>
-                </div>
-        
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/injer2.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center  ">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Анваржонов Ахмаджон' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Инженер по сертификации' %}
-                        </div>
-                    </div>
-                    </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/injer3.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center " style="position: relative;top: 9px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Улашев Жонибек' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Инженер-метролог' %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/injer4.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center" style="position: relative;top:28px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Мамасолиева Нафиса' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Инженер по стандартизации' %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/injer5.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center" style="position: relative;top:6px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Шавкатов Хумоюн' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Инженер-испытатель' %}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg my-4">
-                    <div class="text-center">
-                        <img src="{% static 'images/injer.jpg' %}" width="200" alt="" class="img-fluid"
-                            style="border-radius:300px;">
-                    </div>
-                    <br>
-                    <div class="text-center" style="position: relative;top:22px;">
-                        <div style="font-weight: 700;font-size: 20px;">
-                          {% trans 'Тухтамишев Собит' %}
-                        </div>
-                        <div style="font-style: italic;font-size: 18px;">
-                           {% trans 'Инженер-испытатель' %}
-                        </div>
-                    </div>
-                </div>
-             
-            </div>
-        </div>
-    </section>
- 
-    <br><br><br>
-    <br><br><br>
-    <section>
-        <div class="container">
-            <div class="text-center"  >
-              <h1>
-                {% trans 'УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ' %}</h1>
-            </div>
-            <br><br><br>
-            <div>
-                <h4>{% trans 'СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ ' %}:</h4>
-                <p>- {% trans 'Заявитель должен предоставить всю информацию, которую орган по сертификации сочтет необходимой для принятия решения относительно процедуры оценки соответствия, выбора схемы сертификации, выбора нормативной документации и т.д' %}
+	<section class="back">
+		<br /><br /><br />
+		<div
+			style="
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 15%;
+			"
+		>
+			<div class="text-white" style="text-align: left">
+				<div class="container">
+					<p style="font-size: 1.59rem">
+						<strong
+							>{% trans 'ОРГАН ПО СЕРТИФИКАЦИИ' %} <br />
+							{% trans 'АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ' %}</strong
+						>
+					</p>
+					<p style="font-size: 1.3rem">
+						{% trans 'Орган по сертификации автомототранспортных средств, спецтехники и их составных частей, предметов оборудования и прицепов' %}.
+					</p>
+					<a href="#apl-form" class="btn btn-success btn-lg"
+						>{% trans 'Заказать услугу' %}</a
+					>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br /><br /><br />
+	<section id="useful">
+		<div class="container">
+			<div class="text-center">
+				<div style="font-size: 2.5rem; margin-bottom: 80px; font-weight: 500">
+					{% trans 'Наши преимущества' %}
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/certificate.png' %}"
+							width="100"
+							alt=""
+							class="img-fluid"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="font-weight: 500">
+						{% trans 'У НАС САМЫЕ ВЫГОДНЫЕ УСЛОВИЯ ДОГОВОРА' %}
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/clock.png' %}"
+							width="100"
+							alt=""
+							class="img-fluid"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="font-weight: 500">
+						{% trans ' МЫ ПОМОЖЕМ ВАМ СЭКОНОМИТЬ ВАШЕ ВРЕМЯ' %}
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/operation-150x150.png' %}"
+							width="100"
+							alt=""
+							class="img-fluid"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="font-weight: 500">
+						{% trans 'УДОБНАЯ ОПЛАТА' %}
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/deal.png' %}"
+							width="100"
+							alt=""
+							class="img-fluid"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="font-weight: 500">
+						{% trans 'СОТРУДНИЧАЕМ С ПАРТНЕРАМИ' %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br /><br /><br />
+	<section class="section" id="about">
+		<div class="container">
+			<br /><br />
+			<div class="text-center">
+				<div style="font-size: 3rem; margin-bottom: 80px; font-weight: 500">
+					{% trans 'О нас' %}
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg my-4 blk">
+					<div class="text-center">
+						<img
+							src="{% static 'images/img19.jpg' %}"
+							width="500"
+							alt=""
+							class="img-fluid"
+						/>
+					</div>
+					<div class="text-center mt-md-4">
+						<img
+							src="{% static 'images/img20.jpg' %}"
+							width="450"
+							style="position: relative; bottom: 70px; left: 10px"
+							alt=""
+							class="img-fluid"
+						/>
+					</div>
+				</div>
+				<div
+					class="col-12 col-md-6 col-lg my-4"
+					style="display: flex; align-items: center; justify-content: center"
+				>
+					<div style="font-size: 18px">
+						{% trans ' ООО «Avto Standart Etalon» аккредитованный орган по сертификации и испытательная лаборатория машиностроительной продукции. Специалисты ООО «Avto Standart Etalon» оценят Вашу продукцию в соответствии с действующими нормативными документами и проведут обязательную сертификацию. Все услуги, оказываемые нашими специалистами обеспечивают максимальную достоверность с применением современных инновационных и интеллектуальных технологий. ' %}
+					</div>
+				</div>
+			</div>
+
+			<br /><br />
+			<div class="text-center">
+				<div>
+					<img
+						src="{% static 'images/img18.jpg' %}"
+						class="im"
+						width="300"
+						height="400"
+						style="object-fit: cover"
+						alt=""
+					/>
+					<img
+						src="{% static 'images/img19.jpg' %}"
+						class="im"
+						width="300"
+						height="400"
+						style="object-fit: cover"
+						alt=""
+					/>
+					<img
+						src="{% static 'images/img20.jpg' %}"
+						class="im"
+						width="300"
+						height="400"
+						style="object-fit: cover"
+						alt=""
+					/>
+				</div>
+				<br />
+				<div>
+					<img
+						src="{% static 'images/img21.jpg' %}"
+						class="im"
+						width="299"
+						height="400"
+						style="object-fit: cover"
+						alt=""
+					/>
+					<img
+						src="{% static 'images/img22.jpg' %}"
+						class="im"
+						width="300"
+						height="400"
+						style="object-fit: cover"
+						alt=""
+					/>
+					<img
+						src="{% static 'images/img17.jpg' %}"
+						class="im"
+						width="300"
+						height="400"
+						style="object-fit: cover"
+						alt=""
+					/>
+				</div>
+			</div>
+			<br /><br />
+		</div>
+	</section>
+	<style>
+		@media screen and (min-width: 768px) and (max-width: 990px) {
+			.im {
+				width: 200px;
+			}
+			.blk {
+				padding-top: 100px;
+			}
+			.cer {
+				padding-top: 300px;
+				width: 350px;
+				height: auto;
+			}
+		}
+	</style>
+	<br /><br /><br />
+	<section>
+		<div class="container">
+			<br /><br />
+			<div class="text-center">
+				<div style="font-size: 3rem; margin-bottom: 80px; font-weight: 500">
+					{% trans 'Наши услуги' %}
+				</div>
+			</div>
+			<div class="row row-cols-1 row-cols-md-2 g-4">
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">
+								{% trans 'СЕРТИФИКАЦИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">
+								{% trans 'СЕРТИФИКАЦИЯ УСЛУГ ПО ТЕХНИЧЕСКОМУ ОБСЛУЖИВАНИЮ, И РЕМОНТУ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ' %}.
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">
+								{% trans 'АККРЕДИТОВАННАЯ ИСПЫТАТЕЛЬНАЯ ЛАБОРАТОРИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ' %}.
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="team">
+		<div class="container">
+			<br /><br /><br />
+			<div class="text-center">
+				<br /><br />
+				<div style="font-size: 3rem; margin-bottom: 80px; font-weight: 500">
+					{% trans 'Наша команда' %}
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-12-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/direktor.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 14px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Абдураззоков Умидулла Абдураззокович' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Директор' %} <br />
+							Avto Standart Etalon
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/zam.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Зияев Камолиддин Зухритдинович'%}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Заместитель Директора' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-12-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/texkon.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 18px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'А. Мустафаев' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Технический консультат' %}
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/menejer.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 16px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Рашидов Азиз' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Менеджер по системе менеджмента качества' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/ruk.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 18px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Алимжанов Алишер' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Руководитель органа по сертификации' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/nach.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 11px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Усманов Зафар Турсунович'%}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Начальник испытательной лаборатории' %}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/injer2.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Анваржонов Ахмаджон' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Инженер по сертификации' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/injer3.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 9px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Улашев Жонибек' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Инженер-метролог' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/injer4.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 28px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Мамасолиева Нафиса' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Инженер по стандартизации' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/injer5.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 6px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Шавкатов Хумоюн' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Инженер-испытатель' %}
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg my-4">
+					<div class="text-center">
+						<img
+							src="{% static 'images/injer.jpg' %}"
+							width="200"
+							alt=""
+							class="img-fluid"
+							style="border-radius: 300px"
+						/>
+					</div>
+					<br />
+					<div class="text-center" style="position: relative; top: 22px">
+						<div style="font-weight: 700; font-size: 20px">
+							{% trans 'Тухтамишев Собит' %}
+						</div>
+						<div style="font-style: italic; font-size: 18px">
+							{% trans 'Инженер-испытатель' %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<br /><br /><br />
+	<br /><br /><br />
+	<section>
+		<div class="container">
+			<div class="text-center">
+				<h1>{% trans 'УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ' %}</h1>
+			</div>
+			<br /><br /><br />
+			<div>
+				<h4>
+					{% trans 'СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ ' %}:
+				</h4>
+				<p>
+					- {% trans 'Заявитель должен предоставить всю информацию, которую орган по сертификации сочтет необходимой для принятия решения относительно процедуры оценки соответствия, выбора схемы сертификации, выбора нормативной документации и т.д' %}
+				</p>
+				<p>
+					- {% trans 'Все несоответствия, выявленные в ходе проверки, устранены, и заявитель предоставил в ОС объективные доказательства их устранения' %}; 
+				</p>
+                <p>
+                    - {% trans 'Результаты сертификации свидетельствуют: о соответствии требованиям НД; применимым законодательным требованиям' %}; {% trans 'о способности заявителя гарантировать стабильность выполнения установленных и предполагаемых требований' %};
                 </p>
-                <br>
-                <p>- {% trans 'Все несоответствия, выявленные в ходе проверки, устранены, и заявитель предоставил в ОС объективные доказательства их устранения' %};
-                    - {% trans 'Результаты сертификации свидетельствуют: о соответствии требованиям НД; применимым законодательным требованиям' %};
-                    {% trans 'о способности заявителя гарантировать стабильность выполнения установленных и предполагаемых требований' %};</p>
-                <br>
-                <p>- {% trans 'Заявитель полностью выполнил свои договорные обязательства перед ОС' %};</p>
-                <br>
-                <p>- {% trans 'Результаты работ по сертификации проверены и утверждены руководством ОС' %}.</p>
-                <br>
-            </div>
-            <hr>
-            <div style="font-size:20px; font-weight: 500;">
-                <br>
-              {% trans ' ОС после рассмотрения протокола(ов) испытаний, обследования состояния производства и документов'%} ,  <br>
-                {% trans 'представленных заявителем с заявкой, выдает сертификат соответствия или отказывает в его выдаче. ОС'%} <br>
-                {% trans 'письменно информирует Заявителя о принятом по результатам сертификации решении. Наличие' %} <br>
-                  {% trans 'письменного уведомления ОС является основанием для Заявителя информировать все заинтересованные' %}  <br> 
-                 {% trans 'стороны о результатах сертификации' %}.
-                 <br><br>
-            </div>
-            <hr>
-            <div style="font-size: 20px;font-weight: 500;">
-                <br>
-               {% trans 'Сертификат оформляется на государственном или русском языках. Оформленный сертификат соответствия' %} <br>
-             {% trans 'регистрируется в Государственном реестре НСС Уз. Сертификат действителен только при наличии' %} <br>
-               {%  trans 'регистрационного номера' %}.
-                 <br>
-                 <br>
-            </div>
-            <hr>
-            <div style="font-size: 20px;font-weight: 500;">
-                <br>
-                {% trans 'Орган по сертификации не должен заявлять или давать понять, что проведение сертификации будет проще, легче, быстрее или дешевле при обращении за услугами к конкретным консультирующим организациям.' %}
-                <br>
-            </div>
-            <hr>
-            <div style="font-size: 20px;font-weight: 500;">
-                <br>
-                {% trans 'Сертификат соответствия выдается заявителю в течение двух рабочих дней, а при проведении ОС' %} <br>
-                {% trans 'обследования производства — в течение пяти рабочих дней с момента получения ОС результатов испытаний' %}.
-                 <br>
-                 <br>
-            </div>
-            <hr>
-            <div style="font-size: 20px;font-weight: 500;">
-                <br>
-                {% trans 'Сертификат соответствия выдается на ввозимую продукцию на срок годности продукции, а для серийно' %} <br>
-                 {% trans 'производимой продукции — на 3 года'%}.
-                 <br>
-            </div>
-        </div>
-    </section>
-    <br><br><br>
-    <br><br><br>
-    <section class="back2" id="apl-form">
-        <div style="display: flex; justify-content: center; align-items: center;  ">
-            <div class="text-white">
-                <div class="container">
-                     
-                    <div class="row" >
-                        <div class="col-md-6">
-                            <p style="font-size: 2.2rem;">
-                                <strong>{% trans 'Нуждаетесь в услугах'%}<br>{% trans 'сертификации'%}?</strong>
-                            </p>
-                            <p style="font-size:1.3rem;">
-                               {% trans 'оставьте заявку и мы с радостью вам поможем получить сертификат'%}!
-                            </p>
-                            <form method="post" class="form" id="application-form">
-                                {% csrf_token %}
+				<p>
+					- {% trans 'Заявитель полностью выполнил свои договорные обязательства перед ОС' %};
+				</p>
+				<p>
+					- {% trans 'Результаты работ по сертификации проверены и утверждены руководством ОС' %}.
+				</p>
+				<br />
+			</div>
+			<hr />
+			<div style="font-size: 20px; font-weight: 500">
+				<br />
+				{% trans ' ОС после рассмотрения протокола(ов) испытаний, обследования состояния производства и документов'%} , <br />
+				{% trans 'представленных заявителем с заявкой, выдает сертификат соответствия или отказывает в его выдаче. ОС'%} <br />
+				{% trans 'письменно информирует Заявителя о принятом по результатам сертификации решении. Наличие' %} <br />
+				{% trans 'письменного уведомления ОС является основанием для Заявителя информировать все заинтересованные' %} <br />
+				{% trans 'стороны о результатах сертификации' %}.
+				<br /><br />
+			</div>
+			<hr />
+			<div style="font-size: 20px; font-weight: 500">
+				<br />
+				{% trans 'Сертификат оформляется на государственном или русском языках. Оформленный сертификат соответствия' %} <br />
+				{% trans 'регистрируется в Государственном реестре НСС Уз. Сертификат действителен только при наличии' %} <br />
+				{% trans 'регистрационного номера' %}.
+				<br />
+				<br />
+			</div>
+			<hr />
+			<div style="font-size: 20px; font-weight: 500">
+				<br />
+				{% trans 'Орган по сертификации не должен заявлять или давать понять, что проведение сертификации будет проще, легче, быстрее или дешевле при обращении за услугами к конкретным консультирующим организациям.' %}
+				<br />
+			</div>
+			<hr />
+			<div style="font-size: 20px; font-weight: 500">
+				<br />
+				{% trans 'Сертификат соответствия выдается заявителю в течение двух рабочих дней, а при проведении ОС' %} <br />
+				{% trans 'обследования производства — в течение пяти рабочих дней с момента получения ОС результатов испытаний' %}.
+				<br />
+				<br />
+			</div>
+			<hr />
+			<div style="font-size: 20px; font-weight: 500">
+				<br />
+				{% trans 'Сертификат соответствия выдается на ввозимую продукцию на срок годности продукции, а для серийно' %} <br />
+				{% trans 'производимой продукции — на 3 года'%}.
+				<br />
+			</div>
+		</div>
+	</section>
+	<br /><br /><br />
+	<br /><br /><br />
+	<section class="back2" id="apl-form">
+		<div style="display: flex; justify-content: center; align-items: center">
+			<div class="text-white">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p style="font-size: 2.2rem">
+								<strong
+									>{% trans 'Нуждаетесь в услугах'%}<br />{% trans 'сертификации'%}?</strong
+								>
+							</p>
+							<p style="font-size: 1.3rem">
+								{% trans 'Берегите свое время, подайте заявку на проведение сертификации посредствам официального сайта '%}
+								<a href="https://singlewindow.uz/">singlewindow.uz</a> !
+							</p>
+							<p style="font-size: 1.3rem">
+								{% trans 'Здесь вы можете оставить свои предложения и вопросы по деятельности ООО "AUTO STANDART ETALON"'%}!
+							</p>
+							<form method="post" class="form" id="application-form">
+								{% csrf_token %} {{ form.name.label_tag }} {{ form.name }}
+								<p
+									class="error-message"
+									id="name-error"
+									style="display: none; color: red"
+								>
+									{% trans 'Поле "ФИО" должно быть заполнено' %}
+								</p>
+								<br />
+								{{ form.email.label_tag }} {{ form.email }}
+								<p
+									class="error-message"
+									id="email-error"
+									style="display: none; color: red"
+								>
+									{% trans 'Поле "Email" должно быть заполнено' %}
+								</p>
+								<br />
+								{{ form.phone_number.label_tag }} {{ form.phone_number }}
+								<p
+									class="error-message"
+									id="phone_number-error"
+									style="display: none; color: red"
+								>
+									{% trans 'Поле "Номер"должно быть заполнено' %}
+								</p>
+								<br />
+								{{ form.Comment.label_tag }} {{ form.Comment }}
+								<br />
+								<button
+									type="submit"
+									class="btn btn-warning"
+									style="width: 150px; height: 60px; font-weight: 500"
+								>
+									{% trans 'Отправить' %}
+								</button>
+							</form>
+							<div id="success-message" style="display: none">
+								<div class="success-message__item">
+									<h2 class="text-success">
+										{% trans 'ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА' %}!
+									</h2>
+									<p style="font-size: 20px">
+										{% trans 'Мы благодарим Вас за то, что Вы воспользовались услугами нашей лаборатории. Для оценки уровня предоставления услуг нашей лабораторией просим Вас ответить на несколько вопросов, которые помогут нам сделать услуги качественнее.' %}
+									</p>
+									<ul style="font-size: 18px">
+										<li>
+											{% trans 'Как вы оцениваете качество проводимых испытаний?' %}
+											<div><input style="width: 30px" type="text" /> /10</div>
+										</li>
+										<li>
+											{% trans 'Как вы оцениваете компетентность персонала в испытательном комплексе?' %}
+											<div><input style="width: 30px" type="text" /> /10</div>
+										</li>
+										<li>
+											{% trans 'Как вы оцениваете качество обслуживания клиентов?' %}
+											<div><input style="width: 30px" type="text" /> /10</div>
+										</li>
+										<li>
+											{% trans 'Ваши предложения и комментарии по улучшению нашей работы:' %}
+											<textarea style="width: 100%"></textarea>
+										</li>
+									</ul>
 
-                                {{ form.name.label_tag }}
-                                {{ form.name }}
-                                <p class="error-message" id="name-error" style="display: none;color:red;">{% trans 'Поле "ФИО" должно быть заполнено' %}</p>
-                                <br>
-                                {{ form.email.label_tag }}
-                                {{ form.email }} 
-                                <p class="error-message" id="email-error" style="display: none;color:red;">{% trans 'Поле "Email" должно быть заполнено' %}</p>
-                                <br>
-                                {{ form.phone_number.label_tag }}
-                                {{ form.phone_number }} 
-                                <p class="error-message" id="phone_number-error" style="display: none; color:red;">{% trans 'Поле "Номер"должно быть заполнено' %}</p>
-                                <br>
-                                {{ form.Comment.label_tag }}
-                                {{ form.Comment }}
-                                <br>
-                                <button type="submit" class="btn btn-warning"
-                                    style="width: 150px; height: 60px; font-weight: 500;">{% trans 'Отправить' %}</button>
-                            </form>
-                            <div id="success-message" style="display: none;">
-                                <h1 class="text-success">{% trans 'ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА' %}!</h1>
-                            </div>
+									<div class="success-message__close">
+										<button class="success-message__close-item1">
+											{% trans 'Закрыть' %}
+										</button>
+										<button class="success-message__close-item">
+											{% trans 'Отправить' %}
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
 
-
-                        </div>
-
-                        <div class="col-md-6 text-center cer">
-                            <br>
-                            <img src="{% static 'images/img16.jpg' %}" width="70%" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
+						<div class="col-md-6 text-center cer">
+							<br />
+							<img
+								src="{% static 'images/img16.jpg' %}"
+								width="70%"
+								class="img-fluid"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </main>
 <style>
-    #success-message {
-        display: none;
-    }
+	#success-message {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 40%);
+		justify-content: center;
+		align-items: center;
+		padding: 10px 0;
+	}
+
+	.success-message__item {
+		color: black;
+		max-width: 500px;
+		background-color: white;
+		padding: 10px 20px;
+		border-radius: 8px;
+		overflow-y: auto;
+		max-height: 50vh;
+	}
+	.success-message__close {
+		display: flex;
+		justify-content: end;
+		gap: 10px;
+	}
+	.success-message__close-item {
+		color: white;
+		background-color: green;
+		border: 0;
+		padding: 10px 15px;
+		border-radius: 8px;
+	}
+	.success-message__close-item1 {
+		color: white;
+		background-color: red;
+		border: 0;
+		padding: 10px 15px;
+		border-radius: 8px;
+	}
 </style>
 <script>
-    document.getElementById('application-form').addEventListener('submit', function (event) {
-        event.preventDefault(); // Предотвращаем отправку формы по умолчанию
+	const successMessageClose = document.querySelector(
+		'.success-message__close-item'
+	)
+	const successMessageClose1 = document.querySelector(
+		'.success-message__close-item1'
+	)
+	const successMessage = document.getElementById('success-message')
 
-        var form = event.target;
+	const form = document.getElementById('application-form')
 
-        // Очищаем предыдущие сообщения об ошибках
-        var errorElements = form.querySelectorAll('.error-message');
-        errorElements.forEach(function (errorElement) {
-            errorElement.style.display = 'none';
-        });
+	successMessageClose1.addEventListener('click', () => {
+		successMessage.style.display = 'none'
+	})
 
-        // Проверяем валидность полей формы
-        var nameField = form.querySelector('#id_name');
-        var emailField = form.querySelector('#id_email');
-        var phoneField = form.querySelector('#id_phone_number');
+	successMessageClose.addEventListener('click', () => {
+		successMessage.style.display = 'none'
+	})
 
-        var nameErrorElement = document.getElementById('name-error');
-        var emailErrorElement = document.getElementById('email-error');
-        var phoneErrorElement = document.getElementById('phone_number-error');
+	document
+		.getElementById('application-form')
+		.addEventListener('submit', function (event) {
+			event.preventDefault() // Предотвращаем отправку формы по умолчанию
 
-        var isValid = true;
+			var form = event.target
 
-        if (!nameField.value) {
-            nameErrorElement.style.display = 'block';
-            isValid = false;
-        }
+			// Очищаем предыдущие сообщения об ошибках
+			var errorElements = form.querySelectorAll('.error-message')
+			errorElements.forEach(function (errorElement) {
+				errorElement.style.display = 'none'
+			})
 
-        if (!emailField.value) {
-            emailErrorElement.style.display = 'block';
-            isValid = false;
-        }
+			// Проверяем валидность полей формы
+			var nameField = form.querySelector('#id_name')
+			var emailField = form.querySelector('#id_email')
+			var phoneField = form.querySelector('#id_phone_number')
+			var commentField = form.querySelector('#id_Comment')
 
-        if (!phoneField.value) {
-            phoneErrorElement.style.display = 'block';
-            isValid = false;
-        }
+			var nameErrorElement = document.getElementById('name-error')
+			var emailErrorElement = document.getElementById('email-error')
+			var phoneErrorElement = document.getElementById('phone_number-error')
 
-        if (!isValid) {
-            return; // Прерываем отправку формы, если есть ошибки
-        }
+			var isValid = true
 
-        // Если все поля заполнены, отправляем форму AJAX-запросом
-        var formData = new FormData(form);
+			if (!nameField.value) {
+				nameErrorElement.style.display = 'block'
+				isValid = false
+			}
 
-        fetch(form.action, {
-            method: 'POST',
-            body: formData
-        })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    // Форма прошла валидацию, закрываем форму и отображаем сообщение об успешной отправке формы
-                    form.style.display = 'none';
-                    var successMessage = document.getElementById('success-message');
-                    successMessage.style.display = 'block';
-                } else {
-                    // Форма содержит ошибки валидации, отображаем ошибки
-                    Object.keys(data.errors).forEach(function (field) {
-                        var errorElement = document.getElementById(field + '-error');
-                        if (errorElement) {
-                            errorElement.style.display = 'block';
-                        }
-                    });
-                }
-            })
-            .catch(error => {
-                console.error('Произошла ошибка:', error);
-            });
-    });
+			if (!emailField.value) {
+				emailErrorElement.style.display = 'block'
+				isValid = false
+			}
+
+			if (!phoneField.value) {
+				phoneErrorElement.style.display = 'block'
+				isValid = false
+			}
+
+			if (!isValid) {
+				return // Прерываем отправку формы, если есть ошибки
+			}
+
+			// Если все поля заполнены, отправляем форму AJAX-запросом
+			var formData = new FormData(form)
+
+			fetch(form.action, {
+				method: 'POST',
+				body: formData,
+			})
+				.then(response => response.json())
+				.then(data => {
+					if (data.success) {
+						// Форма прошла валидацию, закрываем форму и отображаем сообщение об успешной отправке формы
+						commentField.value = ''
+						nameField.value = ''
+						emailField.value = ''
+						phoneField.value = ''
+						var successMessage = document.getElementById('success-message')
+						successMessage.style.display = 'flex'
+					} else {
+						// Форма содержит ошибки валидации, отображаем ошибки
+						Object.keys(data.errors).forEach(function (field) {
+							var errorElement = document.getElementById(field + '-error')
+							if (errorElement) {
+								errorElement.style.display = 'block'
+							}
+						})
+					}
+				})
+				.catch(error => {
+					console.error('Произошла ошибка:', error)
+				})
+		})
 </script>
- 
+
 {% endblock %}
