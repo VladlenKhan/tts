@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 10:38+0300\n"
+"POT-Creation-Date: 2024-07-20 13:30+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\app\forms.py:6 .\app\templates\complaint.html:37
+#: .\app\forms.py:6 .\app\templates\complaint.html:38
 msgid "ФИО"
 msgstr "FISH"
 
-#: .\app\forms.py:8 .\app\templates\complaint.html:51
+#: .\app\forms.py:8 .\app\templates\complaint.html:52
 msgid "Номер телефона"
 msgstr "Raqam"
 
-#: .\app\forms.py:9 .\app\templates\complaint.html:58
+#: .\app\forms.py:9 .\app\templates\complaint.html:59
 msgid "Ваше сообщение"
 msgstr "Sizning xabaringiz"
 
@@ -84,8 +84,8 @@ msgid "Руководитель органа по сертификации"
 msgstr "Sertifikatlashtirish organi boshlig'i"
 
 #: .\app\templates\base.html:122
-msgid "Алимжанов А.Н."
-msgstr "Alimzxanov.A.N"
+msgid "Тургунов Д.Ш."
+msgstr "Turg‘unov D.Sh."
 
 #: .\app\templates\base.html:124 .\app\templates\home.html:383
 msgid "Начальник испытательной лаборатории"
@@ -498,11 +498,10 @@ msgstr "SHIKOYATLAR VA DA'VOLAR"
 
 #: .\app\templates\complaint.html:23
 msgid ""
-"Если у Вас возникли жалобы и претензии по деятельности лаборатории, Вы "
-"можете:"
+"Если у Вас возникли жалобы и претензии по деятельности лаборатории и органа "
+"по сертификации, Вы можете:"
 msgstr ""
-"Agar sizda laboratoriya faoliyati yuzasidan shikoyat yoki da'volaringiz "
-"bo'lsa, siz qila olasizmi:"
+"Agar sizda laboratoriya yoki sertifikatlashtirish organining faoliyati yuzasidan shikoyat yoki da'volaringiz bo'lsa, siz:"
 
 #: .\app\templates\complaint.html:24
 msgid ""
@@ -526,29 +525,37 @@ msgstr "U.A. Abdurazzokov"
 msgid "Начальник лаборатории:"
 msgstr "Sinov laboratoriyasi boshli'gi"
 
-#: .\app\templates\complaint.html:32
+#: .\app\templates\complaint.html:29
+msgid "Руководитель органа:"
+msgstr "Tananing boshi:"
+
+#: .\app\templates\complaint.html:29
+msgid "Д.Ш. Тургунов"
+msgstr "D.Sh. Turg'unov"
+
+#: .\app\templates\complaint.html:33
 msgid "Направить претензию можно здесь:"
 msgstr "Bu yerda daʼvo yuborishingiz mumkin:"
 
-#: .\app\templates\complaint.html:40 .\app\templates\home.html:591
+#: .\app\templates\complaint.html:41 .\app\templates\home.html:591
 msgid "Поле \"ФИО\" должно быть заполнено"
 msgstr "Nom maydoni to'ldirilishi kerak"
 
-#: .\app\templates\complaint.html:44
+#: .\app\templates\complaint.html:45
 msgid "Email"
 msgstr ""
 
-#: .\app\templates\complaint.html:47 .\app\templates\home.html:600
+#: .\app\templates\complaint.html:48 .\app\templates\home.html:600
 msgid "Поле \"Email\" должно быть заполнено"
 msgstr "Email maydoni to'ldirilishi kerak"
 
-#: .\app\templates\complaint.html:54
+#: .\app\templates\complaint.html:55
 #, fuzzy
 #| msgid "Поле \"Номер\"должно быть заполнено"
 msgid "Поле \"Номер телефона\" должно быть заполнено"
 msgstr "Raqam maydoni to'ldirilishi kerak"
 
-#: .\app\templates\complaint.html:63
+#: .\app\templates\complaint.html:64
 msgid ""
 "Порядок рассмотрения апелляции, жалобы и предложений регламентируется "
 "внутренним документом ПСМ-ПР-05 \"Управление претензиями и апелляциями\". "
@@ -560,12 +567,12 @@ msgstr ""
 "hujjat barcha manfaatdor tomonlarning so'roviga binoan mavjud. Barcha da’vo "
 "va shikoyatlar laboratoriyaning ichki hujjatlarida qayd etilgan."
 
-#: .\app\templates\complaint.html:67 .\app\templates\home.html:619
+#: .\app\templates\complaint.html:68 .\app\templates\home.html:619
 #: .\app\templates\home.html:654
 msgid "Отправить"
 msgstr "Joʻnatish"
 
-#: .\app\templates\complaint.html:71
+#: .\app\templates\complaint.html:72
 msgid "Жалоба успешно отправлена!"
 msgstr "Shikoyat muvaffaqiyatli yuborildi!"
 
@@ -2143,6 +2150,9 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "Алимжанов А.Н."
+#~ msgstr "Alimzxanov.A.N"
 
 #~ msgid "оставьте заявку и мы с радостью вам поможем получить сертификат"
 #~ msgstr ""
