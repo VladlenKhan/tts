@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 00:12+0300\n"
+"POT-Creation-Date: 2024-07-20 10:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\app\forms.py:6
+#: .\app\forms.py:6 .\app\templates\complaint.html:37
 msgid "ФИО"
 msgstr "FISH"
 
-#: .\app\forms.py:8
+#: .\app\forms.py:8 .\app\templates\complaint.html:51
 msgid "Номер телефона"
 msgstr "Raqam"
 
-#: .\app\forms.py:9
+#: .\app\forms.py:9 .\app\templates\complaint.html:58
 msgid "Ваше сообщение"
 msgstr "Sizning xabaringiz"
 
@@ -46,19 +46,23 @@ msgstr "BIZ HAQIMIZDA"
 msgid "КОМАНДА"
 msgstr "JAMOA"
 
-#: .\app\templates\base.html:92
+#: .\app\templates\base.html:91
+msgid "ЖАЛОБЫ И ПРЕТЕНЗИИ"
+msgstr "SHIKOYATLAR VA DA'VOLAR"
+
+#: .\app\templates\base.html:95
 msgid "Связаться с нами"
 msgstr "Biz bilan bog'laning"
 
-#: .\app\templates\base.html:108
+#: .\app\templates\base.html:111
 msgid "Наши контакты"
 msgstr "Biz bilan bog'laning"
 
-#: .\app\templates\base.html:116
+#: .\app\templates\base.html:119
 msgid "Адрес"
 msgstr "Manzilgoh"
 
-#: .\app\templates\base.html:116
+#: .\app\templates\base.html:119
 msgid ""
 "Ташкентская обл., Зангиатинский район, Эркин КФЙ, автомагистрал М-39 (SN "
 "INVEST)"
@@ -66,32 +70,32 @@ msgstr ""
 "Toshkent viloyati, Zangiota tumani, Erkin KFY, M-39 magistral yo'li (SN "
 "INVEST)"
 
-#: .\app\templates\base.html:117
+#: .\app\templates\base.html:120
 msgid "Директор: У.А. Абдураззоков"
 msgstr "Direktor: U.A. Abdurazzokov"
 
-#: .\app\templates\base.html:118 .\app\templates\base.html:120
-#: .\app\templates\base.html:122
+#: .\app\templates\base.html:121 .\app\templates\base.html:123
+#: .\app\templates\base.html:125
 msgid "Тел"
 msgstr "Tel"
 
-#: .\app\templates\base.html:119 .\app\templates\home.html:363
+#: .\app\templates\base.html:122 .\app\templates\home.html:363
 msgid "Руководитель органа по сертификации"
 msgstr "Sertifikatlashtirish organi boshlig'i"
 
-#: .\app\templates\base.html:119
+#: .\app\templates\base.html:122
 msgid "Алимжанов А.Н."
 msgstr "Alimzxanov.A.N"
 
-#: .\app\templates\base.html:121 .\app\templates\home.html:383
+#: .\app\templates\base.html:124 .\app\templates\home.html:383
 msgid "Начальник испытательной лаборатории"
 msgstr "Sinov laboratoriyasi boshli'gi"
 
-#: .\app\templates\base.html:121
+#: .\app\templates\base.html:124 .\app\templates\complaint.html:28
 msgid "З.Т. Усманов"
 msgstr "Z.T. Usmanov"
 
-#: .\app\templates\base.html:123
+#: .\app\templates\base.html:126
 msgid "Мы в социальных сетях"
 msgstr "Biz ijtimoiy tarmoqlarda"
 
@@ -488,6 +492,83 @@ msgstr ""
 "sertifikati beriladi mahsulotlar, va ommaviy ishlab chiqariladigan "
 "mahsulotlar uchun - 3 yil muddatga"
 
+#: .\app\templates\complaint.html:20
+msgid "Жалобы и претензии"
+msgstr "SHIKOYATLAR VA DA'VOLAR"
+
+#: .\app\templates\complaint.html:23
+msgid ""
+"Если у Вас возникли жалобы и претензии по деятельности лаборатории, Вы "
+"можете:"
+msgstr ""
+"Agar sizda laboratoriya faoliyati yuzasidan shikoyat yoki da'volaringiz "
+"bo'lsa, siz qila olasizmi:"
+
+#: .\app\templates\complaint.html:24
+msgid ""
+"Направить жалобу можно официальным письмом,  по электронной почте по адресу: "
+msgstr ""
+"Shikoyatni rasmiy xat yoki elektron pochta orqali yuborishingiz mumkin: "
+
+#: .\app\templates\complaint.html:26
+msgid "позвонив на один из следующих номеров:  "
+msgstr "quyidagi raqamlardan biriga qo'ng'iroq qilib: "
+
+#: .\app\templates\complaint.html:27
+msgid "Директор ООО:"
+msgstr "MChJ direktori:"
+
+#: .\app\templates\complaint.html:27
+msgid "У.А. Абдураззоков"
+msgstr "U.A. Abdurazzokov"
+
+#: .\app\templates\complaint.html:28
+msgid "Начальник лаборатории:"
+msgstr "Sinov laboratoriyasi boshli'gi"
+
+#: .\app\templates\complaint.html:32
+msgid "Направить претензию можно здесь:"
+msgstr "Bu yerda daʼvo yuborishingiz mumkin:"
+
+#: .\app\templates\complaint.html:40 .\app\templates\home.html:591
+msgid "Поле \"ФИО\" должно быть заполнено"
+msgstr "Nom maydoni to'ldirilishi kerak"
+
+#: .\app\templates\complaint.html:44
+msgid "Email"
+msgstr ""
+
+#: .\app\templates\complaint.html:47 .\app\templates\home.html:600
+msgid "Поле \"Email\" должно быть заполнено"
+msgstr "Email maydoni to'ldirilishi kerak"
+
+#: .\app\templates\complaint.html:54
+#, fuzzy
+#| msgid "Поле \"Номер\"должно быть заполнено"
+msgid "Поле \"Номер телефона\" должно быть заполнено"
+msgstr "Raqam maydoni to'ldirilishi kerak"
+
+#: .\app\templates\complaint.html:63
+msgid ""
+"Порядок рассмотрения апелляции, жалобы и предложений регламентируется "
+"внутренним документом ПСМ-ПР-05 \"Управление претензиями и апелляциями\". "
+"Данный документ по запросу предоставляется всем заинтересованным сторонам. "
+"Все претензии и жалобы регистрируются во внутренней документации лаборатории."
+msgstr ""
+"Murojaat, shikoyat va takliflarni ko‘rib chiqish tartibi tartibga solindi "
+"PSM-PR-05 \"Da'volar va murojaatlarni boshqarish\" ichki hujjati. Ushbu "
+"hujjat barcha manfaatdor tomonlarning so'roviga binoan mavjud. Barcha da’vo "
+"va shikoyatlar laboratoriyaning ichki hujjatlarida qayd etilgan."
+
+#: .\app\templates\complaint.html:67 .\app\templates\home.html:619
+#: .\app\templates\home.html:654
+msgid "Отправить"
+msgstr "Joʻnatish"
+
+#: .\app\templates\complaint.html:71
+msgid "Жалоба успешно отправлена!"
+msgstr "Shikoyat muvaffaqiyatli yuborildi!"
+
 #: .\app\templates\home.html:20
 msgid "ОРГАН ПО СЕРТИФИКАЦИИ"
 msgstr "SERTIFIKATLASHTIRISH ORGANI"
@@ -829,21 +910,9 @@ msgstr ""
 "Bu yerda MChJ faoliyatiga oid taklif va savollaringizni qoldirishingiz mumkin"
 "\"AVTO STANDART ETALON\""
 
-#: .\app\templates\home.html:591
-msgid "Поле \"ФИО\" должно быть заполнено"
-msgstr "Nom maydoni to'ldirilishi kerak"
-
-#: .\app\templates\home.html:600
-msgid "Поле \"Email\" должно быть заполнено"
-msgstr "Email maydoni to'ldirilishi kerak"
-
 #: .\app\templates\home.html:609
 msgid "Поле \"Номер\"должно быть заполнено"
 msgstr "Raqam maydoni to'ldirilishi kerak"
-
-#: .\app\templates\home.html:619 .\app\templates\home.html:654
-msgid "Отправить"
-msgstr "Joʻnatish"
 
 #: .\app\templates\home.html:625
 msgid "ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА"
@@ -856,10 +925,10 @@ msgid ""
 "ответить на несколько вопросов, которые помогут нам сделать услуги "
 "качественнее."
 msgstr ""
-"Laboratoriyamiz xizmatlaridan foydalanganingiz uchun minnatdorchilik bildiramiz. "
-"Laboratoriyamiz tomonidan ko'rsatilayotgan xizmat darajasini baholash uchun sizdan so'raymiz"
-"xizmat ko'rsatishga yordam beradigan bir nechta savollarga javob bering"
-"yaxshiroq sifat."
+"Laboratoriyamiz xizmatlaridan foydalanganingiz uchun minnatdorchilik "
+"bildiramiz. Laboratoriyamiz tomonidan ko'rsatilayotgan xizmat darajasini "
+"baholash uchun sizdan so'raymizxizmat ko'rsatishga yordam beradigan bir "
+"nechta savollarga javob beringyaxshiroq sifat."
 
 #: .\app\templates\home.html:632
 msgid "Как вы оцениваете качество проводимых испытаний?"
@@ -867,7 +936,9 @@ msgstr "O'tkazilayotgan testlar sifatini qanday baholaysiz?"
 
 #: .\app\templates\home.html:636
 msgid "Как вы оцениваете компетентность персонала в испытательном комплексе?"
-msgstr "Test sinovi o'tkaziladigan muassasa xodimlarining malakasini qanday baholaysiz?"
+msgstr ""
+"Test sinovi o'tkaziladigan muassasa xodimlarining malakasini qanday "
+"baholaysiz?"
 
 #: .\app\templates\home.html:640
 msgid "Как вы оцениваете качество обслуживания клиентов?"

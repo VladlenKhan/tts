@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <style>
+        .success-message {
+            display: none;
+            font-size: 2rem; /* Увеличиваем размер шрифта */
+            color: limegreen; /* Яркий зеленый цвет */
+            font-weight: bold; /* Жирный шрифт */
+        }
+    </style>
+<section class="back2" id="apl-form">
+		<div style="display: flex; justify-content: center; align-items: center">
+			<div class="text-white">
+				<div class="container">
+					<div style="display: flex; justify-content: center">
+						<div class="col-md-6">
+							<p style="font-size: 2.2rem">
+								<strong>{% trans 'Жалобы и претензии'%}</strong>
+							</p>
+							<p style="font-size: 1.3rem">
+								{% trans 'Если у Вас возникли жалобы и претензии по деятельности лаборатории, Вы можете:'%}
+                                <p>- {% trans 'Направить жалобу можно официальным письмом,  по электронной почте по адресу: ' %}</p>
+                                <p>
+                                    - {% trans 'позвонив на один из следующих номеров:  ' %}
+                                    <p>* {% trans 'Директор ООО:' %} +998 90 315 41 83 ({% trans 'У.А. Абдураззоков' %})</p>
+                                    <p>* {% trans 'Начальник лаборатории:' %} +998 93 384 99 40 ({% trans 'З.Т. Усманов' %})</p>
+                                </p>
+							</p>
+							<p style="font-size: 1.3rem">
+								{% trans 'Направить претензию можно здесь:'%}
+							</p>
+							<form method="post" class="form" id="application-form">
+        {% csrf_token %}
+        
+        <label for="name">{% trans 'ФИО' %}</label>
+        <input type="text" id="name" name="name" class="form-control" maxlength="50">
+        <p class="error-message" id="name-error" style="display: none; color: red">
+            {% trans 'Поле "ФИО" должно быть заполнено' %}
+        </p>
+        <br />
+        
+        <label for="email">{% trans 'Email' %}</label>
+        <input type="email" id="email" name="email" class="form-control">
+        <p class="error-message" id="email-error" style="display: none; color: red">
+            {% trans 'Поле "Email" должно быть заполнено' %}
+        </p>
+        <br />
+        
+        <label for="phone_number">{% trans 'Номер телефона' %}</label>
+        <input type="text" id="phone_number" name="phone_number" class="form-control" maxlength="30">
+        <p class="error-message" id="phone_number-error" style="display: none; color: red">
+            {% trans 'Поле "Номер телефона" должно быть заполнено' %}
+        </p>
+        <br />
+        
+        <label for="comment">{% trans 'Ваше сообщение' %}</label>
+        <textarea id="comment" name="Comment" class="form-control" cols="30" rows="10"></textarea>
+        <br />
+        
+        <p style="font-size: 1.3rem">
+            {% trans 'Порядок рассмотрения апелляции, жалобы и предложений регламентируется внутренним документом ПСМ-ПР-05 "Управление претензиями и апелляциями". Данный документ по запросу предоставляется всем заинтересованным сторонам. Все претензии и жалобы регистрируются во внутренней документации лаборатории.' %}
+        </p>
+        
+        <button type="submit" class="btn btn-warning" style="width: 150px; height: 60px; font-weight: 500">
+            {% trans 'Отправить' %}
+        </button>
+    </form>
+                            <p class="success-message" id="success-message">
+                                {% trans 'Жалоба успешно отправлена!' %}
+                            </p>
+
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script>
+        document.getElementById('application-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Останавливаем стандартное поведение отправки формы
+            // Здесь можно добавить AJAX запрос для отправки формы на сервер
+            document.getElementById('application-form').style.display = 'none';
+            document.getElementById('success-message').style.display = 'block';
+        });
+    </script>
+{% endblock %}

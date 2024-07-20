@@ -26,3 +26,8 @@ def home(request):
 
 def certificate(request):
     return render(request, 'certificate.html')
+
+
+def complaint(request):
+
+    return render(request, "complaint.html", )
