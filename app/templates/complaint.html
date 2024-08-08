@@ -32,42 +32,47 @@
 							<p style="font-size: 1.3rem">
 								{% trans 'Направить претензию можно здесь:'%}
 							</p>
-							<form method="post" class="form" id="application-form">
-        {% csrf_token %}
-        
-        <label for="name">{% trans 'ФИО' %}</label>
-        <input type="text" id="name" name="name" class="form-control" maxlength="50">
-        <p class="error-message" id="name-error" style="display: none; color: red">
-            {% trans 'Поле "ФИО" должно быть заполнено' %}
-        </p>
-        <br />
-        
-        <label for="email">{% trans 'Email' %}</label>
-        <input type="email" id="email" name="email" class="form-control">
-        <p class="error-message" id="email-error" style="display: none; color: red">
-            {% trans 'Поле "Email" должно быть заполнено' %}
-        </p>
-        <br />
-        
-        <label for="phone_number">{% trans 'Номер телефона' %}</label>
-        <input type="text" id="phone_number" name="phone_number" class="form-control" maxlength="30">
-        <p class="error-message" id="phone_number-error" style="display: none; color: red">
-            {% trans 'Поле "Номер телефона" должно быть заполнено' %}
-        </p>
-        <br />
-        
-        <label for="comment">{% trans 'Ваше сообщение' %}</label>
-        <textarea id="comment" name="Comment" class="form-control" cols="30" rows="10"></textarea>
-        <br />
-        
-        <p style="font-size: 1.3rem">
-            {% trans 'Порядок рассмотрения апелляции, жалобы и предложений регламентируется внутренним документом ПСМ-ПР-05 "Управление претензиями и апелляциями". Данный документ по запросу предоставляется всем заинтересованным сторонам. Все претензии и жалобы регистрируются во внутренней документации лаборатории.' %}
-        </p>
-        
-        <button type="submit" class="btn btn-warning" style="width: 150px; height: 60px; font-weight: 500">
-            {% trans 'Отправить' %}
-        </button>
-    </form>
+							<form method="post" class="form" id="application-form" action="{% url 'application_form' %}">
+    {% csrf_token %}
+    
+    <label for="name">{% trans 'ФИО' %}</label>
+    <input type="text" id="name" name="name" class="form-control" maxlength="50" required>
+    <p class="error-message" id="name-error" style="display: none; color: red">
+        {% trans 'Поле "ФИО" должно быть заполнено' %}
+    </p>
+    <br />
+    
+    <label for="email">{% trans 'Email' %}</label>
+    <input type="email" id="email" name="email" class="form-control" required>
+    <p class="error-message" id="email-error" style="display: none; color: red">
+        {% trans 'Поле "Email" должно быть заполнено' %}
+    </p>
+    <br />
+    
+    <label for="phone_number">{% trans 'Номер телефона' %}</label>
+    <input type="text" id="phone_number" name="phone_number" class="form-control" maxlength="30" required>
+    <p class="error-message" id="phone_number-error" style="display: none; color: red">
+        {% trans 'Поле "Номер телефона" должно быть заполнено' %}
+    </p>
+    <br />
+    
+    <label for="comment">{% trans 'Ваше сообщение' %}</label>
+    <textarea id="comment" name="Comment" class="form-control" cols="30" rows="10" required></textarea>
+    <br />
+    
+    <p style="font-size: 1.3rem">
+        {% trans 'Порядок рассмотрения апелляции, жалобы и предложений регламентируется внутренним документом ПСМ-ПР-05 "Управление претензиями и апелляциями". Данный документ по запросу предоставляется всем заинтересованным сторонам. Все претензии и жалобы регистрируются во внутренней документации лаборатории.' %}
+    </p>
+    
+    <button type="submit" class="btn btn-warning" style="width: 150px; height: 60px; font-weight: 500">
+        {% trans 'Отправить' %}
+    </button>
+</form>
+
+<div id="success-message" style="display: none; font-size: 2rem; color: greenyellow;">
+    {% trans 'Жалоба успешно отправлена!' %}
+</div>
+
                             <p class="success-message" id="success-message">
                                 {% trans 'Жалоба успешно отправлена!' %}
                             </p>
@@ -82,11 +87,66 @@
 		</div>
 	</section>
     <script>
-        document.getElementById('application-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Останавливаем стандартное поведение отправки формы
-            // Здесь можно добавить AJAX запрос для отправки формы на сервер
-            document.getElementById('application-form').style.display = 'none';
-            document.getElementById('success-message').style.display = 'block';
-        });
-    </script>
+    document.getElementById('application-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Останавливаем стандартное поведение отправки формы
+        
+        // Валидация всех полей
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phoneNumber = document.getElementById('phone_number').value.trim();
+        const comment = document.getElementById('comment').value.trim();
+        
+        let isValid = true;
+        
+        if (!name) {
+            document.getElementById('name-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('name-error').style.display = 'none';
+        }
+        
+        if (!email) {
+            document.getElementById('email-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('email-error').style.display = 'none';
+        }
+        
+        if (!phoneNumber) {
+            document.getElementById('phone_number-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('phone_number-error').style.display = 'none';
+        }
+        
+        if (!comment) {
+            alert('{% trans "Поле \"Ваше сообщение\" должно быть заполнено" %}');
+            isValid = false;
+        }
+        
+        if (isValid) {
+            // Создаем объект FormData и добавляем в него данные формы
+            const formData = new FormData(document.getElementById('application-form'));
+            
+            // Отправляем AJAX запрос с использованием fetch API
+            fetch('{% url "application_form" %}', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}' // Добавляем CSRF токен в заголовок запроса
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data); // Обрабатываем ответ сервера
+                document.getElementById('application-form').style.display = 'none';
+                document.getElementById('success-message').style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Ошибка:', error); // Обрабатываем ошибки
+            });
+        }
+    });
+</script>
+
 {% endblock %}
