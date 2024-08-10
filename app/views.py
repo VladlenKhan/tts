@@ -9,11 +9,8 @@ from asgiref.sync import async_to_sync
 
 async def send_message_async(message):
     async with bot:
-        for user_id in user_ids:
-            try:
-                await bot.send_message(chat_id=user_id, text=message, parse_mode='Markdown')
-            except Exception as e:
-                continue
+        await bot.send_message(chat_id="-1002152314733", text=message, parse_mode='Markdown')
+
 
 
 def home(request):
