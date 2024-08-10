@@ -3,12 +3,17 @@ from django.contrib import messages
 from .forms import ApplicationForm
 from django.http import JsonResponse
 from django.http import JsonResponse
-from tgbot.bot import bot
+from tgbot.config import bot, user_ids
 from asgiref.sync import async_to_sync
+
 
 async def send_message_async(message):
     async with bot:
-        await bot.send_message(chat_id=1277329197, text=message, parse_mode='Markdown')
+        for user_id in user_ids:
+            try:
+                await bot.send_message(chat_id=user_id, text=message, parse_mode='Markdown')
+            except Exception as e:
+                continue
 
 
 def home(request):
@@ -87,7 +92,7 @@ def application_view(request):
         comment = request.POST.get('Comment')
 
         if not name or not email or not phone_number or not comment:
-            return JsonResponse({'error': 'Все поля должны быть заполнены'}, status=400)
+            return JsonResponse({'success': False, 'error': 'Все поля должны быть заполнены'}, status=400)
 
         # Форматирование сообщения
         message = (
@@ -99,11 +104,10 @@ def application_view(request):
             f"*Сообщение:* {comment}"
         )
 
-        async_to_sync(send_message_async)(message)
         # Отправка сообщения через бота
+        async_to_sync(send_message_async)(message)
 
         # Ответ с JSON объектом для AJAX запроса
-        return JsonResponse({'message': 'Форма успешно отправлена!'})
+        return JsonResponse({'success': True, 'message': 'Форма успешно отправлена!'}, status=200)
 
     return render(request, 'complaint.html')
-

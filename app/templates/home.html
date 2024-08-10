@@ -839,80 +839,90 @@
 
 
 	document
-		.getElementById('application-form')
-		.addEventListener('submit', function (event) {
-			event.preventDefault() // Предотвращаем отправку формы по умолчанию
+    .getElementById('application-form')
+    .addEventListener('submit', function (event) {
+        event.preventDefault(); // Предотвращаем отправку формы по умолчанию
 
-			var form = event.target
+        var form = event.target;
 
-			// Очищаем предыдущие сообщения об ошибках
-			var errorElements = form.querySelectorAll('.error-message')
-			errorElements.forEach(function (errorElement) {
-				errorElement.style.display = 'none'
-			})
+        // Очищаем предыдущие сообщения об ошибках
+        var errorElements = form.querySelectorAll('.error-message');
+        errorElements.forEach(function (errorElement) {
+            errorElement.style.display = 'none';
+        });
 
-			// Проверяем валидность полей формы
-			var nameField = form.querySelector('#id_name')
-			var emailField = form.querySelector('#id_email')
-			var phoneField = form.querySelector('#id_phone_number')
-			var commentField = form.querySelector('#id_Comment')
+        // Проверяем валидность полей формы
+        var nameField = form.querySelector('#id_name');
+        var emailField = form.querySelector('#id_email');
+        var phoneField = form.querySelector('#id_phone_number');
+        var commentField = form.querySelector('#id_Comment');
 
-			var nameErrorElement = document.getElementById('name-error')
-			var emailErrorElement = document.getElementById('email-error')
-			var phoneErrorElement = document.getElementById('phone_number-error')
+        var nameErrorElement = document.getElementById('name-error');
+        var emailErrorElement = document.getElementById('email-error');
+        var phoneErrorElement = document.getElementById('phone_number-error');
 
-			var isValid = true
+        var isValid = true;
 
-			if (!nameField.value) {
-				nameErrorElement.style.display = 'block'
-				isValid = false
-			}
+        if (!nameField.value) {
+            nameErrorElement.style.display = 'block';
+            isValid = false;
+        }
 
-			if (!emailField.value) {
-				emailErrorElement.style.display = 'block'
-				isValid = false
-			}
+        if (!emailField.value) {
+            emailErrorElement.style.display = 'block';
+            isValid = false;
+        }
 
-			if (!phoneField.value) {
-				phoneErrorElement.style.display = 'block'
-				isValid = false
-			}
+        if (!phoneField.value) {
+            phoneErrorElement.style.display = 'block';
+            isValid = false;
+        }
 
-			if (!isValid) {
-				return // Прерываем отправку формы, если есть ошибки
-			}
+        if (!isValid) {
+            return; // Прерываем отправку формы, если есть ошибки
+        }
 
-			// Если все поля заполнены, отправляем форму AJAX-запросом
-			var formData = new FormData(form)
+        // Блокируем кнопку отправки формы
+        var submitButton = form.querySelector('button[type="submit"]');
+        submitButton.disabled = true;
+        submitButton.innerText = 'Отправка...';
 
-			fetch(form.action, {
-				method: 'POST',
-				body: formData,
-			})
-				.then(response => response.json())
-				.then(data => {
-					if (data.success) {
-						// Форма прошла валидацию, закрываем форму и отображаем сообщение об успешной отправке формы
-						commentField.value = ''
-						nameField.value = ''
-						emailField.value = ''
-						phoneField.value = ''
-						var successMessage = document.getElementById('success-message')
-						successMessage.style.display = 'flex'
-					} else {
-						// Форма содержит ошибки валидации, отображаем ошибки
-						Object.keys(data.errors).forEach(function (field) {
-							var errorElement = document.getElementById(field + '-error')
-							if (errorElement) {
-								errorElement.style.display = 'block'
-							}
-						})
-					}
-				})
-				.catch(error => {
-					console.error('Произошла ошибка:', error)
-				})
-		})
+        // Если все поля заполнены, отправляем форму AJAX-запросом
+        var formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Форма прошла валидацию, закрываем форму и отображаем сообщение об успешной отправке формы
+                    commentField.value = '';
+                    nameField.value = '';
+                    emailField.value = '';
+                    phoneField.value = '';
+                    var successMessage = document.getElementById('success-message');
+                    successMessage.style.display = 'flex';
+                } else {
+                    // Форма содержит ошибки валидации, отображаем ошибки
+                    Object.keys(data.errors).forEach(function (field) {
+                        var errorElement = document.getElementById(field + '-error');
+                        if (errorElement) {
+                            errorElement.style.display = 'block';
+                        }
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            })
+            .finally(() => {
+                // Разблокируем кнопку после завершения запроса
+                submitButton.disabled = false;
+                submitButton.innerText = 'Отправить';
+            });
+    });
 </script>
 
 {% endblock %}

@@ -88,65 +88,86 @@
 	</section>
     <script>
     document.getElementById('application-form').addEventListener('submit', function(event) {
-        event.preventDefault(); // Останавливаем стандартное поведение отправки формы
+    event.preventDefault(); // Останавливаем стандартное поведение отправки формы
+    
+    // Валидация всех полей
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phoneNumber = document.getElementById('phone_number').value.trim();
+    const comment = document.getElementById('comment').value.trim();
+    
+    let isValid = true;
+    
+    if (!name) {
+        document.getElementById('name-error').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('name-error').style.display = 'none';
+    }
+    
+    if (!email) {
+        document.getElementById('email-error').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('email-error').style.display = 'none';
+    }
+    
+    if (!phoneNumber) {
+        document.getElementById('phone_number-error').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phone_number-error').style.display = 'none';
+    }
+    
+    if (!comment) {
+        alert('Поле "Ваше сообщение" должно быть заполнено');
+        isValid = false;
+    }
+    
+    if (isValid) {
+        // Блокируем кнопку отправки
+        const submitButton = document.querySelector('#application-form button[type="submit"]');
+        submitButton.disabled = true;
+        submitButton.innerText = 'Отправка...';
+
+        // Создаем объект FormData и добавляем в него данные формы
+        const formData = new FormData(document.getElementById('application-form'));
         
-        // Валидация всех полей
-        const name = document.getElementById('name').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const phoneNumber = document.getElementById('phone_number').value.trim();
-        const comment = document.getElementById('comment').value.trim();
-        
-        let isValid = true;
-        
-        if (!name) {
-            document.getElementById('name-error').style.display = 'block';
-            isValid = false;
-        } else {
-            document.getElementById('name-error').style.display = 'none';
-        }
-        
-        if (!email) {
-            document.getElementById('email-error').style.display = 'block';
-            isValid = false;
-        } else {
-            document.getElementById('email-error').style.display = 'none';
-        }
-        
-        if (!phoneNumber) {
-            document.getElementById('phone_number-error').style.display = 'block';
-            isValid = false;
-        } else {
-            document.getElementById('phone_number-error').style.display = 'none';
-        }
-        
-        if (!comment) {
-            alert('{% trans "Поле \"Ваше сообщение\" должно быть заполнено" %}');
-            isValid = false;
-        }
-        
-        if (isValid) {
-            // Создаем объект FormData и добавляем в него данные формы
-            const formData = new FormData(document.getElementById('application-form'));
-            
-            // Отправляем AJAX запрос с использованием fetch API
-            fetch('{% url "application_form" %}', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'X-CSRFToken': '{{ csrf_token }}' // Добавляем CSRF токен в заголовок запроса
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log(data); // Обрабатываем ответ сервера
+        // Отправляем AJAX запрос с использованием fetch API
+        fetch('{% url "application_form" %}', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}' // Добавляем CSRF токен в заголовок запроса
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.success) {
                 document.getElementById('application-form').style.display = 'none';
                 document.getElementById('success-message').style.display = 'block';
-            })
-            .catch(error => {
-                console.error('Ошибка:', error); // Обрабатываем ошибки
-            });
-        }
-    });
+            } else {
+                alert('Произошла ошибка при отправке формы: ' + data.error);
+            }
+        })
+        .catch(error => {
+            console.error('Ошибка:', error);
+            alert('Произошла ошибка при отправке формы. Пожалуйста, попробуйте снова.');
+        })
+        .finally(() => {
+            // Разблокируем кнопку отправки
+            submitButton.disabled = false;
+            submitButton.innerText = 'Отправить';
+        });
+    }
+});
+
+
 </script>
 
 {% endblock %}
