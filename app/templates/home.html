@@ -620,42 +620,62 @@
 								</button>
 							</form>
 							<div id="success-message" style="display: none">
-								<div class="success-message__item">
-									<h2 class="text-success">
-										{% trans 'ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА' %}!
-									</h2>
-									<p style="font-size: 20px">
-										{% trans 'Мы благодарим Вас за то, что Вы воспользовались услугами нашей лаборатории. Для оценки уровня предоставления услуг нашей лабораторией просим Вас ответить на несколько вопросов, которые помогут нам сделать услуги качественнее.' %}
-									</p>
-									<ul style="font-size: 18px">
-										<li>
-											{% trans 'Как вы оцениваете качество проводимых испытаний?' %}
-											<div><input style="width: 30px" type="text" /> /10</div>
-										</li>
-										<li>
-											{% trans 'Как вы оцениваете компетентность персонала в испытательном комплексе?' %}
-											<div><input style="width: 30px" type="text" /> /10</div>
-										</li>
-										<li>
-											{% trans 'Как вы оцениваете качество обслуживания клиентов?' %}
-											<div><input style="width: 30px" type="text" /> /10</div>
-										</li>
-										<li>
-											{% trans 'Ваши предложения и комментарии по улучшению нашей работы:' %}
-											<textarea style="width: 100%"></textarea>
-										</li>
-									</ul>
+    <form method="post" action="{% url 'feedback_form' %}">
+        {% csrf_token %}
+        <div class="success-message__item">
+            <h2 class="text-success">
+                ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА!
+            </h2>
+            <p style="font-size: 20px">
+                Мы благодарим Вас за то, что Вы воспользовались услугами нашей лаборатории. Для оценки уровня предоставления услуг нашей лабораторией просим Вас ответить на несколько вопросов, которые помогут нам сделать услуги качественнее.
+            </p>
+            <ul style="font-size: 18px">
+                <li>
+                    Как вы оцениваете качество проводимых испытаний?
+                    <div>
+                        <input style="width: 30px" type="text" name="quality_rating" required> /10
+                        <p class="error-message" id="quality_rating-error" style="display: none; color: red">
+                            Поле "Качество проводимых испытаний" должно быть заполнено
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Как вы оцениваете компетентность персонала в испытательном комплексе?
+                    <div>
+                        <input style="width: 30px" type="text" name="competence_rating" required> /10
+                        <p class="error-message" id="competence_rating-error" style="display: none; color: red">
+                            Поле "Компетентность персонала" должно быть заполнено
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Как вы оцениваете качество обслуживания клиентов?
+                    <div>
+                        <input style="width: 30px" type="text" name="service_rating" required> /10
+                        <p class="error-message" id="service_rating-error" style="display: none; color: red">
+                            Поле "Качество обслуживания клиентов" должно быть заполнено
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Ваши предложения и комментарии по улучшению нашей работы:
+                    <textarea style="width: 100%" name="suggestions"></textarea>
+                </li>
+            </ul>
 
-									<div class="success-message__close">
-										<button class="success-message__close-item1">
-											{% trans 'Закрыть' %}
-										</button>
-										<button class="success-message__close-item">
-											{% trans 'Отправить' %}
-										</button>
-									</div>
-								</div>
-							</div>
+            <div class="success-message__close">
+                <button type="button" class="success-message__close-item1">
+                    Закрыть
+                </button>
+                <button type="submit" class="success-message__close-item">
+                    Отправить
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
 						</div>
 
 						<div class="col-md-6 text-center cer">
@@ -716,100 +736,193 @@
 		border-radius: 8px;
 	}
 </style>
+    <script>
+    document.querySelector('.success-message__close-item').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        var feedbackForm = event.target.closest('form');
+
+        // Clear previous error messages
+        var errorElements = feedbackForm.querySelectorAll('.error-message');
+        errorElements.forEach(function(errorElement) {
+            errorElement.style.display = 'none';
+        });
+
+        // Validate required fields
+        var qualityRating = feedbackForm.querySelector('input[name="quality_rating"]');
+        var competenceRating = feedbackForm.querySelector('input[name="competence_rating"]');
+        var serviceRating = feedbackForm.querySelector('input[name="service_rating"]');
+
+        var isValid = true;
+
+        if (!qualityRating.value) {
+            var errorElement = document.getElementById('quality_rating-error');
+            errorElement.style.display = 'block';
+            isValid = false;
+        }
+
+        if (!competenceRating.value) {
+            var errorElement = document.getElementById('competence_rating-error');
+            errorElement.style.display = 'block';
+            isValid = false;
+        }
+
+        if (!serviceRating.value) {
+            var errorElement = document.getElementById('service_rating-error');
+            errorElement.style.display = 'block';
+            isValid = false;
+        }
+
+        if (!isValid) {
+            return; // Stop form submission if validation fails
+        }
+
+        // If all required fields are filled, send the form via AJAX
+        var formData = new FormData(feedbackForm);
+
+        fetch(feedbackForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}' // Adding CSRF token in header
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                return response.json().then(data => {
+                    throw data;
+                });
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.message) {
+                // Handle success
+                console.log('Success:', data.message);
+                feedbackForm.reset();
+                document.getElementById('success-message').style.display = 'none';
+            }
+        })
+        .catch(error => {
+            if (error.errors) {
+                // Handle validation errors from server
+                Object.keys(error.errors).forEach(function (field) {
+                    var errorElement = document.getElementById(field + '-error');
+                    if (errorElement) {
+                        errorElement.style.display = 'block';
+                    }
+                });
+            } else {
+                console.error('Error:', error);
+            }
+        });
+    });
+
+    document.querySelector('.success-message__close-item1').addEventListener('click', function() {
+        document.getElementById('success-message').style.display = 'none';
+    });
+    document.querySelector('.success-message__close-item').addEventListener('click', function() {
+        document.getElementById('success-message').style.display = 'none';
+    });
+    
+</script>
+
+
+
 <script>
-	const successMessageClose = document.querySelector(
-		'.success-message__close-item'
-	)
-	const successMessageClose1 = document.querySelector(
-		'.success-message__close-item1'
-	)
+
 	const successMessage = document.getElementById('success-message')
 
 	const form = document.getElementById('application-form')
 
-	successMessageClose1.addEventListener('click', () => {
-		successMessage.style.display = 'none'
-	})
 
-	successMessageClose.addEventListener('click', () => {
-		successMessage.style.display = 'none'
-	})
+
 
 	document
-		.getElementById('application-form')
-		.addEventListener('submit', function (event) {
-			event.preventDefault() // Предотвращаем отправку формы по умолчанию
+    .getElementById('application-form')
+    .addEventListener('submit', function (event) {
+        event.preventDefault(); // Предотвращаем отправку формы по умолчанию
 
-			var form = event.target
+        var form = event.target;
 
-			// Очищаем предыдущие сообщения об ошибках
-			var errorElements = form.querySelectorAll('.error-message')
-			errorElements.forEach(function (errorElement) {
-				errorElement.style.display = 'none'
-			})
+        // Очищаем предыдущие сообщения об ошибках
+        var errorElements = form.querySelectorAll('.error-message');
+        errorElements.forEach(function (errorElement) {
+            errorElement.style.display = 'none';
+        });
 
-			// Проверяем валидность полей формы
-			var nameField = form.querySelector('#id_name')
-			var emailField = form.querySelector('#id_email')
-			var phoneField = form.querySelector('#id_phone_number')
-			var commentField = form.querySelector('#id_Comment')
+        // Проверяем валидность полей формы
+        var nameField = form.querySelector('#id_name');
+        var emailField = form.querySelector('#id_email');
+        var phoneField = form.querySelector('#id_phone_number');
+        var commentField = form.querySelector('#id_Comment');
 
-			var nameErrorElement = document.getElementById('name-error')
-			var emailErrorElement = document.getElementById('email-error')
-			var phoneErrorElement = document.getElementById('phone_number-error')
+        var nameErrorElement = document.getElementById('name-error');
+        var emailErrorElement = document.getElementById('email-error');
+        var phoneErrorElement = document.getElementById('phone_number-error');
 
-			var isValid = true
+        var isValid = true;
 
-			if (!nameField.value) {
-				nameErrorElement.style.display = 'block'
-				isValid = false
-			}
+        if (!nameField.value) {
+            nameErrorElement.style.display = 'block';
+            isValid = false;
+        }
 
-			if (!emailField.value) {
-				emailErrorElement.style.display = 'block'
-				isValid = false
-			}
+        if (!emailField.value) {
+            emailErrorElement.style.display = 'block';
+            isValid = false;
+        }
 
-			if (!phoneField.value) {
-				phoneErrorElement.style.display = 'block'
-				isValid = false
-			}
+        if (!phoneField.value) {
+            phoneErrorElement.style.display = 'block';
+            isValid = false;
+        }
 
-			if (!isValid) {
-				return // Прерываем отправку формы, если есть ошибки
-			}
+        if (!isValid) {
+            return; // Прерываем отправку формы, если есть ошибки
+        }
 
-			// Если все поля заполнены, отправляем форму AJAX-запросом
-			var formData = new FormData(form)
+        // Блокируем кнопку отправки формы
+        var submitButton = form.querySelector('button[type="submit"]');
+        submitButton.disabled = true;
+        submitButton.innerText = 'Отправка...';
 
-			fetch(form.action, {
-				method: 'POST',
-				body: formData,
-			})
-				.then(response => response.json())
-				.then(data => {
-					if (data.success) {
-						// Форма прошла валидацию, закрываем форму и отображаем сообщение об успешной отправке формы
-						commentField.value = ''
-						nameField.value = ''
-						emailField.value = ''
-						phoneField.value = ''
-						var successMessage = document.getElementById('success-message')
-						successMessage.style.display = 'flex'
-					} else {
-						// Форма содержит ошибки валидации, отображаем ошибки
-						Object.keys(data.errors).forEach(function (field) {
-							var errorElement = document.getElementById(field + '-error')
-							if (errorElement) {
-								errorElement.style.display = 'block'
-							}
-						})
-					}
-				})
-				.catch(error => {
-					console.error('Произошла ошибка:', error)
-				})
-		})
+        // Если все поля заполнены, отправляем форму AJAX-запросом
+        var formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Форма прошла валидацию, закрываем форму и отображаем сообщение об успешной отправке формы
+                    commentField.value = '';
+                    nameField.value = '';
+                    emailField.value = '';
+                    phoneField.value = '';
+                    var successMessage = document.getElementById('success-message');
+                    successMessage.style.display = 'flex';
+                } else {
+                    // Форма содержит ошибки валидации, отображаем ошибки
+                    Object.keys(data.errors).forEach(function (field) {
+                        var errorElement = document.getElementById(field + '-error');
+                        if (errorElement) {
+                            errorElement.style.display = 'block';
+                        }
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            })
+            .finally(() => {
+                // Разблокируем кнопку после завершения запроса
+                submitButton.disabled = false;
+                submitButton.innerText = 'Отправить';
+            });
+    });
 </script>
 
 {% endblock %}
