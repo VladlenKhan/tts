@@ -139,6 +139,23 @@
 			</div>
 
 			<br /><br />
+			<div class="row">
+				<div class="col-12">
+					<div class="text-center">
+						<div style="font-size: 2.5rem; margin-bottom: 40px; font-weight: 500; color: #2c3e50;">
+							{% trans 'Информация о схемах сертификации' %}
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-12 col-lg-8" style="font-size: 1.2rem;">
+							{% trans 'Органом по сертификации продукции при OOO «Avto Standart Etalon» проводят сертификацию по схемам №1С, №3С и №4С в соответствии ПКМ РУз от 14.08.2024 №502 а также схемы 3,4,7 в соответствии ПКМ №318'%}
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br /><br />
 			<div class="text-center">
 				<div>
 					<img
@@ -198,20 +215,105 @@
 		</div>
 	</section>
 	<style>
-		@media screen and (min-width: 768px) and (max-width: 990px) {
-			.im {
-				width: 200px;
-			}
-			.blk {
-				padding-top: 100px;
-			}
-			.cer {
-				padding-top: 300px;
-				width: 350px;
-				height: auto;
-			}
+	.team-photo {
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+		object-fit: cover;
+		object-position: center top;
+		border: 3px solid #fff;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease;
+	}
+	
+	.team-photo:hover {
+		transform: scale(1.05);
+		box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+	}
+	
+	.team-member {
+		margin-bottom: 40px;
+		height: 280px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.team-member .member-info {
+		margin-top: 15px;
+		text-align: center;
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	
+	.team-member .member-name {
+		font-weight: 700;
+		font-size: 16px;
+		color: #2c3e50;
+		margin-bottom: 8px;
+		line-height: 1.3;
+	}
+	
+	.team-member .member-title {
+		font-style: italic;
+		font-size: 14px;
+		color: #7f8c8d;
+		line-height: 1.4;
+	}
+	
+	/* Поддержка 5 колонок в ряду */
+	@media (min-width: 992px) {
+		.col-lg-2-4 {
+			flex: 0 0 20%;
+			max-width: 20%;
 		}
-	</style>
+	}
+	
+	@media screen and (min-width: 768px) and (max-width: 990px) {
+		.im {
+			width: 200px;
+		}
+		.blk {
+			padding-top: 100px;
+		}
+		.cer {
+			padding-top: 300px;
+			width: 350px;
+			height: auto;
+		}
+		.team-photo {
+			width: 140px;
+			height: 140px;
+		}
+		.team-member {
+			height: 260px;
+		}
+		.team-member .member-name {
+			font-size: 15px;
+		}
+		.team-member .member-title {
+			font-size: 13px;
+		}
+	}
+	
+	@media screen and (max-width: 767px) {
+		.team-photo {
+			width: 120px;
+			height: 120px;
+		}
+		.team-member {
+			height: 240px;
+		}
+		.team-member .member-name {
+			font-size: 14px;
+		}
+		.team-member .member-title {
+			font-size: 12px;
+		}
+	}
+</style>
 	<br /><br /><br />
 	<section>
 		<div class="container">
@@ -262,227 +364,277 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12 col-12-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/direktor.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 14px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Абдураззоков Умидулла Абдураззокович' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Директор' %} <br />
-							Avto Standart Etalon
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Абдураззоков Умидулла Абдураззокович' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Директор' %} <br />
+								Avto Standart Etalon
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/zam.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Зияев Камолиддин Зухритдинович'%}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Заместитель Директора' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Зияев Камолиддин Зухритдинович'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Заместитель Директора' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-12-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/texkon.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 18px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'А. Мустафаев' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Технический консультат' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'А. Мустафаев' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Технический консультат' %}
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/menejer.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 16px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Рашидов Азиз' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Менеджер по системе менеджмента качества' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Рашидов Азиз' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Менеджер по системе менеджмента качества' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
-							src="{% static 'images/ruk.jpg' %}"
-							width="200"
+							src="{% static 'images/alimjonov.jpg' %}"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 18px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Алимжанов Алишер' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Руководитель органа по сертификации' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Алимжанов АлишерТургунов Диёр Шербекович' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Руководитель органа по сертификации' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/nach.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 11px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Усманов Зафар Турсунович'%}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Начальник испытательной лаборатории' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Усманов Зафар Турсунович'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Начальник испытательной лаборатории' %}
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
+						<img
+							src="{% static 'images/ayrapetov-dmitriy.jpg' %}"
+							alt=""
+							class="img-fluid team-photo"
+						/>
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Айрапетов Дмитрий Алексеевич'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Специалист испытательной лаборатории' %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
+						<img
+							src="{% static 'images/utaganov-sarvar.jpg' %}"
+							alt=""
+							class="img-fluid team-photo"
+						/>
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Утаганов Сарвар Кахрамон угли'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Специалист испытательной лаборатории' %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
+						<img
+							src="{% static 'images/shermatov-botir.jpg' %}"
+							alt=""
+							class="img-fluid team-photo"
+						/>
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Шерматов Ботир Панжи угли'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Специалист испытательной лаборатории' %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
+						<img
+							src="{% static 'images/ravshanbekov-jahongir.jpg' %}"
+							alt=""
+							class="img-fluid team-photo"
+						/>
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Равшанбеков Жахонгир Алишер угли'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Специалист испытательной лаборатории' %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
+						<img
+							src="{% static 'images/pardaboev-adham.jpg' %}"
+							alt=""
+							class="img-fluid team-photo"
+						/>
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Пардабоев Зиёвуддин Адхам угли'%}
+							</div>
+							<div class="member-title">
+								{% trans 'Специалист испытательной лаборатории' %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/injer2.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Анваржонов Ахмаджон' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Инженер по сертификации' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Анваржонов Ахмаджон' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Инженер по сертификации' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/injer3.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 9px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Улашев Жонибек' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Инженер-метролог' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Улашев Жонибек' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Инженер-метролог' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/injer4.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 28px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Мамасолиева Нафиса' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Инженер по стандартизации' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Мамасолиева Нафиса' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Инженер по стандартизации' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/injer5.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 6px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Шавкатов Хумоюн' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Инженер-испытатель' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Шавкатов Хумоюн' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Инженер-испытатель' %}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg my-4">
-					<div class="text-center">
+				<div class="col-12 col-md-6 col-lg-2-4">
+					<div class="text-center team-member">
 						<img
 							src="{% static 'images/injer.jpg' %}"
-							width="200"
 							alt=""
-							class="img-fluid"
-							style="border-radius: 300px"
+							class="img-fluid team-photo"
 						/>
-					</div>
-					<br />
-					<div class="text-center" style="position: relative; top: 22px">
-						<div style="font-weight: 700; font-size: 20px">
-							{% trans 'Тухтамишев Собит' %}
-						</div>
-						<div style="font-style: italic; font-size: 18px">
-							{% trans 'Инженер-испытатель' %}
+						<div class="member-info">
+							<div class="member-name">
+								{% trans 'Тухтамишев Собит' %}
+							</div>
+							<div class="member-title">
+								{% trans 'Инженер-испытатель' %}
+							</div>
 						</div>
 					</div>
 				</div>

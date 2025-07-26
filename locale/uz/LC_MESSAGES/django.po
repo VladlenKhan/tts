@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 13:30+0300\n"
+"POT-Creation-Date: 2025-07-26 20:26+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,74 +30,70 @@ msgstr "Raqam"
 msgid "Ваше сообщение"
 msgstr "Sizning xabaringiz"
 
-#: .\app\templates\base.html:78
+#: .\app\templates\base.html:76
 msgid "ПРЕИМУЩЕСТВА"
 msgstr "AFZALLIKLARI"
 
-#: .\app\templates\base.html:81
+#: .\app\templates\base.html:79
 msgid "СЕРТИФИКАЦИЯ"
 msgstr "SERTIFIKATLASHTIRISH"
 
-#: .\app\templates\base.html:85
+#: .\app\templates\base.html:83
 msgid "О НАС"
 msgstr "BIZ HAQIMIZDA"
 
-#: .\app\templates\base.html:88
+#: .\app\templates\base.html:86
 msgid "КОМАНДА"
 msgstr "JAMOA"
 
-#: .\app\templates\base.html:91
+#: .\app\templates\base.html:89
 msgid "ЖАЛОБЫ И ПРЕТЕНЗИИ"
 msgstr "SHIKOYATLAR VA DA'VOLAR"
 
-#: .\app\templates\base.html:95
+#: .\app\templates\base.html:93
 msgid "Связаться с нами"
 msgstr "Biz bilan bog'laning"
 
-#: .\app\templates\base.html:111
+#: .\app\templates\base.html:109
 msgid "Наши контакты"
-msgstr "Biz bilan bog'laning"
+msgstr "Bizning kontaktlarimiz"
 
-#: .\app\templates\base.html:119
+#: .\app\templates\base.html:117
 msgid "Адрес"
-msgstr "Manzilgoh"
+msgstr "Manzil"
 
-#: .\app\templates\base.html:119
-msgid ""
-"Ташкентская обл., Зангиатинский район, Эркин КФЙ, автомагистрал М-39 (SN "
-"INVEST)"
-msgstr ""
-"Toshkent viloyati, Zangiota tumani, Erkin KFY, M-39 magistral yo'li (SN "
-"INVEST)"
+#: .\app\templates\base.html:117
+msgid "город Ташкент, Сергилийский район, ул. Жалойир, 6 (AYSEL INSHAAT)"
+msgstr "Toshkent shahri, Sergeli tumani, Jaloyir ko'chasi, 6 (AYSEL INSHAAT)"
 
-#: .\app\templates\base.html:120
+#: .\app\templates\base.html:118
 msgid "Директор: У.А. Абдураззоков"
 msgstr "Direktor: U.A. Abdurazzokov"
 
-#: .\app\templates\base.html:121 .\app\templates\base.html:123
-#: .\app\templates\base.html:125
+#: .\app\templates\base.html:119 .\app\templates\base.html:121
+#: .\app\templates\base.html:123
 msgid "Тел"
 msgstr "Tel"
 
-#: .\app\templates\base.html:122 .\app\templates\home.html:363
+#: .\app\templates\base.html:120 .\app\templates\home.html:390
 msgid "Руководитель органа по сертификации"
 msgstr "Sertifikatlashtirish organi boshlig'i"
 
-#: .\app\templates\base.html:122
+#: .\app\templates\base.html:120
 msgid "Тургунов Д.Ш."
 msgstr "Turg‘unov D.Sh."
 
-#: .\app\templates\base.html:124 .\app\templates\home.html:383
+#: .\app\templates\base.html:122 .\app\templates\home.html:408
 msgid "Начальник испытательной лаборатории"
-msgstr "Sinov laboratoriyasi boshli'gi"
+msgstr "Sinov laboratoriyasi boshlig'i"
 
-#: .\app\templates\base.html:124 .\app\templates\complaint.html:28
+#: .\app\templates\base.html:122 .\app\templates\complaint.html:28
 msgid "З.Т. Усманов"
 msgstr "Z.T. Usmanov"
 
-#: .\app\templates\base.html:126
+#: .\app\templates\base.html:124
 msgid "Мы в социальных сетях"
-msgstr "Biz ijtimoiy tarmoqlarda"
+msgstr "Biz ijtimoiy tarmoqlardamiz"
 
 #: .\app\templates\certificate.html:10
 msgid ""
@@ -127,34 +123,32 @@ msgid ""
 "требованиями основополагающих документов Национальной Системы Сертификации "
 "Республики Узбекистан."
 msgstr ""
-"Mahsulotlarni sertifikatlash organi sizga o’z xizmatlarini taklif etadi "
-"mahsulotlarning O’zbekiston Respublikasi milliy sertifikatlash tizimi "
-"talablariga muvofiqligini baholash. O’zbekiston Respublikasida «mahsulot va "
-"xizmatlarni sertifikatlash to’g’risida» gi qonun ikki turni nazarda tutadi: "
-"majburiy va ixtiyoriy.Majburiy mahsulot sertifikati – bu texnik tartibga "
-"solish sohasidagi qonunchilikning majburiy talabi bo’lgan mahsulot "
-"xavfsizligini tasdiqlash.Ixtiyoriy sertifikatlash ishlab chiqaruvchining "
-"iltimosiga binoan amalga oshiriladi. Sertifikatlash ishlarining natijasi "
-"muvofiqlik sertifikatini olishdir. Sertifikatlashtirish organi, shuningdek, "
-"ishlab chiqarilgan mahsulotlarning belgilangan talablarga javob berishini "
-"tasdiqlovchi ishlab chiqaruvchining muvofiqligi to’g’risida xabarnoma qabul "
-"qilish orqali muvofiqlikni baholaydi.O’zbekiston Respublikasi Vazirlar "
-"Mahkamasining 2011 yil 28 apreldagi 122-sonli qarori bilan majburiy "
-"sertifikatlanadigan mahsulotlar ro’yxati belgilandi va sertifikatlashtirish "
-"tartib-qoidalarini takomillashtirish va sifat menejmenti tizimlarini joriy "
-"etish bo’yicha qo’shimcha chora-tadbirlar belgilandi.Mahsulotlarni "
-"sertifikatlashda qo’llaniladigan me’yoriy hujjatlarga qo’yiladigan talablar "
-"O’zbekiston Respublikasi Adliya vazirligi tomonidan 18.03.05 yildagi 1458-"
-"son bilan ro’yxatdan o’tgan «mahsulotlarni sertifikatlash qoidalari» da "
-"belgilangan.O’zbekiston Respublikasi adliya vazirligi tomonidan 18.03.05 "
-"yildagi 1458-sonli «majburiy sertifikatlanishi lozim bo’lgan bir hil "
-"mahsulotlarning ayrim turlari bo’yicha sertifikatlashtirish qoidalari», "
-"O’zbekiston Respublikasi Adliya vazirligi tomonidan 1513-son bilan "
-"ro’yxatdan o’tgan «mahsulotlarni sertifikatlashtirish qoidalari» ga, "
-"shuningdek O’zbekiston Respublikasi Milliy sertifikatlashtirish tizimining "
-"asosiy hujjatlari talablariga muvofiq mahsulotlarni sertifikatlash "
-"muddatlari belgilanadi.Muvofiqlik sertifikatini rasmiylashtirish uchun zarur "
-"bo’lgan hujjatlar"
+"Mahsulotlarni sertifikatlash organi sizga o‘z xizmatlarini taklif etadi, "
+"mahsulotlarning O‘zbekiston Respublikasi Milliy sertifikatlash tizimi "
+"talablariga muvofiqligini baholash sohasida. O‘zbekiston Respublikasida "
+"«Mahsulot va xizmatlarni sertifikatlash to‘g‘risida»gi qonunga ko‘ra ikki "
+"xil: majburiy va ixtiyoriy sertifikatlash turlari mavjud. Majburiy "
+"sertifikatlash — bu mahsulot xavfsizligini tasdiqlash bo‘lib, texnik "
+"tartibga solish sohasidagi qonunchilikning majburiy talabi hisoblanadi. "
+"Ixtiyoriy sertifikatlash esa ishlab chiqaruvchining istagiga ko‘ra amalga "
+"oshiriladi. Sertifikatlash ishlarining natijasi sifatida muvofiqlik "
+"sertifikati olinadi. Sertifikatlashtirish organi, shuningdek, ishlab "
+"chiqaruvchining mahsulotlari belgilangan talablarga javob berishini "
+"tasdiqlovchi xabarnoma orqali ham muvofiqlikni baholaydi. O‘zbekiston "
+"Respublikasi Vazirlar Mahkamasining 2011-yil 28-apreldagi 122-sonli qarori "
+"bilan majburiy sertifikatlanadigan mahsulotlar ro‘yxati belgilangan va "
+"sertifikatlashtirish tartib-qoidalarini takomillashtirish hamda sifat "
+"menejmenti tizimlarini joriy etish bo‘yicha qo‘shimcha chora-tadbirlar "
+"belgilangan. Mahsulotlarni sertifikatlashda qo‘llaniladigan me’yoriy "
+"hujjatlarga qo‘yiladigan talablar O‘zbekiston Respublikasi Adliya vazirligi "
+"tomonidan 18.03.05 yildagi 1458-son bilan ro‘yxatdan o‘tgan «Mahsulotlarni "
+"sertifikatlash qoidalari»da belgilangan. Shuningdek, Adliya vazirligi "
+"tomonidan 1513-son bilan ro‘yxatdan o‘tgan «Majburiy sertifikatlanishi lozim "
+"bo‘lgan bir hil mahsulotlarning ayrim turlari bo‘yicha sertifikatlashtirish "
+"qoidalari» va O‘zbekiston Respublikasi Milliy sertifikatlashtirish tizimining "
+"asosiy hujjatlari talablariga muvofiq mahsulotlarni sertifikatlash muddatlari "
+"belgilanadi. Muvofiqlik sertifikatini rasmiylashtirish uchun zarur bo‘lgan "
+"hujjatlar."
 
 #: .\app\templates\certificate.html:12
 msgid "Условия сертификации"
@@ -166,20 +160,20 @@ msgid ""
 "взаимодействовать с ОС в рамках применимых Процедур Сертификации и "
 "предоставлять специалистам ОС доступ к "
 msgstr ""
-"Sertifikatlash sxemasiga qarab, talabgor rozi amaldagi Sertifikatlash tartib-"
-"qoidalari doirasida OS bilan o'zaro aloqada bo'lish va OS mutaxassislariga "
-"kirish imkoniyatini taqdim etish"
+"Sertifikatlash sxemasiga qarab, talabgor amaldagi Sertifikatlash "
+"tartib-qoidalari doirasida OS bilan hamkorlik qilishga va OS mutaxassislariga "
+"kirish imkoniyatini taqdim etishga rozilik bildiradi"
 
 #: .\app\templates\certificate.html:19
 msgid "нормативной и технологической документации на продукцию"
-msgstr "mahsulotlarning me'yoriy-texnik hujjatlari"
+msgstr "mahsulotlarning me'yoriy va texnologik hujjatlari"
 
 #: .\app\templates\certificate.html:22
 msgid ""
 "описанию системы менеджмента, включая руководства, процедуры и инструкции"
 msgstr ""
-"Boshqaruv tizimining tavsifi, shu jumladan qo'llanmalar, protseduralar va "
-"ko'rsatmalar"
+"Boshqaruv tizimi tavsifi, shu jumladan qo‘llanmalar, protseduralar va "
+"ko‘rsatmalar"
 
 #: .\app\templates\certificate.html:25
 msgid ""
@@ -187,46 +181,46 @@ msgid ""
 "рамках сертифицируемой продукции, включая процессы производства и "
 "обслуживания"
 msgstr ""
-"faoliyati amalga oshiriladigan ariza beruvchi (korxona) saytlari  "
-"sertifikatlangan mahsulotlar doirasida, shu jumladan ishlab chiqarish "
-"jarayonlari va Xizmat"
+"ariza beruvchi (korxona)ning faoliyati amalga oshiriladigan joylari, "
+"sertifikatlanadigan mahsulotlar doirasida, shu jumladan ishlab chiqarish va "
+"xizmat ko‘rsatish jarayonlari"
 
 #: .\app\templates\certificate.html:28
 msgid ""
 "оборудованию, персоналу, средствам и информации о компетентности персонала, "
 "которые должны быть рассмотрены при сертификации"
 msgstr ""
-" kadrlarning kompetentligi to'g'risidagi jihozlar, personal, obyektlar va "
-"ma'lumotlar, sertifikatlashda nazarda tutilishi kerak bo'lgan"
+"jihozlar, xodimlar, vositalar va xodimlarning malakasi to‘g‘risidagi "
+"ma’lumotlar, sertifikatlashda ko‘rib chiqilishi lozim bo‘lgan"
 
 #: .\app\templates\certificate.html:31
 msgid ""
 "записям, отчетным документам и статистическим данным, в количестве и объеме, "
 "позволяющим оценить полноту и соответствие применимым требованиям"
 msgstr ""
-"yozuvlari, hisobot hujjatlari va statistik ma'lumotlar, miqdori va hajmi "
-"bo'yicha, to'liqligini va amaldagi talablarga muvofiqligini baholash "
-"imkonini beruvchi"
+"yozuvlar, hisobot hujjatlari va statistik ma’lumotlar, miqdori va hajmi "
+"bo‘yicha, to‘liqligi va amaldagi talablarga muvofiqligini baholash imkonini "
+"beruvchi"
 
 #: .\app\templates\certificate.html:34
 msgid ""
 "записям по жалобам и претензиям со стороны потребителей и других "
 "заинтересованных сторон и предпринятым корректирующим действиям"
 msgstr ""
-"iste'molchilar va boshqa larning shikoyatlari va da'volari to'g'risidagi "
-"ma'lumotlar hamkorlar va amalga oshirilgan tuzatish choralari"
+"iste’molchilar va boshqa manfaatdor tomonlarning shikoyat va da’volari "
+"to‘g‘risidagi ma’lumotlar hamda amalga oshirilgan tuzatish choralari"
 
 #: .\app\templates\certificate.html:40
 msgid ""
 "Заявитель несёт ответственность за достоверность информации, предоставленной "
 "на всех этапах сертификации"
 msgstr ""
-"Murojaat etuvchi taqdim etilgan ma'lumotlarning to'g'riligi uchun javobgar "
-"sertifikatlashtirishning barcha bosqichlarida"
+"Ariza beruvchi sertifikatlashtirishning barcha bosqichlarida taqdim etilgan "
+"ma’lumotlarning to‘g‘riligi uchun javobgar"
 
 #: .\app\templates\certificate.html:42
 msgid "Заявитель должен"
-msgstr "Ariza beruvchi"
+msgstr "Ariza beruvchi quyidagilarni bajarishi shart"
 
 #: .\app\templates\certificate.html:45
 msgid ""
@@ -234,25 +228,24 @@ msgid ""
 "средствах информации, таких как: интернет, брошюры и реклама или прочие "
 "документы"
 msgstr ""
-" sertifikatlangan maqomingizga murojaat qilishda OS talablariga rioya qiling "
-"media, masalan: Internet, broshyuralar va reklamalar yoki boshqa Hujjatlar"
+"sertifikatlangan maqomiga havola qilinganida OS talablariga rioya qilish, "
+"masalan: internet, broshyuralar, reklama yoki boshqa hujjatlar"
 
 #: .\app\templates\certificate.html:48
 msgid ""
 "не делать и не позволять употребление каких-либо вводящих в заблуждение "
 "утверждений относительно своей сертификации"
 msgstr ""
-"qilmaslik yoki har qanday zalvorni qo'llashga yo'l qo'ymaslik "
-"Sertifikatlashtirish to'g'risidagi da'volar"
+"sertifikatlash to‘g‘risida chalg‘ituvchi bayonotlar bermaslik va bunday "
+"bayonotlarga yo‘l qo‘ymaslik"
 
 #: .\app\templates\certificate.html:51
 msgid ""
 "не использовать и не разрешать использование Сертификата соответствия, "
 "выданный ОС, или любой его части никоим образом, вводящим в заблуждение"
 msgstr ""
-" muvofiqlik sertifikatidan foydalanmaslik yoki foydalanishga yo'l "
-"qo'ymaslik, OS tomonidan chiqarilgan, yoki uning bironta qismi har qanday "
-"yo'l bilan adashtirib"
+"OS tomonidan berilgan muvofiqlik sertifikatidan yoki uning biror qismini "
+"chalg‘ituvchi tarzda foydalanmaslik va foydalanishga ruxsat bermaslik"
 
 #: .\app\templates\certificate.html:54
 msgid ""
@@ -260,33 +253,32 @@ msgid ""
 "использовать его в каких бы то ни было рекламных материалах, имеющих ссылку "
 "на сертификацию"
 msgstr ""
-"muvofiqlik sertifikati to'xtatilgan yoki bekor qilinganidan so'ng, tugatish "
-"bog'lanishga ega bo'lgan har qanday reklama materiallarida foydalaning "
-"sertifikatlashtirish uchun"
+"muvofiqlik sertifikati to‘xtatilgan yoki bekor qilinganidan so‘ng, unga "
+"havola qiluvchi har qanday reklama materiallarida undan foydalanishni "
+"to‘xtatish"
 
 #: .\app\templates\certificate.html:57
 msgid ""
 "откорректировать все рекламные материалы при расширении или сокращении "
 "области распространения сертификата соответствия"
 msgstr ""
-" Kengaytirish yoki kichraytirishda barcha reklama materiallarini sozlash "
-"Muvofiqlik sertifikatini tarqatish doirasi"
+"muvofiqlik sertifikati tarqatish doirasi kengaytirilganda yoki qisqartirilganda "
+"barcha reklama materiallarini moslashtirish"
 
 #: .\app\templates\certificate.html:60
 msgid ""
 "заявлять, что Сертификат соответствия был выдан применительно к "
 "сертифицированному виду продукции"
 msgstr ""
-" bilan bog'liq holda muvofiqlik sertifikati berilganligini e'lon "
-"sertifikatlangan mahsulot turi"
+"faqat sertifikatlangan mahsulot turi uchun muvofiqlik sertifikati berilganini "
+"e’lon qilish"
 
 #: .\app\templates\certificate.html:63
 msgid ""
 "не использовать факт сертификации таким способом, который бы мог "
 "дискредитировать ОС"
 msgstr ""
-" mumkin bo'lgan tarzda sertifikatlashtirish faktidan foydalanmaslik OSni "
-"obro'sizlantirish"
+"sertifikatlash faktidan OS obro‘siga putur yetkazadigan tarzda foydalanmaslik"
 
 #: .\app\templates\certificate.html:66
 msgid ""
@@ -294,9 +286,9 @@ msgid ""
 "полномочий по сертификации продукции и контролю за сертифицированной "
 "продукцией"
 msgstr ""
-" OS xodimlarining to'siqsiz ishlashi uchun shart-sharoitlarni ta'minlash "
-"mahsulotlarni sertifikatlashtirish va sertifikatlanganlarni nazorat qilish "
-"vakolati Mahsulotlar"
+"OS xodimlarining mahsulotlarni sertifikatlashtirish va sertifikatlangan "
+"mahsulotlarni nazorat qilish vakolatlarini to‘siqsiz bajarishi uchun sharoit "
+"yaratish"
 
 #: .\app\templates\certificate.html:70
 msgid ""
@@ -305,11 +297,10 @@ msgid ""
 "характеристики продукции, удостоверяемые при сертификации, для принятия ОС "
 "решения о необходимости проведения корректирующих мероприятий"
 msgstr ""
-" loyihalash (kompozitsiya)ga rejalashtirilgan o'zgarishlar haqida OSni "
-"xabardor mahsulotlar yoki uning ishlab chiqarish texnologiyasi, ta'sir "
-"qilishi mumkin bo'lgan OS qabul qilinganligi to'g'risida sertifikatlash "
-"davrida sertifikatlangan mahsulot xususiyatlari tuzatish chora-tadbirlari "
-"zarurligi to'g'risidagi qarorlar"
+"mahsulot konstruktsiyasi (tarkibi) yoki ishlab chiqarish texnologiyasiga "
+"rejalashtirilgan o‘zgarishlar haqida, ular sertifikatlashda tasdiqlanadigan "
+"mahsulot xususiyatlariga ta’sir qilishi mumkin bo‘lsa, OSni xabardor qilish "
+"va tuzatish choralari zarurligi to‘g‘risida OS qarorini olish"
 
 #: .\app\templates\certificate.html:73
 msgid ""
@@ -317,9 +308,9 @@ msgid ""
 "жалобы и претензии (как устные, так и письменные) со стороны потребителей и "
 "других заинтересованных сторон и предпринятые корректирующие действия"
 msgstr ""
-" shartnoma shartlariga muvofiq OS xizmatlari uchun haq to'lash; -ro'yxatdan "
-"o'tish iste'molchilar tomonidan shikoyat va da'volar (ham og'zaki, ham "
-"yozma) va boshqa hamkorlar va ko'rilgan tuzatish choralari"
+"shartnoma shartlariga muvofiq OS xizmatlari uchun haq to‘lash; "
+"iste’molchilar va boshqa manfaatdor tomonlarning og‘zaki va yozma shikoyat "
+"hamda da’volarini va ko‘rilgan tuzatish choralari ro‘yxatini yuritish"
 
 #: .\app\templates\certificate.html:77
 msgid ""
@@ -330,12 +321,12 @@ msgid ""
 "аннулирование Сертификата соответствия, опубликование информации о данном "
 "нарушении и, если необходимо, обращение в суд"
 msgstr ""
-" OS nazorat qiladi va agar kerak bo'lsa, noto'g'ri bo'lgan taqdirda chora "
-"ko'radi sertifikatlashtirish holati yoki noto'g'ri foydalanish bilan "
-"bog'lanishlar Muvofiqlik sertifikatlari. Bunday chora-tadbirlarga talabni "
-"o'z ichiga olishi mumkin tuzatish yoki tuzatish amalini amalga oshirish, "
-"to'xtatib turish yoki muvofiqlik sertifikatini bekor qilish, bu haqdagi "
-"ma'lumotlarni nashr buzish va kerak bo'lsa, sudga"
+"OS nazorat qiladi va zarur bo‘lsa, sertifikatlash maqomiga noto‘g‘ri havola "
+"qilingan yoki muvofiqlik sertifikatlaridan noto‘g‘ri foydalanilgan "
+"holatlarda choralar ko‘radi. Bunday choralar tuzatish yoki tuzatish "
+"harakatlarini talab qilish, muvofiqlik sertifikatini to‘xtatib turish yoki "
+"bekor qilish, ushbu buzilish haqida ma’lumot e’lon qilish va zarur bo‘lsa, "
+"sudga murojaat qilishni o‘z ichiga olishi mumkin"
 
 #: .\app\templates\certificate.html:80
 msgid ""
@@ -347,14 +338,13 @@ msgid ""
 "чтобы каждый поставщик внес в свою документацию все необходимые уточнения в "
 "срок, который, по мнению органа по сертификации является обоснованным"
 msgstr ""
-"OS o'zi kiritish niyatida bo'lgan har qanday o'zgarishlar haqida xabar "
-"berishi kerak  Sertifikatlashtirishga qo'yiladigan talablar. Qaror qabul "
-"qilishdan oldin   O'zgartirishlarning aniq shakli va kuchga kirgan sanasi "
-"to'g'risida, u Etakchilarning qarashlarini eʼtiboringizga havola etamiz. "
-"Qaror qabul qilgandan so'ng talablardagi o'zgarishlar va ularning nashr "
-"etilishi, sertifikatlashtirish organi nazorat qilishi kerak,har bir etkazib "
-"beruvchi o'z hujjatlarida barcha kerakli aniqliklarni kiritishi uchun "
-"sertifikatlashtirish organining fikriga ko'ra, oqilona bo'lgan davr"
+"OS sertifikatlashga qo‘yiladigan talablarga kiritilishi rejalashtirilgan "
+"barcha o‘zgarishlar haqida xabar berishi kerak. O‘zgarishlarning aniq shakli "
+"va kuchga kirish sanasi bo‘yicha qaror qabul qilishdan oldin, manfaatdor "
+"tomonlarning fikrini inobatga olishi lozim. Talablardagi o‘zgarishlar va "
+"ularning e’lon qilinishi to‘g‘risida qaror qabul qilingandan so‘ng, "
+"sertifikatlashtirish organi har bir yetkazib beruvchi o‘z hujjatlariga barcha "
+"zarur aniqliklarni o‘z vaqtida kiritishini nazorat qilishi kerak"
 
 #: .\app\templates\certificate.html:83
 msgid ""
@@ -362,9 +352,9 @@ msgid ""
 "сертифицированной продукции (при схемах 3 или 4) с целью подтверждения её "
 "соответствия требованиям, установленным при сертификации"
 msgstr ""
-" CB yiliga kamida bir marta tekshiruv nazoratini o'tkazadi tasdiqlash "
-"maqsadida sertifikatlangan mahsulotlar (3 yoki 4-sxemalar bo'yicha) "
-"sertifikatlashtirish davrida qo'yilgan talablarga rioya"
+"OS yiliga kamida bir marta (3 yoki 4-sxemalar bo‘yicha) sertifikatlangan "
+"mahsulotlarni sertifikatlashda belgilangan talablarga muvofiqligini "
+"tasdiqlash maqsadida inspeksiya nazoratini o‘tkazadi"
 
 #: .\app\templates\certificate.html:86
 msgid ""
@@ -373,11 +363,10 @@ msgid ""
 "производимую продукцию. При этом ОС может изменить схему сертификации, "
 "учитывая результаты инспекционного контроля"
 msgstr ""
-"Ariza beruvchi CBga qayta sertifikatlash maqsadida murojaat qilish huquqiga "
-"ega, emas muvofiqlik sertifikatining amal qilish muddati tugashiga bir oydan "
-"kam vaqt qolganida ishlab chiqarilgan mahsulotlar. Shu bilan birga, OS "
-"sertifikatlashtirish sxemasini o'zgartirishi mumkin, Tekshirish nazorati "
-"natijalarini hisobga olgan holda"
+"Ariza beruvchi muvofiqlik sertifikatining amal qilish muddati tugashiga bir "
+"oydan kam bo‘lmagan muddatda qayta sertifikatlash uchun OSga murojaat qilish "
+"huquqiga ega. Shu bilan birga, OS inspeksiya nazorati natijalarini inobatga "
+"olgan holda sertifikatlash sxemasini o‘zgartirishi mumkin"
 
 #: .\app\templates\certificate.html:90
 msgid ""
@@ -385,9 +374,9 @@ msgid ""
 "действие Сертификата соответствия или изъять его в любое время сообщением в "
 "письменном виде"
 msgstr ""
-" Agar ariza beruvchi ushbu shartlarni bajarmasa, CB to'xtatilishi mumkin "
-"muvofiqlik sertifikatining haqiqiyligi yoki istalgan vaqtda uni xabar orqali "
-"olib qo'yish Yozish"
+"Agar ariza beruvchi ushbu shartlarni bajarmasa, OS muvofiqlik sertifikatining "
+"amal qilishini to‘xtatib turishi yoki uni istalgan vaqtda yozma xabar orqali "
+"bekor qilishi mumkin"
 
 #: .\app\templates\certificate.html:94
 msgid "Условия выдачи Сертификата соответствия"
@@ -398,28 +387,29 @@ msgid ""
 "Сертификат соответствия выдается Заявителю при выполнении следующих "
 "обязательных условий"
 msgstr ""
-" Muvofiqlik sertifikati talabgorga quyidagilar bajarilganda beriladi: "
-"Shartlar"
+"Muvofiqlik sertifikati ariza beruvchiga quyidagi majburiy shartlar "
+"bajarilganda beriladi"
 
 #: .\app\templates\certificate.html:102
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
-"соответствия, выбора схемы сертификации, выбора нормативной документации и т."
-"д "
+"соответствия, выбора схемы сертификации, выбора нормативной документации и "
+"т.д "
 msgstr ""
-" Ariza beruvchi sertifikatlashtirish organi bo'lgan barcha ma'lumotlarni "
-"taqdim etishi shart baholash tartibi to'g'risidagi qarorni zarur deb "
-"hisoblaydi muvofiqligi, sertifikatlashtirish sxemasini tanlash, normativ "
-"hujjatlarni tanlash va boshqalar "
+"Ariza beruvchi sertifikatlashtirish organi zarur deb hisoblagan barcha "
+"ma’lumotlarni, muvofiqlikni baholash tartibi, sertifikatlash sxemasi va "
+"normativ hujjatlarni tanlash bo‘yicha qaror qabul qilish uchun taqdim etishi "
+"shart"
 
 #: .\app\templates\certificate.html:105
 msgid ""
 "все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
 msgstr ""
-" Tekshirish davomida aniqlangan barcha qarama-qarshiliklar bartaraf etilib, "
-"murojaat etuvchi CBga ularni yo'q qilishning ob'ektiv dalillarini taqdim etdi"
+"Tekshiruv davomida aniqlangan barcha nomuvofiqliklar bartaraf etilgan va "
+"ariza beruvchi ularni bartaraf etish bo‘yicha OSga obyektiv dalillar "
+"taqdim etgan"
 
 #: .\app\templates\certificate.html:108
 msgid ""
@@ -428,20 +418,19 @@ msgid ""
 "гарантировать стабильность выполнения установленных и предполагаемых "
 "требований"
 msgstr ""
-"sertifikatlashtirish natijalari quyidagilarni ko'rsatadi: me'yoriy hujjatlar "
-"talablariga rioya qilish;amaldagi qonunchilik talablari; Ariza beruvchining "
-"imkoniyati to'g'risida o'rnatilgan va kutilayotgan amalga oshirilishining "
-"barqarorligini kafolatlash uchun Talablar"
+"Sertifikatlash natijalari quyidagilarni ko‘rsatadi: normativ hujjatlar "
+"talablariga muvofiqlik; amaldagi qonunchilik talablari; ariza beruvchining "
+"belgilangan va kutilayotgan talablarni barqaror bajarish imkoniyati"
 
 #: .\app\templates\certificate.html:111
 msgid " Заявитель полностью выполнил свои договорные обязательства перед ОС"
-msgstr "Ariza beruvchi CB oldidagi shartnoma majburiyatlarini to'liq bajargan"
+msgstr "Ariza beruvchi OS oldidagi shartnoma majburiyatlarini to‘liq bajargan"
 
 #: .\app\templates\certificate.html:114
 msgid ""
 " результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
-"sertifikatlashtirish ishlarining natijalari OS boshqaruvi tomonidan "
+"Sertifikatlashtirish ishlarining natijalari OS rahbariyati tomonidan "
 "tekshirilgan va tasdiqlangan"
 
 #: .\app\templates\certificate.html:118
@@ -453,13 +442,13 @@ msgid ""
 "Наличие письменного уведомления ОС является основанием для Заявителя "
 "информировать все заинтересованные стороны о результатах сертификации"
 msgstr ""
-"Sinov protokolini (larni) ko'rib chiqqandan so'ng OS, holat bo'yicha so'rov "
-"ishlab chiqarish va ariza beruvchi tomonidan taqdim etilgan hujjatlar, "
-"masalalar muvofiqlik sertifikati yoki uni berishni rad etadi. OS yozma "
-"ravishda sertifikatlashtirish natijalariga ko'ra qabul qilingan qaror "
-"to'g'risida Ariza beruvchiga ma'lum qiladi.KKga yozma bildirishnomaning "
-"mavjudligi ariza beruvchining asosi hisoblanadi sertifikatlashtirish "
-"natijalari to'g'risida barcha qiziqqan tomonlarga ma'lumot berish"
+"OS sinov protokoli(lar)i, ishlab chiqarish holati va ariza beruvchi tomonidan "
+"ariza bilan taqdim etilgan hujjatlarni ko‘rib chiqqandan so‘ng muvofiqlik "
+"sertifikatini beradi yoki uni berishni rad etadi. OS sertifikatlash "
+"natijalari bo‘yicha qabul qilingan qaror haqida ariza beruvchini yozma "
+"ravishda xabardor qiladi. OSning yozma xabarnomasi ariza beruvchiga "
+"sertifikatlash natijalari haqida barcha manfaatdor tomonlarni xabardor qilish "
+"uchun asos bo‘ladi"
 
 #: .\app\templates\certificate.html:122
 msgid ""
@@ -467,9 +456,10 @@ msgid ""
 "сертификат соответствия регистрируется в Государственном реестре НСС Уз. "
 "Сертификат действителен только при наличии регистрационного номера"
 msgstr ""
-"Dissertatsiya davlat yoki rus tillarida beriladi. Freymlangan Muvofiqlik "
-"sertifikati NSS UZ Davlat reestrida ro'yxatdan o'tkazilgan.Sertifikat faqat "
-"ro'yxatdan o'tish raqamingiz bo'lsa amal qiladi"
+"Sertifikat davlat yoki rus tilida rasmiylashtiriladi. Rasmiylashtirilgan "
+"muvofiqlik sertifikati O‘zbekiston Respublikasi NSS davlat reyestrida "
+"ro‘yxatdan o‘tkaziladi. Sertifikat faqat ro‘yxatga olish raqami mavjud "
+"bo‘lgandagina haqiqiy hisoblanadi"
 
 #: .\app\templates\certificate.html:126
 msgid ""
@@ -478,40 +468,42 @@ msgid ""
 "производства — в течение пяти рабочих дней с момента получения ОС "
 "результатов испытаний"
 msgstr ""
-"Muvofiqlik sertifikati ariza beruvchiga uch ish kuni ichida beriladi barcha "
-"kerakli hujjatlarni taqdim etgandan so'ng, hamda OS davrida ishlab chiqarish "
-"anketalari - olingan kundan boshlab besh ish kuni ichida;Sinov "
-"natijalarining OS"
+"Muvofiqlik sertifikati ariza beruvchiga barcha zarur hujjatlar taqdim "
+"etilgandan so‘ng uch ish kuni ichida, OS tomonidan ishlab chiqarish "
+"ob’ektlari ko‘zdan kechirilganda esa, OS sinov natijalarini olgan kundan "
+"boshlab besh ish kuni ichida beriladi"
 
 #: .\app\templates\certificate.html:130
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно производимой продукции — на 3 года"
 msgstr ""
-" Raf muddati davomida import qilinadigan mahsulotlar uchun muvofiqlik "
-"sertifikati beriladi mahsulotlar, va ommaviy ishlab chiqariladigan "
-"mahsulotlar uchun - 3 yil muddatga"
+"Muvofiqlik sertifikati import qilinadigan mahsulotlar uchun mahsulotning "
+"yaroqlilik muddati davomida, ommaviy ishlab chiqariladigan mahsulotlar uchun "
+"esa 3 yil muddatga beriladi"
 
 #: .\app\templates\complaint.html:20
 msgid "Жалобы и претензии"
-msgstr "SHIKOYATLAR VA DA'VOLAR"
+msgstr "Shikoyatlar va da'volar"
 
 #: .\app\templates\complaint.html:23
 msgid ""
 "Если у Вас возникли жалобы и претензии по деятельности лаборатории и органа "
 "по сертификации, Вы можете:"
 msgstr ""
-"Agar sizda laboratoriya yoki sertifikatlashtirish organining faoliyati yuzasidan shikoyat yoki da'volaringiz bo'lsa, siz:"
+"Agar sizda laboratoriya yoki sertifikatlashtirish organi faoliyati bo‘yicha "
+"shikoyat va da’volar bo‘lsa, siz quyidagilarni qilishingiz mumkin:"
 
 #: .\app\templates\complaint.html:24
 msgid ""
 "Направить жалобу можно официальным письмом,  по электронной почте по адресу: "
 msgstr ""
-"Shikoyatni rasmiy xat yoki elektron pochta orqali yuborishingiz mumkin: "
+"Shikoyatni rasmiy xat yoki quyidagi elektron pochta manziliga yuborishingiz "
+"mumkin: "
 
 #: .\app\templates\complaint.html:26
 msgid "позвонив на один из следующих номеров:  "
-msgstr "quyidagi raqamlardan biriga qo'ng'iroq qilib: "
+msgstr "quyidagi raqamlardan biriga qo‘ng‘iroq qilib: "
 
 #: .\app\templates\complaint.html:27
 msgid "Директор ООО:"
@@ -523,37 +515,36 @@ msgstr "U.A. Abdurazzokov"
 
 #: .\app\templates\complaint.html:28
 msgid "Начальник лаборатории:"
-msgstr "Sinov laboratoriyasi boshli'gi"
+msgstr "Sinov laboratoriyasi boshlig'i"
 
 #: .\app\templates\complaint.html:29
 msgid "Руководитель органа:"
-msgstr "Tananing boshi:"
+msgstr "Organ rahbari:"
 
 #: .\app\templates\complaint.html:29
 msgid "Д.Ш. Тургунов"
-msgstr "D.Sh. Turg'unov"
+msgstr "D.Sh. Turg‘unov"
 
 #: .\app\templates\complaint.html:33
 msgid "Направить претензию можно здесь:"
-msgstr "Bu yerda daʼvo yuborishingiz mumkin:"
+msgstr "Da’vo yuborish uchun bu yerda murojaat qilishingiz mumkin:"
 
-#: .\app\templates\complaint.html:41 .\app\templates\home.html:591
+#: .\app\templates\complaint.html:41 .\app\templates\home.html:696
 msgid "Поле \"ФИО\" должно быть заполнено"
-msgstr "Nom maydoni to'ldirilishi kerak"
+msgstr "\"FISH\" maydoni to‘ldirilishi kerak"
 
 #: .\app\templates\complaint.html:45
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
-#: .\app\templates\complaint.html:48 .\app\templates\home.html:600
+#: .\app\templates\complaint.html:48 .\app\templates\home.html:705
 msgid "Поле \"Email\" должно быть заполнено"
-msgstr "Email maydoni to'ldirilishi kerak"
+msgstr "\"Email\" maydoni to‘ldirilishi kerak"
 
 #: .\app\templates\complaint.html:55
-#, fuzzy
 #| msgid "Поле \"Номер\"должно быть заполнено"
 msgid "Поле \"Номер телефона\" должно быть заполнено"
-msgstr "Raqam maydoni to'ldirilishi kerak"
+msgstr "\"Telefon raqami\" maydoni to‘ldirilishi kerak"
 
 #: .\app\templates\complaint.html:64
 msgid ""
@@ -562,35 +553,35 @@ msgid ""
 "Данный документ по запросу предоставляется всем заинтересованным сторонам. "
 "Все претензии и жалобы регистрируются во внутренней документации лаборатории."
 msgstr ""
-"Murojaat, shikoyat va takliflarni ko‘rib chiqish tartibi tartibga solindi "
-"PSM-PR-05 \"Da'volar va murojaatlarni boshqarish\" ichki hujjati. Ushbu "
-"hujjat barcha manfaatdor tomonlarning so'roviga binoan mavjud. Barcha da’vo "
-"va shikoyatlar laboratoriyaning ichki hujjatlarida qayd etilgan."
+"Apellyatsiya, shikoyat va takliflarni ko‘rib chiqish tartibi PSM-PR-05 "
+"\"Da’volar va apellyatsiyalarni boshqarish\" ichki hujjati bilan tartibga "
+"solinadi. Ushbu hujjat barcha manfaatdor tomonlarning so‘rovi asosida "
+"taqdim etiladi. Barcha da’vo va shikoyatlar laboratoriyaning ichki "
+"hujjatlarida qayd etiladi."
 
-#: .\app\templates\complaint.html:68 .\app\templates\home.html:619
-#: .\app\templates\home.html:654
+#: .\app\templates\complaint.html:68 .\app\templates\home.html:724
 msgid "Отправить"
-msgstr "Joʻnatish"
+msgstr "Jo‘natish"
 
-#: .\app\templates\complaint.html:72
+#: .\app\templates\complaint.html:73 .\app\templates\complaint.html:77
 msgid "Жалоба успешно отправлена!"
 msgstr "Shikoyat muvaffaqiyatli yuborildi!"
 
 #: .\app\templates\home.html:20
 msgid "ОРГАН ПО СЕРТИФИКАЦИИ"
-msgstr "SERTIFIKATLASHTIRISH ORGANI"
+msgstr "Sertifikatlashtirish organi"
 
 #: .\app\templates\home.html:21
 msgid "АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ"
-msgstr "MOTORLI TRANSPORT VOSITALARI"
+msgstr "Avtomototransport vositalari"
 
 #: .\app\templates\home.html:25
 msgid ""
 "Орган по сертификации автомототранспортных средств, спецтехники и их "
 "составных частей, предметов оборудования и прицепов"
 msgstr ""
-"Avtomobillar, maxsus texnika va ularni sertifikatlash organi komponent "
-"qismlar, jihozlar va tirkamalar"
+"Avtomototransport vositalari, maxsus texnika va ularning tarkibiy qismlari, "
+"jihozlar va tirkamalarni sertifikatlash organi"
 
 #: .\app\templates\home.html:28
 msgid "Заказать услугу"
@@ -598,23 +589,23 @@ msgstr "Xizmatga buyurtma berish"
 
 #: .\app\templates\home.html:39
 msgid "Наши преимущества"
-msgstr "Bizning afzalliklarimiz  "
+msgstr "Bizning afzalliklarimiz"
 
 #: .\app\templates\home.html:54
 msgid "У НАС САМЫЕ ВЫГОДНЫЕ УСЛОВИЯ ДОГОВОРА"
-msgstr "BIZDA SHARTNOMANING ENG QULAY SHARTLARI MAVJUD"
+msgstr "Bizda eng qulay shartnoma shartlari mavjud"
 
 #: .\app\templates\home.html:68
 msgid " МЫ ПОМОЖЕМ ВАМ СЭКОНОМИТЬ ВАШЕ ВРЕМЯ"
-msgstr "VAQTINGIZNI TEJASHGA YORDAM BERAMIZ"
+msgstr "Vaqtingizni tejashga yordam beramiz"
 
 #: .\app\templates\home.html:82
 msgid "УДОБНАЯ ОПЛАТА"
-msgstr "QULAY TO'LOV"
+msgstr "Qulay to‘lov"
 
 #: .\app\templates\home.html:96
 msgid "СОТРУДНИЧАЕМ С ПАРТНЕРАМИ"
-msgstr "BIZ HAMKORLAR BILAN HAMKORLIK QILAMIZ"
+msgstr "Hamkorlar bilan hamkorlik qilamiz"
 
 #: .\app\templates\home.html:108
 msgid "О нас"
@@ -629,1527 +620,384 @@ msgid ""
 "оказываемые нашими специалистами обеспечивают максимальную достоверность с "
 "применением современных инновационных и интеллектуальных технологий. "
 msgstr ""
-"MChJ «Avto Standart Etalon» - imloning avtomatlashtirilgan ortopedik "
-"ortopedi. MChJ «Avto Standard Etalon» MChJ a'zosi bo'lib, «Avto Standart "
-"Etalon» nishaletlarni yo'q qilish va nishaletlarni yo'q qilish uchun "
-"nirmatnyms uchun. Mutaxassislarimiz tomonidan ko'rsatiladigan barcha "
-"xizmatlar zamonaviy innovatsion va aqlli texnologiyalardan foydalanishda "
-"maksimal darajada ishonchlilikni ta'minlaydi."
+"\"Avto Standart Etalon\" MChJ — akkreditatsiyadan o‘tgan sertifikatlash "
+"organi va mashinasozlik mahsulotlari sinov laboratoriyasi. \"Avto Standart "
+"Etalon\" MChJ mutaxassislari mahsulotingizni amaldagi normativ hujjatlarga "
+"muvofiq baholab, majburiy sertifikatlashni amalga oshiradi. Mutaxassislarimiz "
+"tomonidan ko‘rsatiladigan barcha xizmatlar zamonaviy innovatsion va aqlli "
+"texnologiyalar yordamida maksimal ishonchlilikni ta’minlaydi."
 
-#: .\app\templates\home.html:221
+#: .\app\templates\home.html:146
+#| msgid "стороны о результатах сертификации"
+msgid "Информация о схемах сертификации"
+msgstr "Sertifikatlash sxemalari haqida ma’lumot"
+
+#: .\app\templates\home.html:151
+msgid ""
+"Органом по сертификации продукции при OOO «Avto Standart Etalon» проводят "
+"сертификацию по схемам №1С, №3С и №4С в соответствии ПКМ РУз от 14.08.2024 "
+"№502 а также схемы 3,4,7 в соответствии ПКМ №318"
+msgstr ""
+"\"Avto Standart Etalon\" MChJ mahsulotlarni sertifikatlash organi tomonidan "
+"14.08.2024 yildagi 502-sonli PKMga muvofiq 1C, 3C va 4C sxemalari, shuningdek, "
+"318-sonli PKMga muvofiq 3, 4, 7 sxemalari bo‘yicha sertifikatlash amalga "
+"oshiriladi."
+
+#: .\app\templates\home.html:258
 msgid "Наши услуги"
-msgstr "Bizning xizmatlar"
+msgstr "Bizning xizmatlarimiz"
 
-#: .\app\templates\home.html:229
+#: .\app\templates\home.html:266
 msgid ""
 "СЕРТИФИКАЦИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ"
 msgstr ""
-"AVTOTRANSPORT VOSITALARI, MAXSUS TEXNIKA VA ULARNING TARKIBIY QISMLARINI "
-"SERTIFIKATLASH"
+"Avtomototransport vositalari, maxsus texnika va ularning tarkibiy qismlarini "
+"sertifikatlash"
 
-#: .\app\templates\home.html:238
+#: .\app\templates\home.html:275
 msgid ""
 "СЕРТИФИКАЦИЯ УСЛУГ ПО ТЕХНИЧЕСКОМУ ОБСЛУЖИВАНИЮ, И РЕМОНТУ "
 "АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ"
 msgstr ""
-" TA'MIRLASH VA TA'MIRLASH XIZMATLARINI SERTIFIKATLASHTIRISH MOTORLI "
-"TRANSPORT VOSITALARI"
+"Avtomototransport vositalarini texnik xizmat ko‘rsatish va ta’mirlash "
+"xizmatlarini sertifikatlash"
 
-#: .\app\templates\home.html:247
+#: .\app\templates\home.html:284
 msgid ""
 "АККРЕДИТОВАННАЯ ИСПЫТАТЕЛЬНАЯ ЛАБОРАТОРИЯ АВТОМОТОТРАНСПОРТНЫХ СРЕДСТВ, "
 "СПЕЦТЕХНИКИ И ИХ СОСТАВНЫХ ЧАСТЕЙ"
 msgstr ""
-" AVTOTRANSPORT VOSITALARINI AKKREDITATSIYADAN O'TKAZISH LABORATORIYASI, "
-"MAXSUS JIHOZLAR VA ULARNING TARKIBIY QISMLARI"
+"Avtomototransport vositalari, maxsus texnika va ularning tarkibiy qismlari "
+"uchun akkreditatsiyadan o‘tgan sinov laboratoriyasi"
 
-#: .\app\templates\home.html:261
+#: .\app\templates\home.html:298
 msgid "Наша команда"
-msgstr "BIZNING JAMOAMIZ"
+msgstr "Bizning jamoamiz"
 
-#: .\app\templates\home.html:278
+#: .\app\templates\home.html:313
 msgid "Абдураззоков Умидулла Абдураззокович"
 msgstr "Abdurazzokov Umidulla Abdurazzokovich"
 
-#: .\app\templates\home.html:281
+#: .\app\templates\home.html:316
 msgid "Директор"
 msgstr "Direktor"
 
-#: .\app\templates\home.html:299
+#: .\app\templates\home.html:332
 msgid "Зияев Камолиддин Зухритдинович"
 msgstr "Ziyaev Kamoliddin Zuhritdinovich"
 
-#: .\app\templates\home.html:302
+#: .\app\templates\home.html:335
 msgid "Заместитель Директора"
-msgstr "Direktor o'rinbosari"
+msgstr "Direktor o‘rinbosari"
 
-#: .\app\templates\home.html:319
+#: .\app\templates\home.html:350
 msgid "А. Мустафаев"
 msgstr "A. Mustafayev"
 
-#: .\app\templates\home.html:322
+#: .\app\templates\home.html:353
 msgid "Технический консультат"
 msgstr "Texnik maslahatchi"
 
-#: .\app\templates\home.html:340
+#: .\app\templates\home.html:369
 msgid "Рашидов Азиз"
 msgstr "Rashidov Aziz"
 
-#: .\app\templates\home.html:343
+#: .\app\templates\home.html:372
 msgid "Менеджер по системе менеджмента качества"
 msgstr "Sifat menejmenti tizimi menejeri"
 
-#: .\app\templates\home.html:360
-msgid "Алимжанов Алишер"
-msgstr "Alimzxanov Alisher"
-
-#: .\app\templates\home.html:380
-msgid "Усманов Зафар Турсунович"
-msgstr "Usmanov Zafar Tursunovich"
-
-#: .\app\templates\home.html:402
-msgid "Анваржонов Ахмаджон"
-msgstr "Anvarjonov Axmadjon"
+#: .\app\templates\home.html:387
+msgid "Алимжанов АлишерТургунов Диёр Шербекович"
+msgstr "Alimjonov Alisher, Turg‘unov Diyor Sherbekovich"
 
 #: .\app\templates\home.html:405
+msgid "Усманов Зафар Турсунович"
+msgstr "Usmonov Zafar Tursunovich"
+
+#: .\app\templates\home.html:423
+msgid "Айрапетов Дмитрий Алексеевич"
+msgstr "Ayrapetov Dmitriy Alekseevich"
+
+#: .\app\templates\home.html:426 .\app\templates\home.html:444
+#: .\app\templates\home.html:462 .\app\templates\home.html:480
+#: .\app\templates\home.html:498
+#| msgid "Начальник испытательной лаборатории"
+msgid "Специалист испытательной лаборатории"
+msgstr "Sinov laboratoriyasi mutaxassisi"
+
+#: .\app\templates\home.html:441
+#| msgid "Усманов Зафар Турсунович"
+msgid "Утаганов Сарвар Кахрамон угли"
+msgstr "Utganov Sarvar Kahramon o‘g‘li"
+
+#: .\app\templates\home.html:459
+msgid "Шерматов Ботир Панжи угли"
+msgstr "Shermatov Botir Panji o‘g‘li"
+
+#: .\app\templates\home.html:477
+msgid "Равшанбеков Жахонгир Алишер угли"
+msgstr "Ravshanbekov Jahongir Alisher o‘g‘li"
+
+#: .\app\templates\home.html:495
+msgid "Пардабоев Зиёвуддин Адхам угли"
+msgstr "Pardaboyev Ziyovuddin Adham o‘g‘li"
+
+#: .\app\templates\home.html:515
+msgid "Анваржонов Ахмаджон"
+msgstr "Anvarjonov Ahmadjon"
+
+#: .\app\templates\home.html:518
 msgid "Инженер по сертификации"
-msgstr "Sertifikatlashtirish shartlari"
+msgstr "Sertifikatlash muhandisi"
 
-#: .\app\templates\home.html:422
+#: .\app\templates\home.html:533
 msgid "Улашев Жонибек"
-msgstr "Ulashev Zhonibek"
+msgstr "Ulashev Jonibek"
 
-#: .\app\templates\home.html:425
+#: .\app\templates\home.html:536
 msgid "Инженер-метролог"
-msgstr "Metrologiya muhandisi"
+msgstr "Metrolog muhandis"
 
-#: .\app\templates\home.html:442
+#: .\app\templates\home.html:551
 msgid "Мамасолиева Нафиса"
 msgstr "Mamasoliyeva Nafisa"
 
-#: .\app\templates\home.html:445
+#: .\app\templates\home.html:554
 msgid "Инженер по стандартизации"
-msgstr "Kadrlar muhandisi"
+msgstr "Standartlashtirish muhandisi"
 
-#: .\app\templates\home.html:462
+#: .\app\templates\home.html:569
 msgid "Шавкатов Хумоюн"
 msgstr "Shavkatov Xumoyun"
 
-#: .\app\templates\home.html:465 .\app\templates\home.html:485
+#: .\app\templates\home.html:572 .\app\templates\home.html:590
 msgid "Инженер-испытатель"
 msgstr "Sinov muhandisi"
 
-#: .\app\templates\home.html:482
+#: .\app\templates\home.html:587
 msgid "Тухтамишев Собит"
-msgstr "Tukhtamishev Sobit"
+msgstr "Tuxtamishev Sobit"
 
-#: .\app\templates\home.html:498
+#: .\app\templates\home.html:603
 msgid "УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ"
-msgstr "MUVOFIQLIK SERTIFIKATINI BERISH SHARTLARI"
+msgstr "Muvofiqlik sertifikatini berish shartlari"
 
-#: .\app\templates\home.html:503
+#: .\app\templates\home.html:608
 msgid ""
 "СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ "
 "ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ "
 msgstr ""
-"MUVOFIQLIK SERTIFIKATI TALABGORGA QUYIDAGILAR BAJARILGANDA BERILADI: "
-"SHARTLAR "
+"Muvofiqlik sertifikati ariza beruvchiga quyidagi majburiy shartlar "
+"bajarilganda beriladi"
 
-#: .\app\templates\home.html:506
+#: .\app\templates\home.html:611
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
-"соответствия, выбора схемы сертификации, выбора нормативной документации и т."
-"д"
+"соответствия, выбора схемы сертификации, выбора нормативной документации и "
+"т.д"
 msgstr ""
-" Ariza beruvchi sertifikatlashtirish organi bo'lgan barcha ma'lumotlarni "
-"taqdim etishi shart  baholash tartibi to'g'risidagi qarorni zarur deb "
-"hisoblaydi muvofiqlik, sertifikatlashtirish sxemasini tanlash, normativ "
-"hujjatlarni tanlash va boshqalar"
+"Ariza beruvchi sertifikatlashtirish organi zarur deb hisoblagan barcha "
+"ma’lumotlarni, muvofiqlikni baholash tartibi, sertifikatlash sxemasi va "
+"normativ hujjatlarni tanlash bo‘yicha qaror qabul qilish uchun taqdim etishi "
+"shart"
 
-#: .\app\templates\home.html:509
+#: .\app\templates\home.html:614
 msgid ""
 "Все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
 msgstr ""
-" Tekshirish davomida aniqlangan barcha qarama-qarshiliklar bartaraf etilib, "
-"murojaat etuvchi CBga ularni yo'q qilishning ob'ektiv dalillarini taqdim etdi"
+"Tekshiruv davomida aniqlangan barcha nomuvofiqliklar bartaraf etilgan va "
+"ariza beruvchi ularni bartaraf etish bo‘yicha OSga obyektiv dalillar "
+"taqdim etgan"
 
-#: .\app\templates\home.html:512
+#: .\app\templates\home.html:617
 msgid ""
 "Результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям"
 msgstr ""
-" Sertifikatlash natijalari quyidagilarni ko'rsatadi: ND talablariga "
-"muvofiqligi; Amaldagi qonunchilik talablari"
+"Sertifikatlash natijalari quyidagilarni ko‘rsatadi: normativ hujjatlar "
+"talablariga muvofiqlik; amaldagi qonunchilik talablari"
 
-#: .\app\templates\home.html:512
+#: .\app\templates\home.html:617
 msgid ""
 "о способности заявителя гарантировать стабильность выполнения установленных "
 "и предполагаемых требований"
 msgstr ""
-" talabnoma beruvchining o'rnatilgan amalga oshirishning barqarorligini "
-"kafolatlay olishi to'g'risida va kutilgan talablar"
+"ariza beruvchining belgilangan va kutilayotgan talablarni barqaror bajarish "
+"imkoniyati"
 
-#: .\app\templates\home.html:515
+#: .\app\templates\home.html:620
 msgid "Заявитель полностью выполнил свои договорные обязательства перед ОС"
-msgstr "Ariza beruvchi CB oldidagi shartnoma majburiyatlarini to'liq bajargan"
+msgstr "Ariza beruvchi OS oldidagi shartnoma majburiyatlarini to‘liq bajargan"
 
-#: .\app\templates\home.html:518
+#: .\app\templates\home.html:623
 msgid "Результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
-"Sertifikatlashtirish ishlarining natijalari OS boshqaruvi tomonidan "
+"Sertifikatlashtirish ishlarining natijalari OS rahbariyati tomonidan "
 "tekshirilgan va tasdiqlangan"
 
-#: .\app\templates\home.html:525
+#: .\app\templates\home.html:630
 msgid ""
 " ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов"
 msgstr ""
-"  Sinov protokolini (larni) ko'rib chiqqandan so'ng OS, holat bo'yicha "
-"so'rov ishlab chiqarish va hujjatlar"
+"OS sinov protokoli(lar)i, ishlab chiqarish holati va hujjatlarni ko‘rib "
+"chiqqandan so‘ng"
 
-#: .\app\templates\home.html:526
+#: .\app\templates\home.html:631
 msgid ""
 "представленных заявителем с заявкой, выдает сертификат соответствия или "
 "отказывает в его выдаче. ОС"
 msgstr ""
-" ariza beruvchi tomonidan ariza bilan taqdim etilgan, muvofiqlik "
-"sertifikatini beradi yoki  ekstraditsiya qilishdan bosh tortadi. OS"
+"ariza beruvchi tomonidan ariza bilan taqdim etilgan hujjatlar asosida "
+"muvofiqlik sertifikatini beradi yoki uni berishni rad etadi. OS"
 
-#: .\app\templates\home.html:527
+#: .\app\templates\home.html:632
 msgid ""
 "письменно информирует Заявителя о принятом по результатам сертификации "
 "решении. Наличие"
 msgstr ""
-" sertifikatlashtirish natijalari to'g'risida ariza beruvchiga yozma ravishda "
-"ma'lumot beradi Yechish. Mavjudligi"
+"sertifikatlashtirish natijalari bo‘yicha qabul qilingan qaror haqida ariza "
+"beruvchini yozma ravishda xabardor qiladi. Mavjudligi"
 
-#: .\app\templates\home.html:528
+#: .\app\templates\home.html:633
 msgid ""
 "письменного уведомления ОС является основанием для Заявителя информировать "
 "все заинтересованные"
 msgstr ""
-" CB to'g'risida yozma xabarnoma ariza beruvchiga ma'lumot berish uchun asos "
-"bo'lgan Hamma qiziqadi"
+"OSning yozma xabarnomasi ariza beruvchiga barcha manfaatdor tomonlarni "
+"xabardor qilish uchun asos bo‘ladi"
 
-#: .\app\templates\home.html:529
+#: .\app\templates\home.html:634
 msgid "стороны о результатах сертификации"
-msgstr "Sertifikatlashtirish natijalari bo'yicha tomonlar"
+msgstr "sertifikatlash natijalari haqida"
 
-#: .\app\templates\home.html:535
+#: .\app\templates\home.html:640
 msgid ""
 "Сертификат оформляется на государственном или русском языках. Оформленный "
 "сертификат соответствия"
 msgstr ""
-" Dissertatsiya davlat yoki rus tillarida beriladi. Freymlangan Muvofiqlik "
-"sertifikati"
+"Sertifikat davlat yoki rus tilida rasmiylashtiriladi. Rasmiylashtirilgan "
+"muvofiqlik sertifikati"
 
-#: .\app\templates\home.html:536
+#: .\app\templates\home.html:641
 msgid ""
 "регистрируется в Государственном реестре НСС Уз. Сертификат действителен "
 "только при наличии"
 msgstr ""
-" NSS Uz Davlat reestrida ro'yxatdan o'tgan. Sertifikat haqiqiy  Faqat mavjud "
-"bo'lsa"
+"O‘zbekiston Respublikasi NSS davlat reyestrida ro‘yxatdan o‘tkaziladi. "
+"Sertifikat faqat"
 
-#: .\app\templates\home.html:537
+#: .\app\templates\home.html:642
 msgid "регистрационного номера"
-msgstr "ro'yxatga olish raqami"
+msgstr "ro‘yxatga olish raqami"
 
-#: .\app\templates\home.html:544
+#: .\app\templates\home.html:649
 msgid ""
 "Орган по сертификации не должен заявлять или давать понять, что проведение "
 "сертификации будет проще, легче, быстрее или дешевле при обращении за "
 "услугами к конкретным консультирующим организациям."
 msgstr ""
-"Sertifikatlash organi e'lon qilmaydi yoki aniq ko'rsatishi mumkin bo'lgan ."
-"Sertifikatlash osonroq, osonroq, tezroq yoki arzonroq bo'ladi muayyan "
-"konsalting tashkilotlariga xizmatlar."
+"Sertifikatlash organi sertifikatlash muayyan konsalting tashkilotlariga "
+"murojaat qilinganda osonroq, tezroq yoki arzonroq bo‘ladi deb e’lon qilmasligi "
+"yoki shunday taassurot uyg‘otmasligi kerak."
 
-#: .\app\templates\home.html:550
+#: .\app\templates\home.html:655
 msgid ""
 "Сертификат соответствия выдается заявителю в течение двух рабочих дней, а "
 "при проведении ОС"
 msgstr ""
-" Muvofiqlik sertifikati ariza beruvchiga ikki ish kuni ichida beriladi va OS "
-"davrida"
+"Muvofiqlik sertifikati ariza beruvchiga ikki ish kuni ichida, OS tomonidan"
 
-#: .\app\templates\home.html:551
+#: .\app\templates\home.html:656
 msgid ""
 "обследования производства — в течение пяти рабочих дней с момента получения "
 "ОС результатов испытаний"
 msgstr ""
-" ishlab chiqarish anketalari - olingan kundan boshlab besh ish kuni ichida;"
-"Sinov natijalarining OS"
+"ishlab chiqarish ob’ektlari ko‘zdan kechirilganda esa, OS sinov natijalarini "
+"olgan kundan boshlab besh ish kuni ichida beriladi"
 
-#: .\app\templates\home.html:558
+#: .\app\templates\home.html:663
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно"
 msgstr ""
-" Raf muddati davomida import qilinadigan mahsulotlar uchun muvofiqlik "
-"sertifikati beriladi mahsulotlar, va serial uchun"
+"Muvofiqlik sertifikati import qilinadigan mahsulotlar uchun mahsulotning "
+"yaroqlilik muddati davomida,"
 
-#: .\app\templates\home.html:559
+#: .\app\templates\home.html:664
 msgid "производимой продукции — на 3 года"
-msgstr "ishlab chiqarilgan mahsulotlar - 3 yil muddatga"
+msgstr "ommaviy ishlab chiqariladigan mahsulotlar uchun — 3 yil muddatga"
 
-#: .\app\templates\home.html:574
+#: .\app\templates\home.html:679
 msgid "Нуждаетесь в услугах"
-msgstr "Xizmatlarga muhtoj"
+msgstr "Xizmatlarga muhtojmisiz"
 
-#: .\app\templates\home.html:574
+#: .\app\templates\home.html:679
 msgid "сертификации"
-msgstr "Sertifikatlash"
+msgstr "sertifikatlash"
 
-#: .\app\templates\home.html:578
+#: .\app\templates\home.html:683
 msgid ""
 "Берегите свое время, подайте заявку на проведение сертификации посредствам "
 "официального сайта "
-msgstr "Vaqtingizni tejang, sertifikatga ariza topshiring rasmiy sayt"
+msgstr ""
+"Vaqtingizni tejang, sertifikatlash uchun rasmiy sayt orqali ariza bering"
 
-#: .\app\templates\home.html:582
+#: .\app\templates\home.html:687
 msgid ""
 "Здесь вы можете оставить свои предложения и вопросы по деятельности ООО "
 "\"AUTO STANDART ETALON\""
 msgstr ""
-"Bu yerda MChJ faoliyatiga oid taklif va savollaringizni qoldirishingiz mumkin"
-"\"AVTO STANDART ETALON\""
+"Bu yerda siz \"AUTO STANDART ETALON\" MChJ faoliyati bo‘yicha taklif va "
+"savollaringizni qoldirishingiz mumkin"
 
-#: .\app\templates\home.html:609
+#: .\app\templates\home.html:714
 msgid "Поле \"Номер\"должно быть заполнено"
-msgstr "Raqam maydoni to'ldirilishi kerak"
-
-#: .\app\templates\home.html:625
-msgid "ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА"
-msgstr "SHAKL MUVAFFAQIYATLI TOPSHIRILDI"
-
-#: .\app\templates\home.html:628
-msgid ""
-"Мы благодарим Вас за то, что Вы воспользовались услугами нашей лаборатории. "
-"Для оценки уровня предоставления услуг нашей лабораторией просим Вас "
-"ответить на несколько вопросов, которые помогут нам сделать услуги "
-"качественнее."
-msgstr ""
-"Laboratoriyamiz xizmatlaridan foydalanganingiz uchun minnatdorchilik "
-"bildiramiz. Laboratoriyamiz tomonidan ko'rsatilayotgan xizmat darajasini "
-"baholash uchun sizdan so'raymizxizmat ko'rsatishga yordam beradigan bir "
-"nechta savollarga javob beringyaxshiroq sifat."
-
-#: .\app\templates\home.html:632
-msgid "Как вы оцениваете качество проводимых испытаний?"
-msgstr "O'tkazilayotgan testlar sifatini qanday baholaysiz?"
-
-#: .\app\templates\home.html:636
-msgid "Как вы оцениваете компетентность персонала в испытательном комплексе?"
-msgstr ""
-"Test sinovi o'tkaziladigan muassasa xodimlarining malakasini qanday "
-"baholaysiz?"
-
-#: .\app\templates\home.html:640
-msgid "Как вы оцениваете качество обслуживания клиентов?"
-msgstr "Mijozlarga xizmat ko'rsatish sifatini qanday baholaysiz?"
-
-#: .\app\templates\home.html:644
-msgid "Ваши предложения и комментарии по улучшению нашей работы:"
-msgstr "Ishimizni yaxshilash uchun taklif va mulohazalaringiz:"
-
-#: .\app\templates\home.html:651
-msgid "Закрыть"
-msgstr "Yopish"
-
-#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
-msgid "Messages"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
-msgid "Site Maps"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
-msgid "Static Files"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
-msgid "Syndication"
-msgstr ""
-
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
-#: .\venv\Lib\site-packages\django\core\paginator.py:30
-msgid "…"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\paginator.py:50
-msgid "That page number is not an integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\paginator.py:52
-msgid "That page number is less than 1"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\paginator.py:54
-msgid "That page contains no results"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:22
-msgid "Enter a valid value."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:104
-#: .\venv\Lib\site-packages\django\forms\fields.py:749
-msgid "Enter a valid URL."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:164
-msgid "Enter a valid integer."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:175
-msgid "Enter a valid email address."
-msgstr ""
-
-#. Translators: "letters" means latin letters: a-z and A-Z.
-#: .\venv\Lib\site-packages\django\core\validators.py:256
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:264
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:276
-#: .\venv\Lib\site-packages\django\core\validators.py:284
-#: .\venv\Lib\site-packages\django\core\validators.py:313
-msgid "Enter a valid IPv4 address."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:293
-#: .\venv\Lib\site-packages\django\core\validators.py:314
-msgid "Enter a valid IPv6 address."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:305
-#: .\venv\Lib\site-packages\django\core\validators.py:312
-msgid "Enter a valid IPv4 or IPv6 address."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:348
-msgid "Enter only digits separated by commas."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:354
-#, python-format
-msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:389
-#, python-format
-msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:398
-#, python-format
-msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:407
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:417
-#, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:435
-#, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:458
-#: .\venv\Lib\site-packages\django\forms\fields.py:347
-#: .\venv\Lib\site-packages\django\forms\fields.py:386
-msgid "Enter a number."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:460
-#, python-format
-msgid "Ensure that there are no more than %(max)s digit in total."
-msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:465
-#, python-format
-msgid "Ensure that there are no more than %(max)s decimal place."
-msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:470
-#, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:541
-#, python-format
-msgid ""
-"File extension “%(extension)s” is not allowed. Allowed extensions are: "
-"%(allowed_extensions)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\core\validators.py:602
-msgid "Null characters are not allowed."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\base.py:1423
-#: .\venv\Lib\site-packages\django\forms\models.py:893
-msgid "and"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\base.py:1425
-#, python-format
-msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\constraints.py:17
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:128
-#, python-format
-msgid "Value %(value)r is not a valid choice."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:129
-msgid "This field cannot be null."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:130
-msgid "This field cannot be blank."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:131
-#, python-format
-msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
-
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
-#, python-format
-msgid ""
-"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:173
-#, python-format
-msgid "Field of type: %(field_type)s"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1094
-#, python-format
-msgid "“%(value)s” value must be either True or False."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1095
-#, python-format
-msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1097
-msgid "Boolean (Either True or False)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1147
-#, python-format
-msgid "String (up to %(max_length)s)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1149
-msgid "String (unlimited)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1253
-msgid "Comma-separated integers"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1354
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
-"format."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1358
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1493
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
-"date."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1362
-msgid "Date (without time)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
-msgid "Date (with time)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1626
-#, python-format
-msgid "“%(value)s” value must be a decimal number."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1628
-msgid "Decimal number"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1789
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
-msgid "Duration"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1845
-msgid "Email address"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1870
-msgid "File path"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1948
-#, python-format
-msgid "“%(value)s” value must be a float."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1950
-msgid "Floating point number"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1990
-#, python-format
-msgid "“%(value)s” value must be an integer."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1992
-msgid "Integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2088
-msgid "Big (8 byte) integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2105
-msgid "Small integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2113
-msgid "IPv4 address"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2144
-msgid "IP address"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2237
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2238
-#, python-format
-msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2240
-msgid "Boolean (Either True, False or None)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2291
-msgid "Positive big integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2306
-msgid "Positive integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2321
-msgid "Positive small integer"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2337
-#, python-format
-msgid "Slug (up to %(max_length)s)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2373
-msgid "Text"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2448
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
-"format."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2452
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
-"invalid time."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2456
-msgid "Time"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2564
-msgid "URL"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2588
-msgid "Raw binary data"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2653
-#, python-format
-msgid "“%(value)s” is not a valid UUID."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2655
-msgid "Universally unique identifier"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\files.py:232
-msgid "File"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\files.py:393
-msgid "Image"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
-msgid "A JSON object"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\json.py:28
-msgid "Value must be valid JSON."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\related.py:919
-#, python-format
-msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\related.py:921
-msgid "Foreign Key (type determined by related field)"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1212
-msgid "One-to-one relationship"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1269
-#, python-format
-msgid "%(from)s-%(to)s relationship"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1271
-#, python-format
-msgid "%(from)s-%(to)s relationships"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1319
-msgid "Many-to-many relationship"
-msgstr ""
-
-#. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
-#: .\venv\Lib\site-packages\django\forms\boundfield.py:184
-msgid ":?.!"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:91
-msgid "This field is required."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:298
-msgid "Enter a whole number."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:467
-#: .\venv\Lib\site-packages\django\forms\fields.py:1238
-msgid "Enter a valid date."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:490
-#: .\venv\Lib\site-packages\django\forms\fields.py:1239
-msgid "Enter a valid time."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:517
-msgid "Enter a valid date/time."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:551
-msgid "Enter a valid duration."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:552
-#, python-brace-format
-msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:618
-msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:619
-msgid "No file was submitted."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:620
-msgid "The submitted file is empty."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:622
-#, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
-msgid_plural ""
-"Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:627
-msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:691
-msgid ""
-"Upload a valid image. The file you uploaded was either not an image or a "
-"corrupted image."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:854
-#: .\venv\Lib\site-packages\django\forms\fields.py:946
-#: .\venv\Lib\site-packages\django\forms\models.py:1566
-#, python-format
-msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:948
-#: .\venv\Lib\site-packages\django\forms\fields.py:1067
-#: .\venv\Lib\site-packages\django\forms\models.py:1564
-msgid "Enter a list of values."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:1068
-msgid "Enter a complete value."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:1307
-msgid "Enter a valid UUID."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\fields.py:1337
-msgid "Enter a valid JSON."
-msgstr ""
-
-#. Translators: This is the default suffix added to form field labels
-#: .\venv\Lib\site-packages\django\forms\forms.py:98
-msgid ":"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\forms.py:244
-#: .\venv\Lib\site-packages\django\forms\forms.py:328
-#, python-format
-msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\formsets.py:63
-#, python-format
-msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\formsets.py:67
-#, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\forms\formsets.py:72
-#, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\forms\formsets.py:484
-#: .\venv\Lib\site-packages\django\forms\formsets.py:491
-msgid "Order"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\formsets.py:499
-msgid "Delete"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:886
-#, python-format
-msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:891
-#, python-format
-msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:898
-#, python-format
-msgid ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:907
-msgid "Please correct the duplicate values below."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:1338
-msgid "The inline value did not match the parent instance."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:1429
-msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\models.py:1568
-#, python-format
-msgid "“%(pk)s” is not a valid value."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\utils.py:226
-#, python-format
-msgid ""
-"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
-"may be ambiguous or it may not exist."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\widgets.py:463
-msgid "Clear"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\widgets.py:464
-msgid "Currently"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\widgets.py:465
-msgid "Change"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\widgets.py:794
-msgid "Unknown"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\widgets.py:795
-msgid "Yes"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\forms\widgets.py:796
-msgid "No"
-msgstr ""
-
-#. Translators: Please do not add spaces around commas.
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:861
-msgid "yes,no,maybe"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:891
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:908
-#, python-format
-msgid "%(size)d byte"
-msgid_plural "%(size)d bytes"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:910
-#, python-format
-msgid "%s KB"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:912
-#, python-format
-msgid "%s MB"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:914
-#, python-format
-msgid "%s GB"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:916
-#, python-format
-msgid "%s TB"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:918
-#, python-format
-msgid "%s PB"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dateformat.py:73
-msgid "p.m."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
-msgid "a.m."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dateformat.py:79
-msgid "PM"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
-msgid "AM"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dateformat.py:152
-msgid "midnight"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dateformat.py:154
-msgid "noon"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:7
-msgid "Monday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:8
-msgid "Tuesday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:9
-msgid "Wednesday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:10
-msgid "Thursday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:11
-msgid "Friday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:12
-msgid "Saturday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:13
-msgid "Sunday"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:16
-msgid "Mon"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:17
-msgid "Tue"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:18
-msgid "Wed"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:19
-msgid "Thu"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:20
-msgid "Fri"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:21
-msgid "Sat"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:22
-msgid "Sun"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:25
-msgid "January"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:26
-msgid "February"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:27
-msgid "March"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:28
-msgid "April"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:29
-msgid "May"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:30
-msgid "June"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:31
-msgid "July"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:32
-msgid "August"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:33
-msgid "September"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:34
-msgid "October"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:35
-msgid "November"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:36
-msgid "December"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:39
-msgid "jan"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:40
-msgid "feb"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:41
-msgid "mar"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:42
-msgid "apr"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:43
-msgid "may"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:44
-msgid "jun"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:45
-msgid "jul"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:46
-msgid "aug"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:47
-msgid "sep"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:48
-msgid "oct"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:49
-msgid "nov"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:50
-msgid "dec"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:53
-msgctxt "abbrev. month"
-msgid "Jan."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:54
-msgctxt "abbrev. month"
-msgid "Feb."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:55
-msgctxt "abbrev. month"
-msgid "March"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:56
-msgctxt "abbrev. month"
-msgid "April"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:57
-msgctxt "abbrev. month"
-msgid "May"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:58
-msgctxt "abbrev. month"
-msgid "June"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:59
-msgctxt "abbrev. month"
-msgid "July"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:60
-msgctxt "abbrev. month"
-msgid "Aug."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:61
-msgctxt "abbrev. month"
-msgid "Sept."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:62
-msgctxt "abbrev. month"
-msgid "Oct."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:63
-msgctxt "abbrev. month"
-msgid "Nov."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:64
-msgctxt "abbrev. month"
-msgid "Dec."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:67
-msgctxt "alt. month"
-msgid "January"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:68
-msgctxt "alt. month"
-msgid "February"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:69
-msgctxt "alt. month"
-msgid "March"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:70
-msgctxt "alt. month"
-msgid "April"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:71
-msgctxt "alt. month"
-msgid "May"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:72
-msgctxt "alt. month"
-msgid "June"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:73
-msgctxt "alt. month"
-msgid "July"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:74
-msgctxt "alt. month"
-msgid "August"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:75
-msgctxt "alt. month"
-msgid "September"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:76
-msgctxt "alt. month"
-msgid "October"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:77
-msgctxt "alt. month"
-msgid "November"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\dates.py:78
-msgctxt "alt. month"
-msgid "December"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
-msgid "This is not a valid IPv6 address."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\text.py:78
-#, python-format
-msgctxt "String to return when truncating text"
-msgid "%(truncated_text)s…"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\text.py:254
-msgid "or"
-msgstr ""
-
-#. Translators: This string is used as a separator between list elements
-#: .\venv\Lib\site-packages\django\utils\text.py:273
-#: .\venv\Lib\site-packages\django\utils\timesince.py:135
-msgid ", "
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\utils\timesince.py:8
-#, python-format
-msgid "%(num)d year"
-msgid_plural "%(num)d years"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\utils\timesince.py:9
-#, python-format
-msgid "%(num)d month"
-msgid_plural "%(num)d months"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\utils\timesince.py:10
-#, python-format
-msgid "%(num)d week"
-msgid_plural "%(num)d weeks"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\utils\timesince.py:11
-#, python-format
-msgid "%(num)d day"
-msgid_plural "%(num)d days"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\utils\timesince.py:12
-#, python-format
-msgid "%(num)d hour"
-msgid_plural "%(num)d hours"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\utils\timesince.py:13
-#, python-format
-msgid "%(num)d minute"
-msgid_plural "%(num)d minutes"
-msgstr[0] ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:111
-msgid "Forbidden"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:112
-msgid "CSRF verification failed. Request aborted."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:116
-msgid ""
-"You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
-"required for security reasons, to ensure that your browser is not being "
-"hijacked by third parties."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:122
-msgid ""
-"If you have configured your browser to disable “Referer” headers, please re-"
-"enable them, at least for this site, or for HTTPS connections, or for “same-"
-"origin” requests."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:127
-msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:136
-msgid ""
-"You are seeing this message because this site requires a CSRF cookie when "
-"submitting forms. This cookie is required for security reasons, to ensure "
-"that your browser is not being hijacked by third parties."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:142
-msgid ""
-"If you have configured your browser to disable cookies, please re-enable "
-"them, at least for this site, or for “same-origin” requests."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\csrf.py:148
-msgid "More information is available with DEBUG=True."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
-msgid "No year specified"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
-msgid "Date out of range"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
-msgid "No month specified"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
-msgid "No day specified"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
-msgid "No week specified"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:349
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:380
-#, python-format
-msgid "No %(verbose_name_plural)s available"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:652
-#, python-format
-msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:692
-#, python-format
-msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
-#, python-format
-msgid "No %(verbose_name)s found matching the query"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\list.py:70
-msgid "Page is not “last”, nor can it be converted to an int."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\list.py:77
-#, python-format
-msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\generic\list.py:169
-#, python-format
-msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\static.py:38
-msgid "Directory indexes are not allowed here."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\static.py:40
-#, python-format
-msgid "“%(path)s” does not exist"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\static.py:79
-#, python-format
-msgid "Index of %(directory)s"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:220
-msgid "The install worked successfully! Congratulations!"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
-#, python-format
-msgid ""
-"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
-#, python-format
-msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
-msgid "Django Documentation"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
-msgid "Topics, references, &amp; how-to’s"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:238
-msgid "Tutorial: A Polling App"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
-msgid "Get started with Django"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:247
-msgid "Django Community"
-msgstr ""
-
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
-msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "\"Raqam\" maydoni to‘ldirilishi kerak"
+
+#~ msgid ""
+#~ "Ташкентская обл., Зангиатинский район, Эркин КФЙ, автомагистрал М-39 (SN "
+#~ "INVEST)"
+#~ msgstr ""
+#~ "Toshkent viloyati, Zangiota tumani, Erkin KFY, M-39 magistral yo'li (SN "
+#~ "INVEST)"
+
+#~ msgid "Алимжанов Алишер"
+#~ msgstr "Alimzxanov Alisher"
+
+#~ msgid "ФОРМА БЫЛА УСПЕШНО ОТПРАВЛЕНА"
+#~ msgstr "SHAKL MUVAFFAQIYATLI TOPSHIRILDI"
+
+#~ msgid ""
+#~ "Мы благодарим Вас за то, что Вы воспользовались услугами нашей "
+#~ "лаборатории. Для оценки уровня предоставления услуг нашей лабораторией "
+#~ "просим Вас ответить на несколько вопросов, которые помогут нам сделать "
+#~ "услуги качественнее."
+#~ msgstr ""
+#~ "Laboratoriyamiz xizmatlaridan foydalanganingiz uchun minnatdorchilik "
+#~ "bildiramiz. Laboratoriyamiz tomonidan ko'rsatilayotgan xizmat darajasini "
+#~ "baholash uchun sizdan so'raymizxizmat ko'rsatishga yordam beradigan bir "
+#~ "nechta savollarga javob beringyaxshiroq sifat."
+
+#~ msgid "Как вы оцениваете качество проводимых испытаний?"
+#~ msgstr "O'tkazilayotgan testlar sifatini qanday baholaysiz?"
+
+#~ msgid ""
+#~ "Как вы оцениваете компетентность персонала в испытательном комплексе?"
+#~ msgstr ""
+#~ "Test sinovi o'tkaziladigan muassasa xodimlarining malakasini qanday "
+#~ "baholaysiz?"
+
+#~ msgid "Как вы оцениваете качество обслуживания клиентов?"
+#~ msgstr "Mijozlarga xizmat ko'rsatish sifatini qanday baholaysiz?"
+
+#~ msgid "Ваши предложения и комментарии по улучшению нашей работы:"
+#~ msgstr "Ishimizni yaxshilash uchun taklif va mulohazalaringiz:"
+
+#~ msgid "Закрыть"
+#~ msgstr "Yopish"
 
 #~ msgid "Алимжанов А.Н."
 #~ msgstr "Alimzxanov.A.N"

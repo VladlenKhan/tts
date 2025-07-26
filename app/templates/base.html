@@ -54,11 +54,9 @@
             <select name="language" class="form-control btn btn-outline-success text-white" onchange="this.form.submit()"  >
                 {% get_language_info_list for LANGUAGES as languages %}
                 {% for language in languages %}
-                <div class="dropdown-menu">
-                    <option value="{{ language.code }}" class="dropdown-item" {% if language.code == request.LANGUAGE_CODE %}selected{% endif %}>
-                        {{ language.name_local }} ({{ language.code }})
+                    <option value="{{ language.code }}" {% if language.code == request.LANGUAGE_CODE %}selected{% endif %}>
+                        {{ language.name_local }}
                     </option>
-                </div>
                 {% endfor %}
             </select>
         </form>
@@ -116,7 +114,7 @@
             <div class="row">
               <div class="col-md-6">
                 <div style="font-size: 20px;">
-                  <strong>{% trans 'Адрес' %}:</strong> {% trans 'Ташкентская обл., Зангиатинский район, Эркин КФЙ, автомагистрал М-39 (SN INVEST)' %} <br>
+                  <strong>{% trans 'Адрес' %}:</strong> {% trans 'город Ташкент, Сергилийский район, ул. Жалойир, 6 (AYSEL INSHAAT)' %} <br>
                   <strong>{% trans 'Директор: У.А. Абдураззоков' %}</strong> <br>
                   <strong>{% trans 'Тел' %}/Telegram:</strong> +998 90 315 41 83 <br>
                   <strong>{% trans 'Руководитель органа по сертификации' %}: </strong>{% trans 'Тургунов Д.Ш.' %} <br>
@@ -148,7 +146,8 @@
           
               <div class="col-md-6" >
                 <div class="embed-responsive embed-responsive-16by9"> 
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d3066.997064565509!2d64.43114208453696!3d39.762174310804916!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d39.766664399999996!2d64.4362019!4m0!5e0!3m2!1sru!2s!4v1686301675639!5m2!1sru!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6002.2767401729825!2d69.23331!3d41.218755!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDEzJzA3LjUiTiA2OcKwMTMnNTkuOSJF!5e0!3m2!1sru!2s!4v1753541000741!5m2!1sru!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
                 </div>
               </div>
               
