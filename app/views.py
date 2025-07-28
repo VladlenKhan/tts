@@ -79,6 +79,8 @@ def complaint(request):
     return render(request, "complaint.html")
 
 
+def price_list(request):
+    return render(request, 'price-list.html')
 
 
 def application_view(request):

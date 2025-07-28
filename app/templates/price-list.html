@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<br><br><br>
+<section class="price-list-section">
+    <div class="container">
+        <div class="company-header">
+            <h1 class="company-title">ООО «Avto Standart Etalon»</h1>
+            <h2 class="price-list-title">{% trans 'Прейскурант цен' %}</h2>
+        </div>
+
+        <div class="price-intro">
+            <p>{% trans 'Орган по сертификации продукции ООО «Avto Standart Etalon» предлагает услуги по сертификации продукции в соответствии с требованиями Национальной системы сертификации Республики Узбекистан.' %}</p>
+        </div>
+
+        <div class="price-categories">
+            <div class="price-category">
+                <h3 class="category-title">{% trans 'Услуги по сертификации продукции' %}</h3>
+                <div class="price-table">
+                    <div class="table-header">
+                        <div class="header-cell">{% trans '№ПП' %}</div>
+                        <div class="header-cell">{% trans 'Наименование услуги' %}</div>
+                        <div class="header-cell">{% trans 'Количество Человек/час' %}</div>
+                        <div class="header-cell">{% trans 'Сумма Человек/час без НДС' %}</div>
+                        <div class="header-cell">{% trans 'Сумма Человек/час с НДС' %}</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="cell">1</div>
+                        <div class="cell">{% trans 'Решение по заявке на проведение сертификации' %}</div>
+                        <div class="cell">1</div>
+                        <div class="cell price">355 000</div>
+                        <div class="cell price">397 600</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="cell">2</div>
+                        <div class="cell">{% trans 'Составление программы на проведение сертификации' %}</div>
+                        <div class="cell">1</div>
+                        <div class="cell price">355 000</div>
+                        <div class="cell price">397 600</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="cell">3</div>
+                        <div class="cell">{% trans 'Проведение идентификации и отбора образцов продукции' %}</div>
+                        <div class="cell">1</div>
+                        <div class="cell price">355 000</div>
+                        <div class="cell price">397 600</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="cell">4</div>
+                        <div class="cell">{% trans 'Анализ информации и принятие решения по результатам сертификации' %}</div>
+                        <div class="cell">1</div>
+                        <div class="cell price">355 000</div>
+                        <div class="cell price">397 600</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="cell">5</div>
+                        <div class="cell">{% trans 'Проведение периодического контроля сертифицированной продукции' %}</div>
+                        <div class="cell">1</div>
+                        <div class="cell price">355 000</div>
+                        <div class="cell price">397 600</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="cell">6</div>
+                        <div class="cell">{% trans 'За использование знака соответствия по схеме №3 (ПКМ №318)' %}</div>
+                        <div class="cell">1</div>
+                        <div class="cell price">355 000</div>
+                        <div class="cell price">397 600</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-notes">
+            <h3 class="notes-title">{% trans 'Важные примечания' %}</h3>
+            <ul class="notes-list">
+                <li>{% trans 'Цены указаны в сумах Республики Узбекистан' %}</li>
+                <li>{% trans 'Оплата производится в соответствии с условиями договора' %}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+{% endblock %} 
