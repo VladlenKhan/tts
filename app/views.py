@@ -110,3 +110,7 @@ def application_view(request):
         return JsonResponse({'success': True, 'message': 'Форма успешно отправлена!'}, status=200)
 
     return render(request, 'complaint.html')
+
+
+def agreement(request):
+    return render(request, 'agreement.html')

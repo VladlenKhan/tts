@@ -7,4 +7,5 @@ urlpatterns = [
     path('application/', application_view, name='application_form'),
     path('feedback/', feedback_form, name='feedback_form'),
     path('price-list/', price_list, name='price_list'),
+    path('agreement/', agreement, name='agreement'),
 ]

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-28 13:12+0500\n"
+"POT-Creation-Date: 2025-07-31 17:58+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,638 @@ msgstr "Raqam"
 msgid "Ваше сообщение"
 msgstr "Sizning xabaringiz"
 
+#: .\app\templates\agreement.html:21
+msgid "ПСМ-01/Ф-02/01"
+msgstr "PSM-01/F-02/01"
+
+#: .\app\templates\agreement.html:22
+msgid "Соглашение на проведение работ по сертификации"
+msgstr "Sertifikatlash ishlarini o‘tkazish bo‘yicha shartnoma"
+
+#: .\app\templates\agreement.html:28
+msgid "ПСМ-01"
+msgstr "PSM-01"
+
+#: .\app\templates\agreement.html:33
+msgid "Редакция:"
+msgstr "Tahrir:"
+
+#: .\app\templates\agreement.html:39
+msgid "Дата редакции:"
+msgstr "Tahrir sanasi:"
+
+#: .\app\templates\agreement.html:53
+msgid ""
+"Орган по сертификации ООО «AVTO STANDART ETALON» (далее именуемый – «Орган "
+"по сертификации»), с одной стороны, и Организация далее именуемый – "
+"«ЗАКАЗЧИК», заключают настоящее соглашение на сертификацию, с другой "
+"стороны, именуемые в дальнейшем вместе и/или по отдельности «СТОРОНЫ», "
+"заключили настоящее Соглашение на проведение работ по сертификации (в "
+"дальнейшем «СОГЛАШЕНИЕ») о нижеследующем:"
+msgstr ""
+"«AVTO STANDART ETALON» MChJ sertifikatlash organi (keyingi o‘rinlarda — «Sertifikatlash organi»), bir tomondan, va Tashkilot (keyingi o‘rinlarda — «BUYURTMACHI»), ikkinchi tomondan, ushbu sertifikatlash bo‘yicha shartnomani tuzdilar. Keyingi o‘rinlarda birgalikda va/yoki alohida «TOMONLAR» deb yuritiladi. Ushbu Sertifikatlash ishlarini o‘tkazish bo‘yicha Shartnoma (keyingi o‘rinlarda «SHARTNOMA») quyidagilar haqida tuzildi:"
+
+#: .\app\templates\agreement.html:58
+msgid "1. Общие положения"
+msgstr "1. Umumiy qoidalar"
+
+#: .\app\templates\agreement.html:59
+msgid ""
+"Настоящее соглашение устанавливает условия сертификации в соответствии "
+"требованию п.4.1.2.2. O'z DSt ISO/IEC 17065:2015, с целью проведения работ "
+"по подтверждению соответствия продукции."
+msgstr ""
+"Ushbu shartnoma O‘z DSt ISO/IEC 17065:2015 4.1.2.2-bandiga muvofiq sertifikatlash shartlarini, mahsulot muvofiqligini tasdiqlash ishlarini o‘tkazish maqsadida belgilaydi."
+
+#: .\app\templates\agreement.html:64
+msgid "2. Предмет соглашения"
+msgstr "2. Shartnoma predmeti"
+
+#: .\app\templates\agreement.html:65
+msgid ""
+"«ЗАКАЗЧИК» поручает, а «Орган по сертификации» принимает на себя "
+"обязательства по выполнению работ по обязательной сертификации продукции, "
+"указанной в Заявке."
+msgstr ""
+"«BUYURTMACHI» topshiradi, «Sertifikatlash organi» esa arizada ko‘rsatilgan mahsulotlarni majburiy sertifikatlash ishlarini bajarish majburiyatini o‘z zimmasiga oladi."
+
+#: .\app\templates\agreement.html:70
+msgid "3. Обязанности сторон"
+msgstr "3. Tomonlarning majburiyatlari"
+
+#: .\app\templates\agreement.html:73
+msgid "3.1 «Орган по сертификации» обязуется:"
+msgstr "3.1 «Sertifikatlash organi» quyidagilarni bajaradi:"
+
+#: .\app\templates\agreement.html:77
+msgid ""
+"Оказать услуги по проведению сертификации продукции (далее – услуги) в "
+"соответствии с требованиями и сроками, установленными законодательными "
+"актами Республики Узбекистан в области технического регулирования, как "
+"лично, так и с привлечением третьих лиц, в рамках области аккредитации "
+"Органа по сертификации и объективно оценивать полученные результаты."
+msgstr ""
+"Mahsulotlarni sertifikatlash xizmatlarini (keyingi o‘rinlarda — xizmatlar) O‘zbekiston Respublikasi texnik tartibga solish sohasidagi qonun hujjatlarida belgilangan talab va muddatlarga muvofiq, shuningdek, zarur hollarda uchinchi shaxslarni jalb qilgan holda, sertifikatlash organining akkreditatsiya doirasida ko‘rsatish va olingan natijalarni xolisona baholash."
+
+#: .\app\templates\agreement.html:81
+msgid ""
+"Требовать от Заказчика предоставления необходимых документов, в соответствии "
+"с требованиями установленными законодательными актами Республики Узбекистан, "
+"в области технического регулирования и дополнительной информации, о "
+"необходимости которых стало известно в ходе исполнения настоящего Соглашения."
+msgstr ""
+"BUYURTMACHIdan O‘zbekiston Respublikasi texnik tartibga solish sohasidagi qonun hujjatlarida belgilangan talablar asosida zarur hujjatlar va ushbu Shartnoma bajarilishi davomida zarurati aniqlangan qo‘shimcha ma’lumotlarni taqdim etishni talab qilish."
+
+#: .\app\templates\agreement.html:85
+msgid ""
+"Орган по сертификации приступает к оказанию услуг после поступления денежных "
+"средств от Заказчика в течении 2-х рабочих дней."
+msgstr ""
+"Sertifikatlash organi xizmatlarni ko‘rsatishni BUYURTMACHIdan pul mablag‘lari kelib tushganidan keyin 2 ish kuni ichida boshlaydi."
+
+#: .\app\templates\agreement.html:89
+msgid ""
+"Обязуется обеспечить конфиденциальность всей информации об организации или/и "
+"продукции ЗАКАЗЧИКА, полученной или созданной в ходе осуществления "
+"деятельности по сертификации и использовать ее только для достижения целей, "
+"определяемых условиями Соглашения. Не использовать ее полностью или частично "
+"в иных, не предусмотренных настоящими условиями Соглашения, целях, без "
+"получения предварительного письменного Согласия передавшей Стороны. "
+"Уведомить Заказчика о предоставлении конфиденциальной информации, согласно "
+"законодательству Республики Узбекистан."
+msgstr ""
+"Sertifikatlash jarayonida BUYURTMACHI tashkiloti va/yoki mahsuloti haqida olingan yoki yaratilgan barcha ma’lumotlarning maxfiyligini ta’minlash va ularni faqat Shartnoma shartlarida belgilangan maqsadlar uchun ishlatish. Ushbu ma’lumotlarni ushbu Shartnoma shartlarida ko‘zda tutilmagan boshqa maqsadlarda, oldindan yozma rozilik olmasdan, to‘liq yoki qisman ishlatmaslik. O‘zbekiston Respublikasi qonunchiligiga muvofiq, maxfiy ma’lumotlarni taqdim etish haqida BUYURTMACHIni xabardor qilish."
+
+#: .\app\templates\agreement.html:93
+msgid ""
+"Осуществлять сертификацию продукции не дискриминационно, обеспечивая "
+"беспристрастность, объективность, компетентность при принятии решений о "
+"выдаче сертификата соответствия продукции."
+msgstr ""
+"Mahsulotlarni sertifikatlashda kamsitishsiz, xolislik, obyektivlik va malakalilikni ta’minlagan holda muvofiqlik sertifikatini berish to‘g‘risida qaror qabul qilish."
+
+#: .\app\templates\agreement.html:97
+msgid ""
+"Приостановить работы, если в процессе их выполнения выявляется неизбежность "
+"получения отрицательного результата и нецелесообразность их продолжения, и "
+"уведомить об этом Заявителя непосредственно или с использованием средств "
+"связи, обеспечивающих фиксированную доставку."
+msgstr ""
+"Ishlarni bajarish jarayonida salbiy natija olinishi muqarrarligi va ishlarni davom ettirish maqsadga muvofiq emasligi aniqlansa, ishlarni to‘xtatib turish va bu haqda ariza beruvchini bevosita yoki yetkazib berilishi qayd etiladigan aloqa vositalari orqali xabardor qilish."
+
+#: .\app\templates\agreement.html:101
+msgid ""
+"Информировать владельца сертификата об изменениях в процедуре сертификации и "
+"схемах сертификации, влияющих на него непосредственно."
+msgstr ""
+"Sertifikat egasini sertifikatlash tartibi va sxemalaridagi bevosita unga ta’sir qiluvchi o‘zgarishlar haqida xabardor qilish."
+
+#: .\app\templates\agreement.html:105
+msgid ""
+"Вести учет оформленных, утвержденных, приостановленных или прекращенных "
+"сертификатов, с указанием области применения, и ежемесячно предоставлять "
+"информацию о них в Агентство."
+msgstr ""
+"Rasmiylashtirilgan, tasdiqlangan, to‘xtatilgan yoki bekor qilingan sertifikatlarni, ularning qo‘llanilish sohasini ko‘rsatgan holda hisobga olish va ular haqida har oy Agentlikka ma’lumot taqdim etish."
+
+#: .\app\templates\agreement.html:109
+msgid ""
+"Предоставлять информацию по статусу сертификата соответствия ЗАКАЗЧИКА по "
+"запросу любого заинтересованного лица."
+msgstr ""
+"BUYURTMACHIning muvofiqlik sertifikati holati bo‘yicha har qanday manfaatdor shaxs so‘rovi asosida ma’lumot taqdim etish."
+
+#: .\app\templates\agreement.html:113
+msgid ""
+"Не передавать оригиналы или копии документов, полученные от Заявителя, "
+"третьим лицам без его письменного согласия."
+msgstr ""
+"Ariza beruvchidan olingan hujjatlarning asl nusxalari yoki ko‘chirmalarini uning yozma roziligisiz uchinchi shaxslarga bermaslik."
+
+#: .\app\templates\agreement.html:117
+msgid ""
+"Принимать письменные претензии ЗАКАЗЧИКА, касающиеся процедуры сертификации."
+msgstr ""
+"BUYURTMACHIning sertifikatlash tartibiga oid yozma da’volarini qabul qilish."
+
+#: .\app\templates\agreement.html:121
+msgid ""
+"Реагировать на жалобы, поступающие от Заказчика, в установленном порядке."
+msgstr ""
+"BUYURTMACHIdan kelib tushgan shikoyatlarga belgilangan tartibda javob berish."
+
+#: .\app\templates\agreement.html:125
+msgid "Предоставить ЗАКАЗЧИКУ результаты выполненных работ."
+msgstr "BUYURTMACHIGA bajarilgan ishlar natijalarini taqdim etish."
+
+#: .\app\templates\agreement.html:129
+msgid ""
+"Устанавливать стоимость работ по Сертификации на основе расчёта трудоёмкости "
+"количества человек/дней согласно утверждённому тарифу по ОС."
+msgstr ""
+"Sertifikatlash ishlari qiymatini OS tomonidan tasdiqlangan tarif asosida inson/kun mehnat sarfi hisobidan belgilash."
+
+#: .\app\templates\agreement.html:135
+msgid "3.2 Заказчик обязуется:"
+msgstr "3.2 BUYURTMACHI quyidagilarni bajaradi:"
+
+#: .\app\templates\agreement.html:139
+msgid ""
+"Выполнять установленные законодательством требования Республики Узбекистан в "
+"области технического регулирования при сертификации продукции, включая "
+"требования к продукции, и реализацию соответствующих изменений, доведённых "
+"до него органом по сертификации;"
+msgstr ""
+"O‘zbekiston Respublikasi texnik tartibga solish sohasidagi qonunchilikda belgilangan talablarni, jumladan mahsulotga qo‘yiladigan talablarni va sertifikatlash organi tomonidan yetkazilgan tegishli o‘zgarishlarni bajarish."
+
+#: .\app\templates\agreement.html:143
+msgid ""
+"Своевременно и в полном объеме осуществлять оплату за оказываемые Органом по "
+"сертификации услуги в порядке и на условиях, определенных настоящим "
+"договором;"
+msgstr ""
+"Sertifikatlash organi tomonidan ko‘rsatilgan xizmatlar uchun ushbu shartnomada belgilangan tartib va shartlarga muvofiq o‘z vaqtida va to‘liq to‘lovni amalga oshirish."
+
+#: .\app\templates\agreement.html:147
+msgid ""
+"Обеспечить «Орган по сертификации» необходимой достоверной информацией и "
+"документами, предусмотренными правилами и/или схемой сертификации, а также "
+"законодательством Республики Узбекистан и в соответствии с требованиями "
+"Технических регламентов Евразийского экономического Союза (Таможенного "
+"Союза) для выполнения обязательств по настоящему Соглашению, посредством "
+"сайта «singlewindow.uz»."
+msgstr ""
+"Sertifikatlash organiga ushbu Shartnoma bo‘yicha majburiyatlarni bajarish uchun sertifikatlash qoidalari va/yoki sxemasi, O‘zbekiston Respublikasi qonunchiligi hamda Yevroosiyo iqtisodiy ittifoqi (Bojxona ittifoqi) texnik reglamentlari talablariga muvofiq zarur va ishonchli ma’lumotlar va hujjatlarni, jumladan «singlewindow.uz» sayti orqali taqdim etish."
+
+#: .\app\templates\agreement.html:151
+msgid ""
+"Обеспечивать выполнение всех обязательных процедур при проведении "
+"сертификации продукции (предоставлять доступ представителей органа по "
+"сертификации для анализа его состояния (для схемы №3 и №4), отбора образцов "
+"продукции для испытаний и т.п., а также доступ к соответствующему "
+"оборудованию, местоположению, территории, персоналу и к субподрядчикам "
+"заказчика)."
+msgstr ""
+"Mahsulotlarni sertifikatlashda barcha majburiy tartib-qoidalarni bajarish (3 va 4-sxemalar uchun sertifikatlash organi vakillariga holatni tahlil qilish, mahsulot namunalarini sinov uchun tanlab olish va h.k. uchun kirish imkonini ta’minlash, shuningdek, tegishli uskunalar, joylashuv, hudud, xodimlar va buyurtmachining subpudratchilariga kirish imkonini berish)."
+
+#: .\app\templates\agreement.html:155
+msgid ""
+"Предоставить Органу по сертификации возможность доступа на производство для "
+"ознакомления с технологией, процессом изготовления, условиями хранения сырья "
+"и готовой продукции (если предусмотрено схемой сертификации)."
+msgstr ""
+"Sertifikatlash organiga ishlab chiqarish jarayoniga kirish imkonini berish, texnologiya, ishlab chiqarish jarayoni, xomashyo va tayyor mahsulotlarni saqlash sharoitlari bilan tanishish uchun (agar sertifikatlash sxemasida nazarda tutilgan bo‘lsa)."
+
+#: .\app\templates\agreement.html:159
+msgid ""
+"Обеспечивать стабильность показателей (характеристик) продукции, которые "
+"подтверждены при сертификации соответствия, требованиям нормативных "
+"документов, а также выполнять установленные требования к объектам "
+"подтверждения соответствия, прошедшим процедуру сертификации."
+msgstr ""
+"Sertifikatlashda tasdiqlangan mahsulot ko‘rsatkichlari (xususiyatlari)ning normativ hujjatlar talablariga muvofiqligini va sertifikatlashdan o‘tgan muvofiqlik ob’ektlariga belgilangan talablarni bajarilishini ta’minlash."
+
+#: .\app\templates\agreement.html:163
+msgid ""
+"Извещать Орган по сертификации обо всех изменениях, вносимых в техническую "
+"документацию или технологические процессы производства продукции, влияющие "
+"на ее безопасность, соответствие которой подтверждено."
+msgstr ""
+"Sertifikatlash organini mahsulot xavfsizligiga ta’sir qiluvchi texnik hujjatlar yoki ishlab chiqarish texnologik jarayonlariga kiritilgan barcha o‘zgarishlar haqida xabardor qilish."
+
+#: .\app\templates\agreement.html:168
+msgid ""
+"Незамедлительно информировать Орган по сертификации об изменениях, которые "
+"могут повлиять на выполнение требований к объектам подтверждения "
+"соответствия, в том числе установленным схемами сертификации, к таким "
+"изменениям относятся:"
+msgstr ""
+"Muvofiqlik ob’ektlariga qo‘yiladigan talablarning bajarilishiga ta’sir qilishi mumkin bo‘lgan, jumladan sertifikatlash sxemalarida belgilangan o‘zgarishlar haqida Sertifikatlash organini zudlik bilan xabardor qilish. Bunday o‘zgarishlarga quyidagilar kiradi:"
+
+#: .\app\templates\agreement.html:172
+msgid ""
+"изменения в организации и руководстве (например, изменение в высшем "
+"руководстве, персонале, принимающем решения, или техническом персонале);"
+msgstr ""
+"Tashkilot va rahbariyatdagi o‘zgarishlar (masalan, yuqori rahbariyat, qaror qabul qiluvchi xodimlar yoki texnik xodimlar tarkibidagi o‘zgarishlar);"
+
+#: .\app\templates\agreement.html:176
+msgid "правовой, коммерческий, организационный статус или право собственности;"
+msgstr "Huquqiy, tijorat, tashkiliy maqom yoki mulk huquqidagi o‘zgarishlar;"
+
+#: .\app\templates\agreement.html:180
+msgid "изменения модификации продукции или производственного процесса;"
+msgstr "Mahsulot modifikatsiyasi yoki ishlab chiqarish jarayonidagi o‘zgarishlar;"
+
+#: .\app\templates\agreement.html:184
+msgid "адрес и места осуществления деятельности;"
+msgstr "Faoliyat yuritiladigan manzil va joylar;"
+
+#: .\app\templates\agreement.html:192
+msgid ""
+"Вести учёт претензий и жалоб на продукцию, прошедшую процедуру сертификации "
+"и извещать о них письменно Исполнителя, а также:"
+msgstr ""
+"Sertifikatlashdan o‘tgan mahsulotlarga nisbatan da’vo va shikoyatlarni hisobga olish va ular haqida Ijrochiga yozma ravishda xabar berish, shuningdek:"
+
+#: .\app\templates\agreement.html:196
+msgid ""
+"принимает соответствующие меры по отношению к таким жалобам, претензиям и "
+"любым недостаткам, обнаруженным в продукции, которые оказывают влияние на "
+"соблюдение требований сертификации;"
+msgstr ""
+"Bunday shikoyat, da’volar va mahsulotda aniqlangan, sertifikatlash talablariga rioya etilishiga ta’sir qiluvchi har qanday kamchiliklar bo‘yicha tegishli choralar ko‘rish;"
+
+#: .\app\templates\agreement.html:200
+msgid "документирует предпринятые действия."
+msgstr "Ko‘rilgan choralarni hujjatlashtirish."
+
+#: .\app\templates\agreement.html:208
+msgid ""
+"Маркировать продукцию знаком соответствия (для схемы №3 и №4) только после "
+"проведения сертификации продукции. Выполнять установленные требования в "
+"отношении использования знаков соответствия сертифицированной продукции, в "
+"том числе в средствах массовой информации, таких как:"
+msgstr ""
+"Mahsulotni muvofiqlik belgisi bilan (3 va 4-sxemalar uchun) faqat sertifikatlashdan so‘ng markalash. Sertifikatlangan mahsulot muvofiqlik belgilaridan foydalanish bo‘yicha belgilangan talablarni, jumladan quyidagi ommaviy axborot vositalarida bajarish:"
+
+#: .\app\templates\agreement.html:212
+msgid "журналы"
+msgstr "jurnallar"
+
+#: .\app\templates\agreement.html:216
+msgid "брошюры"
+msgstr "broshyuralar"
+
+#: .\app\templates\agreement.html:220
+msgid "материалы рекламного характера"
+msgstr "reklama materiallari"
+
+#: .\app\templates\agreement.html:227
+msgid ""
+"Предъявлять претензии к Органу по сертификации согласно его области "
+"сертификации."
+msgstr ""
+"Sertifikatlash organiga uning sertifikatlash sohasiga muvofiq da’volar bildirish."
+
+#: .\app\templates\agreement.html:232
+msgid ""
+"Приостанавливать или прекращать реализацию продукции, если действие "
+"сертификата приостановлено или прекращено, решением от либо по требованию "
+"органов государственного контроля (надзора)."
+msgstr ""
+"Sertifikat amal qilishi to‘xtatilgan yoki bekor qilingan taqdirda, yoki davlat nazorati (kontroli) organlari talabi bilan mahsulot realizatsiyasini to‘xtatish yoki tugatish."
+
+#: .\app\templates\agreement.html:236
+msgid ""
+"За исключением продукции, выпущенной в обращение на территории Республики "
+"Узбекистан во время действия сертификата соответствия, в течение срока "
+"годности продукции, установленных в соответствии с законодательством."
+msgstr ""
+"Muvofiqlik sertifikati amal qilgan davrda O‘zbekiston Respublikasi hududida muomalaga chiqarilgan mahsulotlar bundan mustasno, mahsulotning yaroqlilik muddati davomida, qonunchilikka muvofiq."
+
+#: .\app\templates\agreement.html:244
+msgid ""
+"Не ссылаться на сертификат соответствия, приостановить реализацию продукции, "
+"прекратить использование всех средств рекламного характера, ссылающихся на "
+"сертификацию, и принять меры для устранения нарушений условий по "
+"подтверждению соответствия продукции."
+msgstr ""
+"Muvofiqlik sertifikatiga havola qilmaslik, mahsulot realizatsiyasini to‘xtatish, sertifikatlashga havola qiluvchi barcha reklama vositalaridan foydalanishni to‘xtatish va mahsulot muvofiqligini tasdiqlash shartlari buzilishini bartaraf etish choralarini ko‘rish."
+
+#: .\app\templates\agreement.html:248
+msgid "Не ссылаться на сертификат соответствия"
+msgstr "Muvofiqlik sertifikatiga havola qilmaslik"
+
+#: .\app\templates\agreement.html:252
+msgid "Приостановить реализацию продукции"
+msgstr "Mahsulot realizatsiyasini to‘xtatish"
+
+#: .\app\templates\agreement.html:256
+msgid ""
+"Прекратить использование всех средств рекламного характера, ссылающихся на "
+"сертификацию"
+msgstr "Sertifikatlashga havola qiluvchi barcha reklama vositalaridan foydalanishni to‘xtatish"
+
+#: .\app\templates\agreement.html:260
+msgid ""
+"Принять меры для устранения нарушений условий по подтверждению соответствия "
+"продукции"
+msgstr "Mahsulot muvofiqligini tasdiqlash shartlari buzilishini bartaraf etish choralarini ko‘rish"
+
+#: .\app\templates\agreement.html:267
+msgid "Принять результаты выполненных работ."
+msgstr "Bajarilgan ishlar natijalarini qabul qilish."
+
+#: .\app\templates\agreement.html:275
+msgid "4. Срок действия соглашения"
+msgstr "4. Shartnomaning amal qilish muddati"
+
+#: .\app\templates\agreement.html:279
+msgid ""
+"Настоящее Соглашение вступает в силу с момента подписания, и действует в "
+"течение срока действия сертификата."
+msgstr ""
+"Ushbu Shartnoma imzolangan paytdan boshlab kuchga kiradi va sertifikat amal qilish muddati davomida amal qiladi."
+
+#: .\app\templates\agreement.html:283
+msgid ""
+"В случае расторжения настоящего Соглашения, стороны обязуются закончить "
+"выполнение обязательств по нему, возникших до принятия решения о его "
+"расторжении."
+msgstr ""
+"Ushbu Shartnoma bekor qilingan taqdirda, tomonlar uni bekor qilish to‘g‘risida qaror qabul qilinishidan oldin yuzaga kelgan majburiyatlarni bajarishni yakunlashlari shart."
+
+#: .\app\templates\agreement.html:290
+msgid "5. Права сторон"
+msgstr "5. Tomonlarning huquqlari"
+
+#: .\app\templates\agreement.html:293
+msgid "5.1. Орган по сертификации имеет право:"
+msgstr "5.1. Sertifikatlash organi quyidagi huquqlarga ega:"
+
+#: .\app\templates\agreement.html:297
+msgid ""
+"Запрашивать и получать у Заказчика документацию и информацию, в объёме "
+"необходимом для качественного и своевременного выполнения работ."
+msgstr ""
+"BUYURTMACHIdan ishlarni sifatli va o‘z vaqtida bajarish uchun zarur bo‘lgan hajmda hujjatlar va ma’lumotlarni so‘rash va olish."
+
+#: .\app\templates\agreement.html:301
+msgid ""
+"Привлекать к выполнению работ по настоящему Соглашению на условиях "
+"субподряда (аутсорсинга) испытательные лаборатории (центры), другие Органы "
+"по сертификации, при этом Орган по сертификации принимает на себя "
+"ответственность за все действия, переданные в аутсорсинг другому органу."
+msgstr ""
+"Ushbu Shartnoma bo‘yicha ishlarni bajarishda subpudrat (autsource) asosida sinov laboratoriyalari (markazlari), boshqa sertifikatlash organlarini jalb qilish, bunda sertifikatlash organi boshqa organga autsource qilingan barcha harakatlar uchun javobgarlikni o‘z zimmasiga oladi."
+
+#: .\app\templates\agreement.html:306
+msgid ""
+"Осуществлять действия по приостановлению или отмене действия сертификата "
+"соответствия продукции при неправильном использовании:"
+msgstr ""
+"Mahsulot muvofiqlik sertifikatidan noto‘g‘ri foydalanilgan taqdirda uning amal qilishini to‘xtatish yoki bekor qilish bo‘yicha choralar ko‘rish:"
+
+#: .\app\templates\agreement.html:310
+msgid "сертификата соответствия продукции"
+msgstr "mahsulot muvofiqlik sertifikati"
+
+#: .\app\templates\agreement.html:314
+msgid "знаков соответствия"
+msgstr "muvofiqlik belgilaridan"
+
+#: .\app\templates\agreement.html:318
+msgid "любых других способов обозначения сертифицируемой продукции"
+msgstr "sertifikatlangan mahsulotni belgilashning boshqa har qanday usullari"
+
+#: .\app\templates\agreement.html:321
+msgid ""
+"О чем письменно информирует Заказчика и соответствующие органы "
+"государственного контроля (надзора), осуществляющие контроль за "
+"сертифицированной продукцией."
+msgstr ""
+"Bu haqda BUYURTMACHI va sertifikatlangan mahsulotlarni nazorat qiluvchi tegishli davlat nazorati (kontroli) organlarini yozma ravishda xabardor qilish."
+
+#: .\app\templates\agreement.html:326
+msgid ""
+"Запрашивать у заявителя информацию в отношении сертифицированной продукции."
+msgstr "Ariza beruvchidan sertifikatlangan mahsulot bo‘yicha ma’lumot so‘rash."
+
+#: .\app\templates\agreement.html:330
+msgid ""
+"Провести внеочередную инспекционную проверку в случае поступления рекламаций "
+"от владельцев сертифицированной продукции к его эксплуатационной "
+"безопасности."
+msgstr ""
+"Sertifikatlangan mahsulot egalaridan mahsulotning ekspluatatsion xavfsizligiga oid da’volar kelib tushgan taqdirda, navbatdan tashqari inspeksiya tekshiruvini o‘tkazish."
+
+#: .\app\templates\agreement.html:336
+msgid "5.2 Заявитель имеет право:"
+msgstr "5.2 Ariza beruvchi quyidagi huquqlarga ega:"
+
+#: .\app\templates\agreement.html:340
+msgid "Пользования сертификатом соответствия в установленном порядке."
+msgstr "Muvofiqlik sertifikatidan belgilangan tartibda foydalanish."
+
+#: .\app\templates\agreement.html:344
+msgid ""
+"Контролировать качество работ по сертификации, выполняемых Органом по "
+"сертификации."
+msgstr ""
+"Sertifikatlash organi tomonidan bajarilayotgan sertifikatlash ishlarining sifatini nazorat qilish."
+
+#: .\app\templates\agreement.html:348
+msgid ""
+"Соглашение о проведение работ по сертификации направлять в Орган по "
+"сертификации запросы о ходе выполнения работ по сертификации."
+msgstr ""
+"Sertifikatlash ishlarini o‘tkazish bo‘yicha shartnoma doirasida sertifikatlash ishlarining borishi haqida Sertifikatlash organiga so‘rov yuborish."
+
+#: .\app\templates\agreement.html:356
+msgid "6. Ответственность сторон"
+msgstr "6. Tomonlarning javobgarligi"
+
+#: .\app\templates\agreement.html:359
+msgid "6.1. Заказчик несёт ответственность:"
+msgstr "6.1. BUYURTMACHI javobgar:"
+
+#: .\app\templates\agreement.html:363
+msgid ""
+"За использование сертификации продукции таким образом, что это может нанести "
+"ущерб репутации Органа по сертификации."
+msgstr ""
+"Mahsulot sertifikatlash faktidan Sertifikatlash organi obro‘siga putur yetkazadigan tarzda foydalanish uchun."
+
+#: .\app\templates\agreement.html:367
+msgid ""
+"За заявления, касающиеся сертификации продукции, которые могут "
+"рассматриваться как непозволительные и вводящие в заблуждения."
+msgstr ""
+"Mahsulot sertifikatlashga oid, ruxsat etilmagan va chalg‘ituvchi deb hisoblanadigan bayonotlar uchun."
+
+#: .\app\templates\agreement.html:371
+msgid ""
+"За ненадлежащее выполнение сертификационных требований к продукции, "
+"нарушение порядка реализации продукции, нарушение порядка маркировки "
+"продукции и использования знаков обращения на рынке."
+msgstr ""
+"Mahsulotga nisbatan sertifikatlash talablarini buzish, mahsulot realizatsiyasi tartibini buzish, mahsulotni markalash va bozorga chiqarish belgilaridan foydalanish tartibini buzish uchun."
+
+#: .\app\templates\agreement.html:375
+msgid ""
+"За поставку (реализацию) сертифицированной и маркированной знаком обращения "
+"на рынке продукции, не отвечающей требованиям, установленным "
+"законодательством Республики Узбекистан и в соответствии с требованиями "
+"Технических регламентов Евразийского экономического Союза (Таможенного "
+"Союза) или иными нормативными документами, указанными в сертификате "
+"соответствия."
+msgstr ""
+"O‘zbekiston Respublikasi qonunchiligi va Yevroosiyo iqtisodiy ittifoqi (Bojxona ittifoqi) texnik reglamentlari yoki muvofiqlik sertifikatida ko‘rsatilgan boshqa normativ hujjatlar talablariga javob bermaydigan, sertifikatlangan va bozorga chiqarish belgisi bilan markalangan mahsulotlarni yetkazib berish (realizatsiya qilish) uchun."
+
+#: .\app\templates\agreement.html:381
+msgid "6.2. Орган по сертификации несёт ответственность:"
+msgstr "6.2. Sertifikatlash organi javobgar:"
+
+#: .\app\templates\agreement.html:385
+msgid "За нарушение правил выполнения работ по сертификации."
+msgstr "Sertifikatlash ishlarini bajarish qoidalarini buzganlik uchun."
+
+#: .\app\templates\agreement.html:389
+msgid "За достоверность и объективность результатов сертификации."
+msgstr "Sertifikatlash natijalarining ishonchliligi va obyektivligi uchun."
+
+#: .\app\templates\agreement.html:393
+msgid ""
+"За управление всей информацией, полученной или созданной в процессе "
+"выполнения работ по настоящему соглашению."
+msgstr ""
+"Ushbu shartnoma bo‘yicha ishlarni bajarish jarayonida olingan yoki yaratilgan barcha ma’lumotlarni boshqarish uchun."
+
+#: .\app\templates\agreement.html:399
+msgid ""
+"6.3. За неисполнение или ненадлежащее исполнение своих обязательств по "
+"настоящему Соглашению стороны несут ответственность в соответствии с "
+"действующим законодательством Республики Узбекистан."
+msgstr ""
+"6.3. Ushbu Shartnoma bo‘yicha o‘z majburiyatlarini bajarmagan yoki lozim darajada bajarmagan tomonlar O‘zbekiston Respublikasi amaldagi qonunchiligiga muvofiq javobgar bo‘ladi."
+
+#: .\app\templates\agreement.html:405
+msgid "7. Конфиденциальность"
+msgstr "7. Maxfiylik"
+
+#: .\app\templates\agreement.html:409
+msgid ""
+"Настоящие условия Соглашения регулируют отношения Сторон, связанные с "
+"отнесением информации, полученной или созданной в ходе осуществления "
+"деятельности по сертификации как к конфиденциальной информации."
+msgstr ""
+"Ushbu Shartnoma shartlari Tomonlar o‘rtasidagi, sertifikatlash faoliyati davomida olingan yoki yaratilgan ma’lumotlarni maxfiy ma’lumot sifatida belgilashga oid munosabatlarni tartibga soladi."
+
+#: .\app\templates\agreement.html:413
+msgid ""
+"Сторона, получившая конфиденциальную информацию, от другой Стороны, "
+"обязуется с момента ее получения:"
+msgstr ""
+"Bir Tomon boshqa Tomondan maxfiy ma’lumot olganidan boshlab quyidagilarni bajarishga majbur:"
+
+#: .\app\templates\agreement.html:418
+msgid "Принять меры по охране ее конфиденциальности."
+msgstr "Uning maxfiyligini saqlash choralarini ko‘rish."
+
+#: .\app\templates\agreement.html:422
+msgid ""
+"Сообщать ее только тем работникам, которым она необходима, исключительно для "
+"достижения целей, определяемых условиями Соглашения."
+msgstr ""
+"Ushbu ma’lumotni faqat Shartnoma shartlarida belgilangan maqsadlarga erishish uchun zarur bo‘lgan xodimlargina yetkazish."
+
+#: .\app\templates\agreement.html:426
+msgid ""
+"Не использовать ее полностью или частично в иных, не предусмотренных "
+"настоящими условиями и условиями Соглашениях, целях, без получения "
+"предварительного письменного согласия передавшей Стороны."
+msgstr ""
+"Ushbu ma’lumotni ushbu Shartnoma va boshqa shartnomalarda ko‘zda tutilmagan boshqa maqsadlarda, oldindan yozma rozilik olmasdan, to‘liq yoki qisman ishlatmaslik."
+
+#: .\app\templates\agreement.html:430
+msgid ""
+"Не передавать ее, не разглашать и не способствовать прямо или косвенно ее "
+"разглашению третьим лицам."
+msgstr ""
+"Ushbu ma’lumotni uchinchi shaxslarga bermaslik, oshkor qilmaslik va to‘g‘ridan-to‘g‘ri yoki bilvosita oshkor qilinishiga yo‘l qo‘ymaslik."
+
+#: .\app\templates\agreement.html:434
+msgid "Не копировать без письменного разрешения передавшей Стороны."
+msgstr "Yozma ruxsatsiz ko‘chirmaslik."
+
+#: .\app\templates\agreement.html:438
+msgid ""
+"Информация, являющаяся конфиденциальной, полученная от другой Стороны, может "
+"быть передана органам государственной власти, иным государственным органам и "
+"органам местного самоуправления, в соответствии с действующим "
+"законодательством Республики Узбекистан с уведомлением об этом Заказчика."
+msgstr ""
+"Boshqa Tomondan olingan maxfiy ma’lumotlar O‘zbekiston Respublikasi amaldagi qonunchiligiga muvofiq davlat hokimiyati organlari, boshqa davlat organlari va mahalliy o‘zini o‘zi boshqarish organlariga, bu haqda BUYURTMACHIni xabardor qilgan holda, taqdim etilishi mumkin."
+
+#: .\app\templates\agreement.html:442
+msgid ""
+"Окончание срока действия Соглашения не освобождает Стороны от обязательств."
+msgstr ""
+"Shartnoma amal qilish muddati tugashi Tomonlarni majburiyatlardan ozod qilmaydi."
+
+#: .\app\templates\agreement.html:446
+msgid ""
+"В случае нарушения Стороной обязательств, предусмотренных настоящими "
+"условиями Соглашения, приведшего к разглашению конфиденциальной информации, "
+"и ущербу для другой Стороны, Сторона, права которой были нарушены, вправе "
+"требовать от виновной Стороны возмещения причинённого ущерба в полном "
+"объёме, а при наличии достаточных оснований - привлечения виновных лиц к "
+"ответственности в соответствии с действующим законодательством Республики "
+"Узбекистан."
+msgstr ""
+"Agar Tomon ushbu Shartnoma shartlarida nazarda tutilgan majburiyatlarni buzishi natijasida maxfiy ma’lumotlar oshkor qilinsa va boshqa Tomonga zarar yetkazilsa, huquqi buzilgan Tomon aybdor Tomondan yetkazilgan zararni to‘liq qoplashni, shuningdek, yetarli asoslar mavjud bo‘lsa, aybdor shaxslarni O‘zbekiston Respublikasi amaldagi qonunchiligiga muvofiq javobgarlikka tortishni talab qilish huquqiga ega."
+
+#: .\app\templates\agreement.html:458
+msgid "Руководитель Органа по сертификации:"
+msgstr "Sertifikatlash organi rahbari:"
+
+#: .\app\templates\agreement.html:460 .\app\templates\agreement.html:477
+msgid "Ф.И.О.:"
+msgstr "F.I.Sh.:"
+
+#: .\app\templates\agreement.html:464 .\app\templates\agreement.html:481
+msgid "Подпись:"
+msgstr "Imzo:"
+
+#: .\app\templates\agreement.html:471
+msgid "Заказчик:"
+msgstr "Buyurtmachi:"
+
+#: .\app\templates\agreement.html:473
+msgid "Наименование организации:"
+msgstr "Tashkilot nomi:"
+
 #: .\app\templates\base.html:76
 msgid "ПРЕИМУЩЕСТВА"
 msgstr "AFZALLIKLARI"
@@ -39,64 +671,67 @@ msgid "СЕРТИФИКАЦИЯ"
 msgstr "SERTIFIKATLASHTIRISH"
 
 #: .\app\templates\base.html:82
+msgid "СОГЛАШЕНИЕ"
+msgstr "SHARTNOMA"
+
+#: .\app\templates\base.html:85
 msgid "ОПЛАТА УСЛУГ"
 msgstr "Xizmatlar uchun to‘lov"
 
-#: .\app\templates\base.html:86
+#: .\app\templates\base.html:89
 msgid "О НАС"
 msgstr "BIZ HAQIMIZDA"
 
-#: .\app\templates\base.html:89
+#: .\app\templates\base.html:92
 msgid "КОМАНДА"
 msgstr "JAMOA"
 
-#: .\app\templates\base.html:92
+#: .\app\templates\base.html:95
 msgid "ЖАЛОБЫ И ПРЕТЕНЗИИ"
 msgstr "SHIKOYATLAR VA DA'VOLAR"
 
-#: .\app\templates\base.html:96
+#: .\app\templates\base.html:99
 msgid "Связаться с нами"
 msgstr "Biz bilan bog'laning"
 
-#: .\app\templates\base.html:112
+#: .\app\templates\base.html:115
 msgid "Наши контакты"
 msgstr "Bizning kontaktlarimiz"
 
-#: .\app\templates\base.html:120
+#: .\app\templates\base.html:123
 msgid "Адрес"
 msgstr "Manzil"
 
-#: .\app\templates\base.html:120
+#: .\app\templates\base.html:123
 msgid "город Ташкент, Сергилийский район, ул. Жалойир, 6 (AYSEL INSHAAT)"
 msgstr "Toshkent shahri, Sergeli tumani, Jaloyir ko'chasi, 6 (AYSEL INSHAAT)"
 
-#: .\app\templates\base.html:121
+#: .\app\templates\base.html:124
 msgid "Директор: У.А. Абдураззоков"
 msgstr "Direktor: U.A. Abdurazzokov"
 
-#: .\app\templates\base.html:122 .\app\templates\base.html:124
-#: .\app\templates\base.html:126
+#: .\app\templates\base.html:125 .\app\templates\base.html:127
+#: .\app\templates\base.html:129
 msgid "Тел"
 msgstr "Tel"
 
-#: .\app\templates\base.html:123 .\app\templates\home.html:449
-#: .\app\templates\home.html:466
+#: .\app\templates\base.html:126 .\app\templates\home.html:449
 msgid "Руководитель органа по сертификации"
 msgstr "Sertifikatlashtirish organi boshlig'i"
 
-#: .\app\templates\base.html:123
+#: .\app\templates\base.html:126
 msgid "Тургунов Д.Ш."
 msgstr "Turg‘unov D.Sh."
 
-#: .\app\templates\base.html:125 .\app\templates\home.html:483
+#: .\app\templates\base.html:128 .\app\templates\home.html:466
 msgid "Начальник испытательной лаборатории"
 msgstr "Sinov laboratoriyasi boshlig'i"
 
-#: .\app\templates\base.html:125 .\app\templates\complaint.html:28
+#: .\app\templates\base.html:128 .\app\templates\complaint.html:28
 msgid "З.Т. Усманов"
 msgstr "Z.T. Usmanov"
 
-#: .\app\templates\base.html:127
+#: .\app\templates\base.html:130
 msgid "Мы в социальных сетях"
 msgstr "Biz ijtimoiy tarmoqlardamiz"
 
@@ -106,17 +741,19 @@ msgid ""
 "соответствия продукции требованиям Национальной системы сертификации "
 "Республики Узбекистан."
 msgstr ""
-"Mahsulotlarni sertifikatlash organi sizga O‘zbekiston Respublikasi Milliy sertifikatlashtirish tizimi talablariga muvofiqligini baholash sohasida o‘z xizmatlarini taklif etadi."
+"Mahsulotlarni sertifikatlash organi sizga O‘zbekiston Respublikasi Milliy "
+"sertifikatlashtirish tizimi talablariga muvofiqligini baholash sohasida o‘z "
+"xizmatlarini taklif etadi."
 
 #: .\app\templates\certificate.html:14
 msgid ""
 "Законом «О сертификации продукции и услуг» в Республике Узбекистан "
 "предусмотрено два вида:"
 msgstr ""
-"O‘zbekiston Respublikasining «Mahsulot va xizmatlarni sertifikatlash to‘g‘risida»gi qonuniga ko‘ra ikki xil sertifikatlash turi mavjud:"
+"O‘zbekiston Respublikasining «Mahsulot va xizmatlarni sertifikatlash "
+"to‘g‘risida»gi qonuniga ko‘ra ikki xil sertifikatlash turi mavjud:"
 
 #: .\app\templates\certificate.html:16
-#| msgid "Условия сертификации"
 msgid "Обязательная сертификация"
 msgstr "Majburiy sertifikatlashtirish"
 
@@ -125,10 +762,10 @@ msgid ""
 "подтверждение безопасности продукции, являющаяся обязательным требованием "
 "законодательства в области технического регулирования"
 msgstr ""
-"Mahsulot xavfsizligini tasdiqlash bo‘lib, texnik tartibga solish sohasidagi qonunchilikning majburiy talabi hisoblanadi"
+"Mahsulot xavfsizligini tasdiqlash bo‘lib, texnik tartibga solish sohasidagi "
+"qonunchilikning majburiy talabi hisoblanadi"
 
 #: .\app\templates\certificate.html:17
-#| msgid "Условия сертификации"
 msgid "Добровольная сертификация"
 msgstr "Ixtiyoriy sertifikatlashtirish"
 
@@ -144,7 +781,10 @@ msgid ""
 "удостоверяет, что изготавливаемая им продукция соответствует установленным "
 "требованиям."
 msgstr ""
-"Sertifikatlashtirish ishlarining natijasi sifatida muvofiqlik sertifikati olinadi. Sertifikatlashtirish organi, shuningdek, ishlab chiqaruvchining mahsulotlari belgilangan talablarga javob berishini tasdiqlovchi xabarnoma orqali ham muvofiqlikni baholaydi."
+"Sertifikatlashtirish ishlarining natijasi sifatida muvofiqlik sertifikati "
+"olinadi. Sertifikatlashtirish organi, shuningdek, ishlab chiqaruvchining "
+"mahsulotlari belgilangan talablarga javob berishini tasdiqlovchi xabarnoma "
+"orqali ham muvofiqlikni baholaydi."
 
 #: .\app\templates\certificate.html:22
 msgid "Деятельность ОС организован согласно следующим нормативным документам:"
@@ -156,19 +796,23 @@ msgid ""
 "соответствия, осуществленной за пределами Республики Узбекистан, к "
 "постановлению Кабинета Министров от 14.10.2015 г. № 292"
 msgstr ""
-"O‘zbekiston Respublikasidan tashqarida o‘tkazilgan muvofiqlikni baholash natijalarini O‘zbekiston Respublikasida tan olish tartibi to‘g‘risidagi nizom, Vazirlar Mahkamasining 2015-yil 14-oktabrdagi 292-son qaroriga muvofiq"
+"O‘zbekiston Respublikasidan tashqarida o‘tkazilgan muvofiqlikni baholash "
+"natijalarini O‘zbekiston Respublikasida tan olish tartibi to‘g‘risidagi "
+"nizom, Vazirlar Mahkamasining 2015-yil 14-oktabrdagi 292-son qaroriga muvofiq"
 
 #: .\app\templates\certificate.html:25
 msgid "«Правил сертификации продукции» ПКМ РУз от 14.08.2024 года №502"
 msgstr ""
-"Mahsulotlarni sertifikatlash qoidalari, O‘zbekiston Respublikasi Vazirlar Mahkamasining 2024-yil 14-avgustdagi 502-son qarori"
+"Mahsulotlarni sertifikatlash qoidalari, O‘zbekiston Respublikasi Vazirlar "
+"Mahkamasining 2024-yil 14-avgustdagi 502-son qarori"
 
 #: .\app\templates\certificate.html:26
 msgid ""
 "ПКМ от 06.07.2004 г. № 318 О дополнительных мерах по упрощению процедуры "
 "сертификации продукции"
 msgstr ""
-"Mahsulotlarni sertifikatlash tartibini soddalashtirish bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida, 2004-yil 6-iyuldagi 318-sonli PKM"
+"Mahsulotlarni sertifikatlash tartibini soddalashtirish bo‘yicha qo‘shimcha "
+"chora-tadbirlar to‘g‘risida, 2004-yil 6-iyuldagi 318-sonli PKM"
 
 #: .\app\templates\certificate.html:27
 msgid ""
@@ -176,7 +820,9 @@ msgid ""
 "соответствия, подлежащих обязательному подтверждению соответствия в "
 "Республике Узбекистан"
 msgstr ""
-"Muvofiqlikni baholash ob’ektlari ro‘yxatini tasdiqlash to‘g‘risida, O‘zbekiston Respublikasida majburiy muvofiqlik tasdiqlashga taalluqli, 2021-yil 30-yanvardagi 43-sonli PKM"
+"Muvofiqlikni baholash ob’ektlari ro‘yxatini tasdiqlash to‘g‘risida, "
+"O‘zbekiston Respublikasida majburiy muvofiqlik tasdiqlashga taalluqli, 2021-"
+"yil 30-yanvardagi 43-sonli PKM"
 
 #: .\app\templates\certificate.html:28
 msgid ""
@@ -184,17 +830,16 @@ msgid ""
 "коды которых изменились в связи с введением в действие обновленной формы "
 "Товарной номенклатуры внешнеэкономической деятельности Республики Узбекистан»"
 msgstr ""
-"O‘zbekiston Respublikasi tashqi iqtisodiy faoliyatining yangilangan tovar nomenklaturasi joriy etilishi munosabati bilan tovarlarning tasniflash kodlari o‘zgargan tovarlar ro‘yxatini tasdiqlash to‘g‘risida, 2025-yil 4-iyundagi 349-sonli PKM"
+"O‘zbekiston Respublikasi tashqi iqtisodiy faoliyatining yangilangan tovar "
+"nomenklaturasi joriy etilishi munosabati bilan tovarlarning tasniflash "
+"kodlari o‘zgargan tovarlar ro‘yxatini tasdiqlash to‘g‘risida, 2025-yil 4-"
+"iyundagi 349-sonli PKM"
 
 #: .\app\templates\certificate.html:33
 msgid "Условия сертификации"
 msgstr "Sertifikatlashtirish shartlari"
 
 #: .\app\templates\certificate.html:37
-#| msgid ""
-#| " В зависимости от схемы сертификации, заявитель соглашается "
-#| "взаимодействовать с ОС в рамках применимых Процедур Сертификации и "
-#| "предоставлять специалистам ОС доступ к "
 msgid ""
 "В зависимости от схемы сертификации, заявитель соглашается взаимодействовать "
 "с ОС в рамках применимых Процедур Сертификации и предоставлять специалистам "
@@ -259,7 +904,6 @@ msgstr ""
 "ma’lumotlarning to‘g‘riligi uchun javobgar"
 
 #: .\app\templates\certificate.html:57
-#| msgid "Заявитель должен"
 msgid "Заявитель должен:"
 msgstr "Ariza beruvchi quyidagilarni bajarishi shart"
 
@@ -344,10 +988,6 @@ msgstr ""
 "va tuzatish choralari zarurligi to‘g‘risida OS qarorini olish"
 
 #: .\app\templates\certificate.html:68
-#| msgid ""
-#| "оплатить услуги ОС в соответствии с условиями договора; - регистрировать "
-#| "жалобы и претензии (как устные, так и письменные) со стороны потребителей "
-#| "и других заинтересованных сторон и предпринятые корректирующие действия"
 msgid ""
 "оплатить услуги ОС в соответствии с условиями договора; регистрировать "
 "жалобы и претензии (как устные, так и письменные) со стороны потребителей и "
@@ -428,9 +1068,6 @@ msgid "Условия выдачи Сертификата соответстви
 msgstr "Muvofiqlik sertifikatini berish shartlari"
 
 #: .\app\templates\certificate.html:110
-#| msgid ""
-#| "Сертификат соответствия выдается Заявителю при выполнении следующих "
-#| "обязательных условий"
 msgid ""
 "Сертификат соответствия выдается Заявителю при выполнении следующих "
 "обязательных условий:"
@@ -438,7 +1075,7 @@ msgstr ""
 "Muvofiqlik sertifikati ariza beruvchiga quyidagi majburiy shartlar "
 "bajarilganda beriladi"
 
-#: .\app\templates\certificate.html:112 .\app\templates\home.html:675
+#: .\app\templates\certificate.html:112 .\app\templates\home.html:658
 msgid ""
 "Заявитель должен предоставить всю информацию, которую орган по сертификации "
 "сочтет необходимой для принятия решения относительно процедуры оценки "
@@ -460,11 +1097,6 @@ msgstr ""
 "etgan"
 
 #: .\app\templates\certificate.html:114
-#| msgid ""
-#| " результаты сертификации свидетельствуют: о соответствии требованиям НД; "
-#| "применимым законодательным требованиям; о способности заявителя "
-#| "гарантировать стабильность выполнения установленных и предполагаемых "
-#| "требований"
 msgid ""
 "результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям; о способности заявителя "
@@ -475,13 +1107,11 @@ msgstr ""
 "talablariga muvofiqlik; amaldagi qonunchilik talablari; ariza beruvchining "
 "belgilangan va kutilayotgan talablarni barqaror bajarish imkoniyati"
 
-#: .\app\templates\certificate.html:115 .\app\templates\home.html:684
+#: .\app\templates\certificate.html:115 .\app\templates\home.html:667
 msgid "Заявитель полностью выполнил свои договорные обязательства перед ОС"
 msgstr "Ariza beruvchi OS oldidagi shartnoma majburiyatlarini to‘liq bajargan"
 
 #: .\app\templates\certificate.html:116
-#| msgid ""
-#| " результаты работ по сертификации проверены и утверждены руководством ОС"
 msgid "результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
 "Sertifikatlashtirish ishlarining natijalari OS rahbariyati tomonidan "
@@ -583,7 +1213,7 @@ msgstr "D.Sh. Turg‘unov"
 msgid "Направить претензию можно здесь:"
 msgstr "Da’vo yuborish uchun bu yerda murojaat qilishingiz mumkin:"
 
-#: .\app\templates\complaint.html:41 .\app\templates\home.html:760
+#: .\app\templates\complaint.html:41 .\app\templates\home.html:743
 msgid "Поле \"ФИО\" должно быть заполнено"
 msgstr "\"FISH\" maydoni to‘ldirilishi kerak"
 
@@ -591,7 +1221,7 @@ msgstr "\"FISH\" maydoni to‘ldirilishi kerak"
 msgid "Email"
 msgstr "Email"
 
-#: .\app\templates\complaint.html:48 .\app\templates\home.html:769
+#: .\app\templates\complaint.html:48 .\app\templates\home.html:752
 msgid "Поле \"Email\" должно быть заполнено"
 msgstr "\"Email\" maydoni to‘ldirilishi kerak"
 
@@ -612,7 +1242,7 @@ msgstr ""
 "etiladi. Barcha da’vo va shikoyatlar laboratoriyaning ichki hujjatlarida "
 "qayd etiladi."
 
-#: .\app\templates\complaint.html:68 .\app\templates\home.html:788
+#: .\app\templates\complaint.html:68 .\app\templates\home.html:771
 msgid "Отправить"
 msgstr "Jo‘natish"
 
@@ -748,7 +1378,6 @@ msgid "Мустафаев Акилбек Пирназарович"
 msgstr "Mustafayev Akilbek Pirnazarovich"
 
 #: .\app\templates\home.html:414
-#| msgid "Специалист испытательной лаборатории"
 msgid "Специалист по инспекционному контролю"
 msgstr "Inspeksiya nazorati bo‘yicha mutaxassis"
 
@@ -761,85 +1390,80 @@ msgid "Менеджер по системе менеджмента качест�
 msgstr "Sifat menejmenti tizimi menejeri"
 
 #: .\app\templates\home.html:446
-msgid "Алимжанов Алишер"
-msgstr "Alimzxanov Alisher"
-
-#: .\app\templates\home.html:463
-#| msgid "Алимжанов АлишерТургунов Диёр Шербекович"
 msgid "Тургунов Диёр Шербекович"
 msgstr "Turg‘unov Diyor Sherbekovich"
 
-#: .\app\templates\home.html:480
+#: .\app\templates\home.html:463
 msgid "Усманов Зафар Турсунович"
 msgstr "Usmonov Zafar Tursunovich"
 
-#: .\app\templates\home.html:497
+#: .\app\templates\home.html:480
 msgid "Айрапетов Дмитрий Алексеевич"
 msgstr "Ayrapetov Dmitriy Alekseevich"
 
-#: .\app\templates\home.html:500 .\app\templates\home.html:517
-#: .\app\templates\home.html:534 .\app\templates\home.html:551
-#: .\app\templates\home.html:568
+#: .\app\templates\home.html:483 .\app\templates\home.html:500
+#: .\app\templates\home.html:517 .\app\templates\home.html:534
+#: .\app\templates\home.html:551
 msgid "Специалист испытательной лаборатории"
 msgstr "Sinov laboratoriyasi mutaxassisi"
 
-#: .\app\templates\home.html:514
+#: .\app\templates\home.html:497
 msgid "Утаганов Сарвар Кахрамон угли"
 msgstr "Utganov Sarvar Kahramon o‘g‘li"
 
-#: .\app\templates\home.html:531
+#: .\app\templates\home.html:514
 msgid "Шерматов Ботир Панжи угли"
 msgstr "Shermatov Botir Panji o‘g‘li"
 
-#: .\app\templates\home.html:548
+#: .\app\templates\home.html:531
 msgid "Равшанбеков Жахонгир Алишер угли"
 msgstr "Ravshanbekov Jahongir Alisher o‘g‘li"
 
-#: .\app\templates\home.html:565
+#: .\app\templates\home.html:548
 msgid "Пардабоев Зиёвуддин Адхам угли"
 msgstr "Pardaboyev Ziyovuddin Adham o‘g‘li"
 
-#: .\app\templates\home.html:582
+#: .\app\templates\home.html:565
 msgid "Анваржонов Ахмаджон"
 msgstr "Anvarjonov Ahmadjon"
 
-#: .\app\templates\home.html:585
+#: .\app\templates\home.html:568
 msgid "Инженер по сертификации"
 msgstr "Sertifikatlash muhandisi"
 
-#: .\app\templates\home.html:599
+#: .\app\templates\home.html:582
 msgid "Улашев Жонибек"
 msgstr "Ulashev Jonibek"
 
-#: .\app\templates\home.html:602
+#: .\app\templates\home.html:585
 msgid "Инженер-метролог"
 msgstr "Metrolog muhandis"
 
-#: .\app\templates\home.html:616
+#: .\app\templates\home.html:599
 msgid "Мамасолиева Нафиса"
 msgstr "Mamasoliyeva Nafisa"
 
-#: .\app\templates\home.html:619
+#: .\app\templates\home.html:602
 msgid "Инженер по стандартизации"
 msgstr "Standartlashtirish muhandisi"
 
-#: .\app\templates\home.html:633
+#: .\app\templates\home.html:616
 msgid "Шавкатов Хумоюн"
 msgstr "Shavkatov Xumoyun"
 
-#: .\app\templates\home.html:636 .\app\templates\home.html:653
+#: .\app\templates\home.html:619 .\app\templates\home.html:636
 msgid "Инженер-испытатель"
 msgstr "Sinov muhandisi"
 
-#: .\app\templates\home.html:650
+#: .\app\templates\home.html:633
 msgid "Тухтамишев Собит"
 msgstr "Tuxtamishev Sobit"
 
-#: .\app\templates\home.html:667
+#: .\app\templates\home.html:650
 msgid "УСЛОВИЯ ВЫДАЧИ СЕРТИФИКАТА СООТВЕТСТВИЯ"
 msgstr "Muvofiqlik sertifikatini berish shartlari"
 
-#: .\app\templates\home.html:672
+#: .\app\templates\home.html:655
 msgid ""
 "СЕРТИФИКАТ СООТВЕТСТВИЯ ВЫДАЕТСЯ ЗАЯВИТЕЛЮ ПРИ ВЫПОЛНЕНИИ СЛЕДУЮЩИХ "
 "ОБЯЗАТЕЛЬНЫХ УСЛОВИЙ "
@@ -847,7 +1471,7 @@ msgstr ""
 "Muvofiqlik sertifikati ariza beruvchiga quyidagi majburiy shartlar "
 "bajarilganda beriladi"
 
-#: .\app\templates\home.html:678
+#: .\app\templates\home.html:661
 msgid ""
 "Все несоответствия, выявленные в ходе проверки, устранены, и заявитель "
 "предоставил в ОС объективные доказательства их устранения"
@@ -856,7 +1480,7 @@ msgstr ""
 "ariza beruvchi ularni bartaraf etish bo‘yicha OSga obyektiv dalillar taqdim "
 "etgan"
 
-#: .\app\templates\home.html:681
+#: .\app\templates\home.html:664
 msgid ""
 "Результаты сертификации свидетельствуют: о соответствии требованиям НД; "
 "применимым законодательным требованиям"
@@ -864,7 +1488,7 @@ msgstr ""
 "Sertifikatlash natijalari quyidagilarni ko‘rsatadi: normativ hujjatlar "
 "talablariga muvofiqlik; amaldagi qonunchilik talablari"
 
-#: .\app\templates\home.html:681
+#: .\app\templates\home.html:664
 msgid ""
 "о способности заявителя гарантировать стабильность выполнения установленных "
 "и предполагаемых требований"
@@ -872,13 +1496,13 @@ msgstr ""
 "ariza beruvchining belgilangan va kutilayotgan talablarni barqaror bajarish "
 "imkoniyati"
 
-#: .\app\templates\home.html:687
+#: .\app\templates\home.html:670
 msgid "Результаты работ по сертификации проверены и утверждены руководством ОС"
 msgstr ""
 "Sertifikatlashtirish ishlarining natijalari OS rahbariyati tomonidan "
 "tekshirilgan va tasdiqlangan"
 
-#: .\app\templates\home.html:694
+#: .\app\templates\home.html:677
 msgid ""
 " ОС после рассмотрения протокола(ов) испытаний, обследования состояния "
 "производства и документов"
@@ -886,7 +1510,7 @@ msgstr ""
 "OS sinov protokoli(lar)i, ishlab chiqarish holati va hujjatlarni ko‘rib "
 "chiqqandan so‘ng"
 
-#: .\app\templates\home.html:695
+#: .\app\templates\home.html:678
 msgid ""
 "представленных заявителем с заявкой, выдает сертификат соответствия или "
 "отказывает в его выдаче. ОС"
@@ -894,7 +1518,7 @@ msgstr ""
 "ariza beruvchi tomonidan ariza bilan taqdim etilgan hujjatlar asosida "
 "muvofiqlik sertifikatini beradi yoki uni berishni rad etadi. OS"
 
-#: .\app\templates\home.html:696
+#: .\app\templates\home.html:679
 msgid ""
 "письменно информирует Заявителя о принятом по результатам сертификации "
 "решении. Наличие"
@@ -902,7 +1526,7 @@ msgstr ""
 "sertifikatlashtirish natijalari bo‘yicha qabul qilingan qaror haqida ariza "
 "beruvchini yozma ravishda xabardor qiladi. Mavjudligi"
 
-#: .\app\templates\home.html:697
+#: .\app\templates\home.html:680
 msgid ""
 "письменного уведомления ОС является основанием для Заявителя информировать "
 "все заинтересованные"
@@ -910,11 +1534,11 @@ msgstr ""
 "OSning yozma xabarnomasi ariza beruvchiga barcha manfaatdor tomonlarni "
 "xabardor qilish uchun asos bo‘ladi"
 
-#: .\app\templates\home.html:698
+#: .\app\templates\home.html:681
 msgid "стороны о результатах сертификации"
 msgstr "sertifikatlash natijalari haqida"
 
-#: .\app\templates\home.html:704
+#: .\app\templates\home.html:687
 msgid ""
 "Сертификат оформляется на государственном или русском языках. Оформленный "
 "сертификат соответствия"
@@ -922,7 +1546,7 @@ msgstr ""
 "Sertifikat davlat yoki rus tilida rasmiylashtiriladi. Rasmiylashtirilgan "
 "muvofiqlik sertifikati"
 
-#: .\app\templates\home.html:705
+#: .\app\templates\home.html:688
 msgid ""
 "регистрируется в Государственном реестре НСС Уз. Сертификат действителен "
 "только при наличии"
@@ -930,11 +1554,11 @@ msgstr ""
 "O‘zbekiston Respublikasi NSS davlat reyestrida ro‘yxatdan o‘tkaziladi. "
 "Sertifikat faqat"
 
-#: .\app\templates\home.html:706
+#: .\app\templates\home.html:689
 msgid "регистрационного номера"
 msgstr "ro‘yxatga olish raqami"
 
-#: .\app\templates\home.html:713
+#: .\app\templates\home.html:696
 msgid ""
 "Орган по сертификации не должен заявлять или давать понять, что проведение "
 "сертификации будет проще, легче, быстрее или дешевле при обращении за "
@@ -944,14 +1568,14 @@ msgstr ""
 "murojaat qilinganda osonroq, tezroq yoki arzonroq bo‘ladi deb e’lon "
 "qilmasligi yoki shunday taassurot uyg‘otmasligi kerak."
 
-#: .\app\templates\home.html:719
+#: .\app\templates\home.html:702
 msgid ""
 "Сертификат соответствия выдается заявителю в течение двух рабочих дней, а "
 "при проведении ОС"
 msgstr ""
 "Muvofiqlik sertifikati ariza beruvchiga ikki ish kuni ichida, OS tomonidan"
 
-#: .\app\templates\home.html:720
+#: .\app\templates\home.html:703
 msgid ""
 "обследования производства — в течение пяти рабочих дней с момента получения "
 "ОС результатов испытаний"
@@ -959,7 +1583,7 @@ msgstr ""
 "ishlab chiqarish ob’ektlari ko‘zdan kechirilganda esa, OS sinov natijalarini "
 "olgan kundan boshlab besh ish kuni ichida beriladi"
 
-#: .\app\templates\home.html:727
+#: .\app\templates\home.html:710
 msgid ""
 "Сертификат соответствия выдается на ввозимую продукцию на срок годности "
 "продукции, а для серийно"
@@ -967,26 +1591,26 @@ msgstr ""
 "Muvofiqlik sertifikati import qilinadigan mahsulotlar uchun mahsulotning "
 "yaroqlilik muddati davomida,"
 
-#: .\app\templates\home.html:728
+#: .\app\templates\home.html:711
 msgid "производимой продукции — на 3 года"
 msgstr "ommaviy ishlab chiqariladigan mahsulotlar uchun — 3 yil muddatga"
 
-#: .\app\templates\home.html:743
+#: .\app\templates\home.html:726
 msgid "Нуждаетесь в услугах"
 msgstr "Xizmatlarga muhtojmisiz"
 
-#: .\app\templates\home.html:743
+#: .\app\templates\home.html:726
 msgid "сертификации"
 msgstr "sertifikatlash"
 
-#: .\app\templates\home.html:747
+#: .\app\templates\home.html:730
 msgid ""
 "Берегите свое время, подайте заявку на проведение сертификации посредствам "
 "официального сайта "
 msgstr ""
 "Vaqtingizni tejang, sertifikatlash uchun rasmiy sayt orqali ariza bering"
 
-#: .\app\templates\home.html:751
+#: .\app\templates\home.html:734
 msgid ""
 "Здесь вы можете оставить свои предложения и вопросы по деятельности ООО "
 "\"AUTO STANDART ETALON\""
@@ -994,7 +1618,7 @@ msgstr ""
 "Bu yerda siz \"AUTO STANDART ETALON\" MChJ faoliyati bo‘yicha taklif va "
 "savollaringizni qoldirishingiz mumkin"
 
-#: .\app\templates\home.html:778
+#: .\app\templates\home.html:761
 msgid "Поле \"Номер\"должно быть заполнено"
 msgstr "\"Raqam\" maydoni to‘ldirilishi kerak"
 
@@ -1003,19 +1627,16 @@ msgid "Прейскурант цен"
 msgstr "Narxlar ro‘yxati"
 
 #: .\app\templates\price-list.html:13
-#| msgid ""
-#| "Органом по сертификации продукции при OOO «Avto Standart Etalon» проводят "
-#| "сертификацию по схемам №1С, №3С и №4С в соответствии ПКМ РУз от "
-#| "14.08.2024 №502 а также схемы 3,4,7 в соответствии ПКМ №318"
 msgid ""
 "Орган по сертификации продукции ООО «Avto Standart Etalon» предлагает услуги "
 "по сертификации продукции в соответствии с требованиями Национальной системы "
 "сертификации Республики Узбекистан."
 msgstr ""
-"\"Avto Standart Etalon\" MChJ mahsulotlarni sertifikatlash organi O‘zbekiston Respublikasi Milliy sertifikatlashtirish tizimi talablariga muvofiq mahsulotlarni sertifikatlash xizmatlarini taklif etadi."
+"\"Avto Standart Etalon\" MChJ mahsulotlarni sertifikatlash organi "
+"O‘zbekiston Respublikasi Milliy sertifikatlashtirish tizimi talablariga "
+"muvofiq mahsulotlarni sertifikatlash xizmatlarini taklif etadi."
 
 #: .\app\templates\price-list.html:18
-#| msgid "Условия сертификации"
 msgid "Услуги по сертификации продукции"
 msgstr "Mahsulotlarni sertifikatlash xizmatlari"
 
@@ -1024,7 +1645,6 @@ msgid "№ПП"
 msgstr "№T/r"
 
 #: .\app\templates\price-list.html:22
-#| msgid "Наши услуги"
 msgid "Наименование услуги"
 msgstr "Xizmat nomi"
 
@@ -1041,12 +1661,10 @@ msgid "Сумма Человек/час с НДС"
 msgstr "QQS bilan odam/soat uchun summa"
 
 #: .\app\templates\price-list.html:30
-#| msgid "Руководитель органа по сертификации"
 msgid "Решение по заявке на проведение сертификации"
 msgstr "Sertifikatlash bo‘yicha arizani ko‘rib chiqish"
 
 #: .\app\templates\price-list.html:38
-#| msgid "Руководитель органа по сертификации"
 msgid "Составление программы на проведение сертификации"
 msgstr "Sertifikatlash dasturini tuzish"
 
@@ -1055,14 +1673,12 @@ msgid "Проведение идентификации и отбора обра�
 msgstr "Mahsulot namunalarini aniqlash va tanlab olish"
 
 #: .\app\templates\price-list.html:54
-#| msgid ""
-#| "письменно информирует Заявителя о принятом по результатам сертификации "
-#| "решении. Наличие"
 msgid "Анализ информации и принятие решения по результатам сертификации"
-msgstr "Ma’lumotlarni tahlil qilish va sertifikatlash natijalari bo‘yicha qaror qabul qilish"
+msgstr ""
+"Ma’lumotlarni tahlil qilish va sertifikatlash natijalari bo‘yicha qaror "
+"qabul qilish"
 
 #: .\app\templates\price-list.html:62
-#| msgid "нормативной и технологической документации на продукцию"
 msgid "Проведение периодического контроля сертифицированной продукции"
 msgstr "Sertifikatlangan mahsulotlarni davriy nazoratdan o‘tkazish"
 
@@ -1081,3 +1697,6 @@ msgstr "Narxlar O‘zbekiston Respublikasi so‘mida ko‘rsatilgan"
 #: .\app\templates\price-list.html:83
 msgid "Оплата производится в соответствии с условиями договора"
 msgstr "To‘lov shartnoma shartlariga muvofiq amalga oshiriladi"
+
+#~ msgid "Алимжанов Алишер"
+#~ msgstr "Alimzxanov Alisher"
